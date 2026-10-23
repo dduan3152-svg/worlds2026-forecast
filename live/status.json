@@ -1,7 +1,7 @@
 {
   "state": "ok",
   "message": "瑞士轮尚未开始，当前展示冻结赛前预测；任务将继续定时检查公开赛果。",
-  "checked_at": "2026-10-23T09:23:14Z",
+  "checked_at": "2026-10-23T09:26:03Z",
   "source_latest_at": "2026-10-18T19:48:36Z",
   "source_sha256": "ae1008ed9424a5eda59a873e9d70d06669337a2068d48497efbbd695e1c8105d",
   "observed_worlds_maps": 0,
