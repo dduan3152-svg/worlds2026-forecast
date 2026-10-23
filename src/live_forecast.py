@@ -233,6 +233,9 @@ def export_site(root):
              'source':{'name':'ChainCC','url':SOURCE_PAGE,'license':'CC BY 4.0'}}
     write(root/'site/data.json',payload)
     shutil.copyfile(root/'docs/worlds2026_report.pdf',root/'site/report.pdf')
+    if (root/'site/index.html').exists():
+        from build_static_page import build
+        build(root)
 
 
 def update(root, raw, now):

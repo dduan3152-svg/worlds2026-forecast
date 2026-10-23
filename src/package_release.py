@@ -80,7 +80,7 @@ def digest(path: Path) -> str:
 def exclusion_reason(relative: Path, path: Path) -> str | None:
     if relative.as_posix() in {".gitignore", ".gitattributes"}:
         return None
-    if relative.parts[0] == "live" or relative.as_posix() in {"site/data.json", "site/report.pdf"}:
+    if relative.parts[0] == "live" or relative.as_posix() in {"site/data.json", "site/report.pdf", "site/forecast.html"}:
         return "mutable live forecasts are versioned separately"
     if relative.parts[0] == "site" and path.suffix in {".html", ".js", ".css"}:
         return None

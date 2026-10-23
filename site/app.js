@@ -7,7 +7,7 @@ const el=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className
 function option(value,text){const n=el('option','',text);n.value=value;return n}
 async function fetchData(){
  $('#refresh').disabled=true;
- try{const response=await fetch('data.json',{cache:'no-store'});if(!response.ok)throw Error('无法读取预测数据');const incoming=await response.json();if(incoming.schema!==1||!incoming.history?.length)throw Error('预测数据格式无效');
+ try{let incoming=window.FORECAST_SNAPSHOT;if(!incoming){const response=await fetch('data.json',{cache:'no-store'});if(!response.ok)throw Error('无法读取预测数据');incoming=await response.json()}if(incoming.schema!==1||!incoming.history?.length)throw Error('预测数据格式无效');
  const oldId=data?.history[selected]?.id,following=!data||selected===data.history.length-1;data=incoming;
  selected=following?data.history.length-1:Math.max(0,data.history.findIndex(s=>s.id===oldId));
  $('#version').replaceChildren(...data.history.map((s,i)=>option(i,fmt(s.cutoff)+(i===0?' · 赛前冻结':' · 赛果更新'))));
@@ -52,4 +52,4 @@ $('#refresh').onclick=fetchData;$('#version').onchange=e=>{selected=Number(e.tar
 for(const btn of document.querySelectorAll('[data-stage]'))btn.onclick=()=>{stage=btn.dataset.stage;for(const other of document.querySelectorAll('[data-stage]')){other.classList.toggle('active',other===btn);other.setAttribute('aria-pressed',String(other===btn))}renderRankings()};
 for(const id of ['teamA','teamB','bestOf'])$('#'+id).onchange=renderDuel;
 $('#download').onclick=()=>{if(!data)return;const snap=data.history[selected],url=URL.createObjectURL(new Blob([JSON.stringify(snap,null,2)],{type:'application/json'}));const a=el('a');a.href=url;a.download='forecast-'+snap.id+'.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)};
-fetchData();setInterval(fetchData,60000);
+fetchData();if(!window.FORECAST_SNAPSHOT)setInterval(fetchData,60000);
