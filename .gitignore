@@ -29,3 +29,7 @@ tmp/
 *.meta.json
 
 # Frozen data, outputs, reports and figures are intentionally versioned.
+
+# Generated website report (copied from the frozen PDF on export)
+site/report.pdf
+site/*.tmp

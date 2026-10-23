@@ -4,7 +4,7 @@
 
 Python 3.12 · Bradley–Terry · Monte Carlo · 可离线复现
 
-[中文报告](docs/worlds2026_report.pdf) · [完整方法说明](docs/methodology.md) · [全部概率](outputs/stage_probabilities.csv) · [数据来源](evidence/history_sources.md) · [版本记录](CHANGELOG.md)
+[中文报告](docs/worlds2026_report.pdf) · [完整方法说明](docs/methodology.md) · [全部概率](outputs/stage_probabilities.csv) · [数据来源](evidence/history_sources.md) · [版本记录](CHANGELOG.md) · [网站与自动更新](docs/website.md)
 
 > **冻结预测 v1.0.0**：信息截止为北京时间 **2026 年 10 月 23 日 15:25:50**。这是该时点的模型估计，不是实时榜单，也不是确定的比赛结果。本项目为个人分析，与 Riot Games 无隶属或背书关系。
 
@@ -36,6 +36,19 @@ GEN 的基线夺冠概率约为 **34.1%**，90% 模型重采样区间为 **15.9%
 - **可审计输出**：保留输入快照、来源、校验记录、随机种子、结果表和 SHA-256 清单。
 
 上述主要生产日志合计记录 360 万次完整赛事模拟；不是 360 万次独立参数拟合。
+
+## 概率观测网站与自动更新
+
+新增 `site/` 网站：阶段概率榜、战队筛选、对阵比较、历史版本和概率变化轨迹。私有 GitHub Actions 计划每 30 分钟检查一次 ChainCC 的 CC BY 4.0 公开赛果，有新可采纳结果时重算晋级和夺冠概率。
+
+```bash
+python src/live_forecast.py --export-only
+python src/serve_site.py
+```
+
+在本机打开 `http://127.0.0.1:8766`。使用 `--follow` 可通过已登录的 GitHub CLI 跟随私有仓库数据。网站尚未公开部署。详见 [运行方式、来源许可与更新限制](docs/website.md)。
+
+当前更新采用冻结战队实力，锁定新赛果后重跑剩余赛程；不代表重训或局内实时预测。后续瑞士轮缺少完整签表时等待全轮结束，淘汰赛需先确认官方八强签位。
 
 ## 快速开始
 
@@ -71,7 +84,7 @@ python src/build_report.py
 
 操作步骤、字段说明和限制见 [完整方法说明中的更新流程](docs/methodology.md#比赛结束后更新)。先保存旧版本，再更新信息截止、已知赛果和抽签状态，并记录变更。只更新赛果而未重新拟合时，应说明仍使用旧模型实力。
 
-仓库内的数据处理、建模、模拟和报告代码均离线运行；已移除联网抓取、接口认证及密钥读取功能。公开来源链接仅用于署名和核验。更新数据需在独立环境准备并审核快照，再以新版本导入。
+冻结数据处理、建模、模拟和报告构建继续支持离线运行。新增自动赛果更新器只读取有 CC BY 4.0 许可的 ChainCC 公开 CSV，不使用 Riot API 密钥。更新模型训练数据仍须单独审核并发布新版本。
 
 ## 项目结构
 
