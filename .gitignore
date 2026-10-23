@@ -33,4 +33,3 @@ tmp/
 # Generated website report (copied from the frozen PDF on export)
 site/report.pdf
 site/*.tmp
-site/forecast.html

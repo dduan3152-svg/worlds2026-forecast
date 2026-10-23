@@ -15,8 +15,8 @@
     },
     {
       "path": ".github/workflows/forecast.yml",
-      "sha256": "ee78944f0f819dbd48f65753441cfc512d28ff9f237fda65eb63e1b1f3995ef2",
-      "size_bytes": 2349
+      "sha256": "8a8b2fa6b6875d324480fcee0a9c7843ba5d46e268938dc9d90128035cb92c1d",
+      "size_bytes": 2368
     },
     {
       "path": ".github/workflows/validate.yml",
@@ -25,8 +25,8 @@
     },
     {
       "path": ".gitignore",
-      "sha256": "076fccdeee9e05210ff6ecca11b6726a8bf7eb44b00c5c29d840ed3742f11a7e",
-      "size_bytes": 526
+      "sha256": "ed6d2988f1bd95d9941a621b1f52cc853754acc577a87e45d6a8a89b77068a1b",
+      "size_bytes": 507
     },
     {
       "path": "CHANGELOG.md",
@@ -40,8 +40,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "6c19201f64ec81a04f3df3a7456a2c8e8defbc03b41a4041f8e4419a0eadbcc6",
-      "size_bytes": 7556
+      "sha256": "16826be14f36d86bb7c1872959fe581f3819f9de9604f53a7623681e05ea796f",
+      "size_bytes": 6685
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -831,7 +831,7 @@
   "manifest_schema_version": "1.0",
   "packaging": {
     "excluded_counts_by_reason": {
-      "hidden or temporary file": 254,
+      "hidden or temporary file": 271,
       "mutable live forecasts are versioned separately": 6,
       "temporary render or Python cache": 17
     },
@@ -1220,6 +1220,6 @@
       "url": "https://www.strafe.com/news/read/all-lck-teams-at-worlds-2026-and-how-they-qualified/"
     }
   ],
-  "total_payload_bytes_excluding_manifest": 55452128,
+  "total_payload_bytes_excluding_manifest": 55451257,
   "version": "1.0.0"
 }
