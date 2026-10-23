@@ -27,6 +27,12 @@ Python 3.12 · Bradley–Terry · Monte Carlo · 可离线复现
 
 GEN 的基线夺冠概率约为 **34.1%**，90% 模型重采样区间为 **15.9%–46.6%**。这个区间反映模型重采样差异，不能覆盖全部模型风险。重采样中排名第一的频率也不等于夺冠概率。
 
+## 对阵胜率热力图
+
+行队伍战胜列队伍的单局（BO1）概率，基于冻结模型。点击图片可查看大图。
+
+[![16 队 BO1 对阵胜率热力图](figures/01_matchup_matrix_bo1.png)](figures/01_matchup_matrix_bo1.png)
+
 ## 这个项目做了什么
 
 - **历史数据建模**：主样本包含 2,599 个比赛结果、1,005 个系列赛、61 支队伍；使用时间衰减和 L2 正则的 Bradley–Terry 模型。
@@ -103,13 +109,6 @@ python src/build_report.py
 ├── requirements.txt      # 固定依赖版本
 └── MANIFEST.json          # 发布文件 SHA-256 清单
 ```
-
-<details>
-<summary>查看 16 队 BO1 对阵概率矩阵</summary>
-
-![BO1 对阵矩阵，行队伍战胜列队伍的概率](figures/01_matchup_matrix_bo1.png)
-
-</details>
 
 ## 如何理解这些概率
 

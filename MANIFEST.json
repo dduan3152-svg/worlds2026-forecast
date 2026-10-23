@@ -40,8 +40,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "6f23f0e177c2f5d288d0aad3ed53ab1d3fc5f90e6561c8334eeb8f6de3e7ff70",
-      "size_bytes": 6798
+      "sha256": "dccfef4868aba76e440774083d0784f1fa858c97e760037dcd3823d1d6edba22",
+      "size_bytes": 6866
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -806,7 +806,7 @@
   "manifest_schema_version": "1.0",
   "packaging": {
     "excluded_counts_by_reason": {
-      "hidden or temporary file": 295,
+      "hidden or temporary file": 312,
       "mutable live forecasts are versioned separately": 4,
       "temporary render or Python cache": 15
     },
@@ -1195,6 +1195,6 @@
       "url": "https://www.strafe.com/news/read/all-lck-teams-at-worlds-2026-and-how-they-qualified/"
     }
   ],
-  "total_payload_bytes_excluding_manifest": 55412302,
+  "total_payload_bytes_excluding_manifest": 55412370,
   "version": "1.0.0"
 }
