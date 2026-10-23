@@ -1,0 +1,976 @@
+{
+  "cutoff_utc": "2026-10-23T07:25:50Z",
+  "input_sha256": "ae1008ed9424a5eda59a873e9d70d06669337a2068d48497efbbd695e1c8105d",
+  "scope": "Six regional latest finals plus three international finals",
+  "checks": [
+    {
+      "id": "lck_final",
+      "raw_competition": "LCK",
+      "expected_series_date_utc": "2026-09-13",
+      "teams": [
+        "GEN",
+        "HLE"
+      ],
+      "expected_score": {
+        "GEN": 3,
+        "HLE": 1
+      },
+      "observed_score": {
+        "GEN": 3,
+        "HLE": 1
+      },
+      "observed_unique_games": 4,
+      "expected_unique_games": 4,
+      "game_number_sequence": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "winner_sequence_raw": [
+        "HLE",
+        "GEN",
+        "GEN",
+        "GEN"
+      ],
+      "games": [
+        {
+          "game_id": "LOLTMNT02_463372",
+          "raw_date": "2026-09-13 05:30:03",
+          "game_number": 1,
+          "winner": "HLE",
+          "raw_winner": "Hanwha Life Esports",
+          "raw_team_names": [
+            "Gen.G",
+            "Hanwha Life Esports"
+          ]
+        },
+        {
+          "game_id": "LOLTMNT02_463373",
+          "raw_date": "2026-09-13 06:33:57",
+          "game_number": 2,
+          "winner": "GEN",
+          "raw_winner": "Gen.G",
+          "raw_team_names": [
+            "Gen.G",
+            "Hanwha Life Esports"
+          ]
+        },
+        {
+          "game_id": "LOLTMNT02_462565",
+          "raw_date": "2026-09-13 07:29:20",
+          "game_number": 3,
+          "winner": "GEN",
+          "raw_winner": "Gen.G",
+          "raw_team_names": [
+            "Gen.G",
+            "Hanwha Life Esports"
+          ]
+        },
+        {
+          "game_id": "LOLTMNT02_463374",
+          "raw_date": "2026-09-13 08:19:05",
+          "game_number": 4,
+          "winner": "GEN",
+          "raw_winner": "Gen.G",
+          "raw_team_names": [
+            "Gen.G",
+            "Hanwha Life Esports"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "type": "official_riot_schedule_api",
+          "url": "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=98767991310872058",
+          "snapshot": "evidence/history_riot_schedule_lck_0.json",
+          "snapshot_sha256": "f54e86cadc530069617b083bc3e38004d69630f6bae10a932d687d6fc05b9b78",
+          "match_id": "117030752644841643",
+          "scheduled_start_utc": "2026-09-13T05:00:00Z",
+          "stage": "Finals",
+          "score": {
+            "GEN": 3,
+            "HLE": 1
+          },
+          "state": "completed"
+        }
+      ],
+      "aggregate_score_external_check": "pass",
+      "raw_score_check": "pass",
+      "map_order_validation": "All raw map winners recorded. Aggregate series score independently verified. Individual map order not independently verified except that sweep scores imply all-map winner.",
+      "date_validation": "Raw game timestamps and official scheduled series date agree; actual first game can begin after scheduled start.",
+      "cleaned_data_check": {
+        "rows": 4,
+        "score": {
+          "GEN": 3,
+          "HLE": 1
+        },
+        "competition_values": [
+          "LCK"
+        ],
+        "status": "pass"
+      }
+    },
+    {
+      "id": "lpl_final",
+      "raw_competition": "LPL",
+      "expected_series_date_utc": "2026-09-13",
+      "teams": [
+        "AL",
+        "BLG"
+      ],
+      "expected_score": {
+        "AL": 3,
+        "BLG": 1
+      },
+      "observed_score": {
+        "AL": 3,
+        "BLG": 1
+      },
+      "observed_unique_games": 4,
+      "expected_unique_games": 4,
+      "game_number_sequence": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "winner_sequence_raw": [
+        "AL",
+        "AL",
+        "BLG",
+        "AL"
+      ],
+      "games": [
+        {
+          "game_id": "13505-13505_game_1",
+          "raw_date": "2026-09-13 09:06:27",
+          "game_number": 1,
+          "winner": "AL",
+          "raw_winner": "Anyone's Legend",
+          "raw_team_names": [
+            "Anyone's Legend",
+            "Bilibili Gaming"
+          ]
+        },
+        {
+          "game_id": "13505-13505_game_2",
+          "raw_date": "2026-09-13 10:04:32",
+          "game_number": 2,
+          "winner": "AL",
+          "raw_winner": "Anyone's Legend",
+          "raw_team_names": [
+            "Anyone's Legend",
+            "Bilibili Gaming"
+          ]
+        },
+        {
+          "game_id": "13505-13505_game_3",
+          "raw_date": "2026-09-13 11:02:24",
+          "game_number": 3,
+          "winner": "BLG",
+          "raw_winner": "Bilibili Gaming",
+          "raw_team_names": [
+            "Anyone's Legend",
+            "Bilibili Gaming"
+          ]
+        },
+        {
+          "game_id": "13505-13505_game_4",
+          "raw_date": "2026-09-13 12:03:56",
+          "game_number": 4,
+          "winner": "AL",
+          "raw_winner": "Anyone's Legend",
+          "raw_team_names": [
+            "Anyone's Legend",
+            "Bilibili Gaming"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "type": "official_riot_schedule_api",
+          "url": "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=98767991314006698",
+          "snapshot": "evidence/history_riot_schedule_lpl_0.json",
+          "snapshot_sha256": "6dcaf464e67b5cdd6435ed4b6d347cd2ae41c0a140be36a90eac5432c3ea4f3b",
+          "match_id": "117155436343202202",
+          "scheduled_start_utc": "2026-09-13T09:00:00Z",
+          "stage": "Finals",
+          "score": {
+            "AL": 3,
+            "BLG": 1
+          },
+          "state": "completed"
+        }
+      ],
+      "aggregate_score_external_check": "pass",
+      "raw_score_check": "pass",
+      "map_order_validation": "All raw map winners recorded. Aggregate series score independently verified. Individual map order not independently verified except that sweep scores imply all-map winner.",
+      "date_validation": "Raw game timestamps and official scheduled series date agree; actual first game can begin after scheduled start.",
+      "cleaned_data_check": {
+        "rows": 4,
+        "score": {
+          "AL": 3,
+          "BLG": 1
+        },
+        "competition_values": [
+          "LPL"
+        ],
+        "status": "pass"
+      }
+    },
+    {
+      "id": "lec_final",
+      "raw_competition": "LEC",
+      "expected_series_date_utc": "2026-09-20",
+      "teams": [
+        "G2",
+        "MKOI"
+      ],
+      "expected_score": {
+        "G2": 3,
+        "MKOI": 0
+      },
+      "observed_score": {
+        "G2": 3,
+        "MKOI": 0
+      },
+      "observed_unique_games": 3,
+      "expected_unique_games": 3,
+      "game_number_sequence": [
+        1,
+        2,
+        3
+      ],
+      "winner_sequence_raw": [
+        "G2",
+        "G2",
+        "G2"
+      ],
+      "games": [
+        {
+          "game_id": "LOLTMNT04_190197",
+          "raw_date": "2026-09-20 15:13:50",
+          "game_number": 1,
+          "winner": "G2",
+          "raw_winner": "G2 Esports",
+          "raw_team_names": [
+            "G2 Esports",
+            "Movistar KOI"
+          ]
+        },
+        {
+          "game_id": "LOLTMNT04_190200",
+          "raw_date": "2026-09-20 16:17:50",
+          "game_number": 2,
+          "winner": "G2",
+          "raw_winner": "G2 Esports",
+          "raw_team_names": [
+            "G2 Esports",
+            "Movistar KOI"
+          ]
+        },
+        {
+          "game_id": "LOLTMNT04_190202",
+          "raw_date": "2026-09-20 17:13:10",
+          "game_number": 3,
+          "winner": "G2",
+          "raw_winner": "G2 Esports",
+          "raw_team_names": [
+            "G2 Esports",
+            "Movistar KOI"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "type": "official_riot_schedule_api",
+          "url": "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=98767991302996019",
+          "snapshot": "evidence/history_riot_schedule_lec_0.json",
+          "snapshot_sha256": "163cf8d66934d8a4485af8880219eab43062c81630d8056a028a9e0c55c6c1fc",
+          "match_id": "115548681803406333",
+          "scheduled_start_utc": "2026-09-20T15:00:00Z",
+          "stage": "Finals",
+          "score": {
+            "G2": 3,
+            "MKOI": 0
+          },
+          "state": "completed"
+        }
+      ],
+      "aggregate_score_external_check": "pass",
+      "raw_score_check": "pass",
+      "map_order_validation": "All raw map winners recorded. Aggregate series score independently verified. Individual map order not independently verified except that sweep scores imply all-map winner.",
+      "date_validation": "Raw game timestamps and official scheduled series date agree; actual first game can begin after scheduled start.",
+      "cleaned_data_check": {
+        "rows": 3,
+        "score": {
+          "G2": 3,
+          "MKOI": 0
+        },
+        "competition_values": [
+          "LEC"
+        ],
+        "status": "pass"
+      }
+    },
+    {
+      "id": "lcs_final",
+      "raw_competition": "LCS",
+      "expected_series_date_utc": "2026-10-04",
+      "teams": [
+        "TLAW",
+        "LYON"
+      ],
+      "expected_score": {
+        "TLAW": 3,
+        "LYON": 1
+      },
+      "observed_score": {
+        "TLAW": 3,
+        "LYON": 1
+      },
+      "observed_unique_games": 4,
+      "expected_unique_games": 4,
+      "game_number_sequence": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "winner_sequence_raw": [
+        "TLAW",
+        "TLAW",
+        "LYON",
+        "TLAW"
+      ],
+      "games": [
+        {
+          "game_id": "LOLTMNT01_469853",
+          "raw_date": "2026-10-04 20:18:24",
+          "game_number": 1,
+          "winner": "TLAW",
+          "raw_winner": "Team Liquid",
+          "raw_team_names": [
+            "LYON",
+            "Team Liquid"
+          ]
+        },
+        {
+          "game_id": "LOLTMNT01_470828",
+          "raw_date": "2026-10-04 21:15:31",
+          "game_number": 2,
+          "winner": "TLAW",
+          "raw_winner": "Team Liquid",
+          "raw_team_names": [
+            "LYON",
+            "Team Liquid"
+          ]
+        },
+        {
+          "game_id": "LOLTMNT01_470830",
+          "raw_date": "2026-10-04 22:20:24",
+          "game_number": 3,
+          "winner": "LYON",
+          "raw_winner": "LYON",
+          "raw_team_names": [
+            "LYON",
+            "Team Liquid"
+          ]
+        },
+        {
+          "game_id": "LOLTMNT01_469879",
+          "raw_date": "2026-10-04 23:31:20",
+          "game_number": 4,
+          "winner": "TLAW",
+          "raw_winner": "Team Liquid",
+          "raw_team_names": [
+            "LYON",
+            "Team Liquid"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "type": "official_riot_schedule_api",
+          "url": "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=98767991299243165",
+          "snapshot": "evidence/history_riot_schedule_lcs_0.json",
+          "snapshot_sha256": "2894b97a93a0c3d5c873351739013b9ab0aa37c800a5490933285bef851301c9",
+          "match_id": "115565004607949429",
+          "scheduled_start_utc": "2026-10-04T20:00:00Z",
+          "stage": "Finals",
+          "score": {
+            "TLAW": 3,
+            "LYON": 1
+          },
+          "state": "completed"
+        }
+      ],
+      "aggregate_score_external_check": "pass",
+      "raw_score_check": "pass",
+      "map_order_validation": "All raw map winners recorded. Aggregate series score independently verified. Individual map order not independently verified except that sweep scores imply all-map winner.",
+      "date_validation": "Raw game timestamps and official scheduled series date agree; actual first game can begin after scheduled start.",
+      "cleaned_data_check": {
+        "rows": 4,
+        "score": {
+          "TLAW": 3,
+          "LYON": 1
+        },
+        "competition_values": [
+          "LCS"
+        ],
+        "status": "pass"
+      }
+    },
+    {
+      "id": "lcp_final",
+      "raw_competition": "LCP",
+      "expected_series_date_utc": "2026-08-30",
+      "teams": [
+        "TSW",
+        "CFO"
+      ],
+      "expected_score": {
+        "TSW": 3,
+        "CFO": 0
+      },
+      "observed_score": {
+        "TSW": 3,
+        "CFO": 0
+      },
+      "observed_unique_games": 3,
+      "expected_unique_games": 3,
+      "game_number_sequence": [
+        1,
+        2,
+        3
+      ],
+      "winner_sequence_raw": [
+        "TSW",
+        "TSW",
+        "TSW"
+      ],
+      "games": [
+        {
+          "game_id": "LOLTMNT02_460401",
+          "raw_date": "2026-08-30 08:17:07",
+          "game_number": 1,
+          "winner": "TSW",
+          "raw_winner": "Team Secret Whales",
+          "raw_team_names": [
+            "CTBC Flying Oyster",
+            "Team Secret Whales"
+          ]
+        },
+        {
+          "game_id": "LOLTMNT02_461423",
+          "raw_date": "2026-08-30 09:21:20",
+          "game_number": 2,
+          "winner": "TSW",
+          "raw_winner": "Team Secret Whales",
+          "raw_team_names": [
+            "CTBC Flying Oyster",
+            "Team Secret Whales"
+          ]
+        },
+        {
+          "game_id": "LOLTMNT02_461432",
+          "raw_date": "2026-08-30 10:26:53",
+          "game_number": 3,
+          "winner": "TSW",
+          "raw_winner": "Team Secret Whales",
+          "raw_team_names": [
+            "CTBC Flying Oyster",
+            "Team Secret Whales"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "type": "official_riot_schedule_api",
+          "url": "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=113476371197627891",
+          "snapshot": "evidence/history_riot_schedule_lcp_0.json",
+          "snapshot_sha256": "c86154025fbf887b1bd7c7c18f339e58ceb15556aeaa7eee7ba6dd9ddfacd4c3",
+          "match_id": "116769742220520955",
+          "scheduled_start_utc": "2026-08-30T08:00:00Z",
+          "stage": "Finals",
+          "score": {
+            "TSW": 3,
+            "CFO": 0
+          },
+          "state": "completed"
+        }
+      ],
+      "aggregate_score_external_check": "pass",
+      "raw_score_check": "pass",
+      "map_order_validation": "All raw map winners recorded. Aggregate series score independently verified. Individual map order not independently verified except that sweep scores imply all-map winner.",
+      "date_validation": "Raw game timestamps and official scheduled series date agree; actual first game can begin after scheduled start.",
+      "cleaned_data_check": {
+        "rows": 3,
+        "score": {
+          "TSW": 3,
+          "CFO": 0
+        },
+        "competition_values": [
+          "LCP"
+        ],
+        "status": "pass"
+      }
+    },
+    {
+      "id": "cblol_final",
+      "raw_competition": "CBLOL",
+      "expected_series_date_utc": "2026-10-10",
+      "teams": [
+        "LOS",
+        "FUR"
+      ],
+      "expected_score": {
+        "LOS": 3,
+        "FUR": 2
+      },
+      "observed_score": {
+        "LOS": 3,
+        "FUR": 2
+      },
+      "observed_unique_games": 5,
+      "expected_unique_games": 5,
+      "game_number_sequence": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "winner_sequence_raw": [
+        "LOS",
+        "FUR",
+        "LOS",
+        "FUR",
+        "LOS"
+      ],
+      "games": [
+        {
+          "game_id": "LOLTMNT01_471352",
+          "raw_date": "2026-10-10 17:09:35",
+          "game_number": 1,
+          "winner": "LOS",
+          "raw_winner": "LØS",
+          "raw_team_names": [
+            "FURIA",
+            "LØS"
+          ]
+        },
+        {
+          "game_id": "LOLTMNT01_471357",
+          "raw_date": "2026-10-10 18:04:08",
+          "game_number": 2,
+          "winner": "FUR",
+          "raw_winner": "FURIA",
+          "raw_team_names": [
+            "FURIA",
+            "LØS"
+          ]
+        },
+        {
+          "game_id": "LOLTMNT01_471366",
+          "raw_date": "2026-10-10 18:52:56",
+          "game_number": 3,
+          "winner": "LOS",
+          "raw_winner": "LØS",
+          "raw_team_names": [
+            "FURIA",
+            "LØS"
+          ]
+        },
+        {
+          "game_id": "LOLTMNT01_472372",
+          "raw_date": "2026-10-10 19:35:48",
+          "game_number": 4,
+          "winner": "FUR",
+          "raw_winner": "FURIA",
+          "raw_team_names": [
+            "FURIA",
+            "LØS"
+          ]
+        },
+        {
+          "game_id": "LOLTMNT01_472375",
+          "raw_date": "2026-10-10 20:22:04",
+          "game_number": 5,
+          "winner": "LOS",
+          "raw_winner": "LØS",
+          "raw_team_names": [
+            "FURIA",
+            "LØS"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "type": "official_riot_schedule_api",
+          "url": "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=98767991332355509",
+          "snapshot": "evidence/history_riot_schedule_cblol-brazil_0.json",
+          "snapshot_sha256": "65e2949e74e916e801f42816b885b9ba250eb779d324e5991e0cd60782191c42",
+          "match_id": "115565671526468647",
+          "scheduled_start_utc": "2026-10-10T16:00:00Z",
+          "stage": "Finals",
+          "score": {
+            "FUR": 2,
+            "LOS": 3
+          },
+          "state": "completed"
+        }
+      ],
+      "aggregate_score_external_check": "pass",
+      "raw_score_check": "pass",
+      "map_order_validation": "All raw map winners recorded. Aggregate series score independently verified. Individual map order not independently verified except that sweep scores imply all-map winner.",
+      "date_validation": "Raw game timestamps and official scheduled series date agree; actual first game can begin after scheduled start.",
+      "cleaned_data_check": {
+        "rows": 5,
+        "score": {
+          "LOS": 3,
+          "FUR": 2
+        },
+        "competition_values": [
+          "CBLOL"
+        ],
+        "status": "pass"
+      }
+    },
+    {
+      "id": "msi_final",
+      "raw_competition": "MSI",
+      "expected_series_date_utc": "2026-07-12",
+      "teams": [
+        "HLE",
+        "BLG"
+      ],
+      "expected_score": {
+        "HLE": 3,
+        "BLG": 2
+      },
+      "observed_score": {
+        "HLE": 3,
+        "BLG": 2
+      },
+      "observed_unique_games": 5,
+      "expected_unique_games": 5,
+      "game_number_sequence": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "winner_sequence_raw": [
+        "HLE",
+        "BLG",
+        "BLG",
+        "HLE",
+        "HLE"
+      ],
+      "games": [
+        {
+          "game_id": "LOLTMNT01_423443",
+          "raw_date": "2026-07-12 07:27:26",
+          "game_number": 1,
+          "winner": "HLE",
+          "raw_winner": "Hanwha Life Esports",
+          "raw_team_names": [
+            "Bilibili Gaming",
+            "Hanwha Life Esports"
+          ]
+        },
+        {
+          "game_id": "LOLTMNT01_423456",
+          "raw_date": "2026-07-12 08:32:42",
+          "game_number": 2,
+          "winner": "BLG",
+          "raw_winner": "Bilibili Gaming",
+          "raw_team_names": [
+            "Bilibili Gaming",
+            "Hanwha Life Esports"
+          ]
+        },
+        {
+          "game_id": "LOLTMNT01_424505",
+          "raw_date": "2026-07-12 09:24:39",
+          "game_number": 3,
+          "winner": "BLG",
+          "raw_winner": "Bilibili Gaming",
+          "raw_team_names": [
+            "Bilibili Gaming",
+            "Hanwha Life Esports"
+          ]
+        },
+        {
+          "game_id": "LOLTMNT01_424511",
+          "raw_date": "2026-07-12 10:17:44",
+          "game_number": 4,
+          "winner": "HLE",
+          "raw_winner": "Hanwha Life Esports",
+          "raw_team_names": [
+            "Bilibili Gaming",
+            "Hanwha Life Esports"
+          ]
+        },
+        {
+          "game_id": "LOLTMNT01_424515",
+          "raw_date": "2026-07-12 11:11:20",
+          "game_number": 5,
+          "winner": "HLE",
+          "raw_winner": "Hanwha Life Esports",
+          "raw_team_names": [
+            "Bilibili Gaming",
+            "Hanwha Life Esports"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "type": "official_riot_schedule_api",
+          "url": "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=98767991325878492",
+          "snapshot": "evidence/history_riot_schedule_msi_0.json",
+          "snapshot_sha256": "279cc98f7a5e1a9e2b1b449f4ff4ad28b58276c09f90469713a7e83d064d2ba6",
+          "match_id": "115570934355614605",
+          "scheduled_start_utc": "2026-07-12T06:00:00Z",
+          "stage": "Finals",
+          "score": {
+            "BLG": 2,
+            "HLE": 3
+          },
+          "state": "completed"
+        }
+      ],
+      "aggregate_score_external_check": "pass",
+      "raw_score_check": "pass",
+      "map_order_validation": "All raw map winners recorded. Aggregate series score independently verified. Individual map order not independently verified except that sweep scores imply all-map winner.",
+      "date_validation": "Raw game timestamps and official scheduled series date agree; actual first game can begin after scheduled start.",
+      "cleaned_data_check": {
+        "rows": 5,
+        "score": {
+          "HLE": 3,
+          "BLG": 2
+        },
+        "competition_values": [
+          "MSI"
+        ],
+        "status": "pass"
+      }
+    },
+    {
+      "id": "ewc_final",
+      "raw_competition": "EWC",
+      "expected_series_date_utc": "2026-07-19",
+      "teams": [
+        "DK",
+        "KC"
+      ],
+      "expected_score": {
+        "DK": 3,
+        "KC": 0
+      },
+      "observed_score": {
+        "DK": 3,
+        "KC": 0
+      },
+      "observed_unique_games": 3,
+      "expected_unique_games": 3,
+      "game_number_sequence": [
+        1,
+        2,
+        3
+      ],
+      "winner_sequence_raw": [
+        "DK",
+        "DK",
+        "DK"
+      ],
+      "games": [
+        {
+          "game_id": "LOLTMNT01_429406",
+          "raw_date": "2026-07-19 13:24:18",
+          "game_number": 1,
+          "winner": "DK",
+          "raw_winner": "Dplus Kia",
+          "raw_team_names": [
+            "Dplus Kia",
+            "Karmine Corp"
+          ]
+        },
+        {
+          "game_id": "LOLTMNT01_428882",
+          "raw_date": "2026-07-19 14:19:26",
+          "game_number": 2,
+          "winner": "DK",
+          "raw_winner": "Dplus Kia",
+          "raw_team_names": [
+            "Dplus Kia",
+            "Karmine Corp"
+          ]
+        },
+        {
+          "game_id": "LOLTMNT01_429417",
+          "raw_date": "2026-07-19 15:15:31",
+          "game_number": 3,
+          "winner": "DK",
+          "raw_winner": "Dplus Kia",
+          "raw_team_names": [
+            "Dplus Kia",
+            "Karmine Corp"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "type": "official_organizer_search_excerpt",
+          "url": "https://esportsworldcup.com/en/news/ewc26-notable-stories-week-2",
+          "reference": "turn55search11",
+          "article_date": "2026-07-19",
+          "score": {
+            "DK": 3,
+            "KC": 0
+          },
+          "access_note": "Search result excerpt retrieved; direct full-page retrieval returned 403."
+        },
+        {
+          "type": "independent_match_report",
+          "url": "https://www.gosugamers.net/lol/news/78825-dplus-kia-crowned-2026-league-of-legends-esports-world-cup-champions-after-defeating-karmine-corp",
+          "reference": "turn61view3",
+          "article_date": "2026-07-19",
+          "score": {
+            "DK": 3,
+            "KC": 0
+          },
+          "access_note": "Full article opened; final score and three game winners stated."
+        }
+      ],
+      "aggregate_score_external_check": "pass",
+      "raw_score_check": "pass",
+      "map_order_validation": "All raw map winners recorded. Aggregate series score independently verified. Individual map order not independently verified except that sweep scores imply all-map winner.",
+      "date_validation": "Raw game timestamps and official scheduled series date agree; actual first game can begin after scheduled start.",
+      "cleaned_data_check": {
+        "rows": 3,
+        "score": {
+          "DK": 3,
+          "KC": 0
+        },
+        "competition_values": [
+          "EWC"
+        ],
+        "status": "pass"
+      }
+    },
+    {
+      "id": "fst_final",
+      "raw_competition": "FST",
+      "expected_series_date_utc": "2026-03-22",
+      "teams": [
+        "BLG",
+        "G2"
+      ],
+      "expected_score": {
+        "BLG": 3,
+        "G2": 1
+      },
+      "observed_score": {
+        "BLG": 3,
+        "G2": 1
+      },
+      "observed_unique_games": 4,
+      "expected_unique_games": 4,
+      "game_number_sequence": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "winner_sequence_raw": [
+        "G2",
+        "BLG",
+        "BLG",
+        "BLG"
+      ],
+      "games": [
+        {
+          "game_id": "LOLTMNT01_351652",
+          "raw_date": "2026-03-22 13:14:42",
+          "game_number": 1,
+          "winner": "G2",
+          "raw_winner": "G2 Esports",
+          "raw_team_names": [
+            "Bilibili Gaming",
+            "G2 Esports"
+          ]
+        },
+        {
+          "game_id": "LOLTMNT01_352609",
+          "raw_date": "2026-03-22 14:14:31",
+          "game_number": 2,
+          "winner": "BLG",
+          "raw_winner": "Bilibili Gaming",
+          "raw_team_names": [
+            "Bilibili Gaming",
+            "G2 Esports"
+          ]
+        },
+        {
+          "game_id": "LOLTMNT01_351658",
+          "raw_date": "2026-03-22 15:15:55",
+          "game_number": 3,
+          "winner": "BLG",
+          "raw_winner": "Bilibili Gaming",
+          "raw_team_names": [
+            "Bilibili Gaming",
+            "G2 Esports"
+          ]
+        },
+        {
+          "game_id": "LOLTMNT01_352610",
+          "raw_date": "2026-03-22 16:04:39",
+          "game_number": 4,
+          "winner": "BLG",
+          "raw_winner": "Bilibili Gaming",
+          "raw_team_names": [
+            "Bilibili Gaming",
+            "G2 Esports"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "type": "official_riot_schedule_api",
+          "url": "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=113464388705111224",
+          "snapshot": "evidence/history_riot_schedule_first_stand_0.json",
+          "snapshot_sha256": "061c7996289d90707fc95f4e6f4241eac94aed0bdc654eed1e452533bf8e1200",
+          "match_id": "115570888977308435",
+          "scheduled_start_utc": "2026-03-22T13:00:00Z",
+          "stage": "Finals",
+          "score": {
+            "G2": 1,
+            "BLG": 3
+          },
+          "state": "completed"
+        }
+      ],
+      "aggregate_score_external_check": "pass",
+      "raw_score_check": "pass",
+      "map_order_validation": "All raw map winners recorded. Aggregate series score independently verified. Individual map order not independently verified except that sweep scores imply all-map winner.",
+      "date_validation": "Raw game timestamps and official scheduled series date agree; actual first game can begin after scheduled start.",
+      "cleaned_data_check": {
+        "rows": 4,
+        "score": {
+          "BLG": 3,
+          "G2": 1
+        },
+        "competition_values": [
+          "FST"
+        ],
+        "status": "pass"
+      }
+    }
+  ],
+  "full_qa": "evidence/history_independent_qa.json",
+  "all_passed": true
+}

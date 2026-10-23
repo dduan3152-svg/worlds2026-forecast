@@ -1,0 +1,42 @@
+{
+  "completed": true,
+  "cutoff": "2026-10-23T07:25:50Z",
+  "tournaments_completed": 200000,
+  "scenarios": [
+    {
+      "scenario": "lineup_transfer_0.50",
+      "description": "Historical map likelihood weight x0.5 per team whose observed lineup differs from the final-cutoff reported/current lineup; descriptive sensitivity, not validated or causal player effect.",
+      "n_completed": 100000,
+      "seed": 20261023,
+      "leader": "GEN",
+      "leader_champion_probability": 0.30768,
+      "draw_method": "next_available_slot",
+      "half_life": 120.0,
+      "model_is_refit": true,
+      "all_invariants_passed": true
+    },
+    {
+      "scenario": "lineup_transfer_0.25",
+      "description": "Historical map likelihood weight x0.25 per team whose observed lineup differs from the final-cutoff reported/current lineup; descriptive sensitivity, not validated or causal player effect.",
+      "n_completed": 100000,
+      "seed": 20261023,
+      "leader": "GEN",
+      "leader_champion_probability": 0.28819,
+      "draw_method": "next_available_slot",
+      "half_life": 120.0,
+      "model_is_refit": true,
+      "all_invariants_passed": true
+    }
+  ],
+  "maps_by_number_of_mismatching_teams": {
+    "0": 1107,
+    "1": 974,
+    "2": 518
+  },
+  "unobserved_lineups_not_fabricated": 2,
+  "prediction_temporal_status": "Uses current roster evidence only at final cutoff, never in retrospective tuning or test predictions.",
+  "not_a_validated_extension_of_primary_model": true,
+  "weights_are_assumptions": true,
+  "current_lineup_for_non_worlds_teams": "Most recent lineup in primary data before cutoff",
+  "bootstrap_primary_parameters_unchanged": true
+}

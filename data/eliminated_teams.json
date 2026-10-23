@@ -1,0 +1,218 @@
+[
+  {
+    "code": "C9",
+    "name": "Cloud9 Kia",
+    "region": "LCS",
+    "seed": 3,
+    "as_of": "2026-10-23T07:25:50Z",
+    "status": "eliminated_in_playins",
+    "finish": 19,
+    "roster": [
+      {
+        "role": "TOP",
+        "player": "Thanatos",
+        "status": "reported_worlds_starter",
+        "source": "https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+        "source_publication_date": "2026-10-15"
+      },
+      {
+        "role": "JUNGLE",
+        "player": "Blaber",
+        "status": "reported_worlds_starter",
+        "source": "https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+        "source_publication_date": "2026-10-15"
+      },
+      {
+        "role": "MID",
+        "player": "Loki",
+        "status": "reported_worlds_starter",
+        "source": "https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+        "source_publication_date": "2026-10-15"
+      },
+      {
+        "role": "BOT",
+        "player": "Tactical",
+        "status": "reported_worlds_starter",
+        "source": "https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+        "source_publication_date": "2026-10-15"
+      },
+      {
+        "role": "SUPPORT",
+        "player": "Vulcan",
+        "status": "reported_worlds_starter",
+        "source": "https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+        "source_publication_date": "2026-10-15"
+      }
+    ],
+    "seed_source": "https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+    "elimination_event_local_date": "2026-10-16",
+    "elimination_match_scheduled_start_utc": "2026-10-16T23:00:00Z",
+    "elimination_opponent": "FUR",
+    "elimination_score": {
+      "FUR": 3,
+      "C9": 1
+    },
+    "elimination_source": {
+      "url": "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=98767975604431411",
+      "snapshot": "evidence/history_riot_schedule_worlds_0.json",
+      "match_id": "115660588583171794",
+      "official": true,
+      "snapshot_sha256": "cac559fedd589c05d6c453d32c9c28784607d5df27fc77f7be45105dc190d89c"
+    },
+    "conditional_remaining_event_probabilities": {
+      "qualified": 0.0,
+      "semifinalist": 0.0,
+      "finalist": 0.0,
+      "champion": 0.0
+    },
+    "notes": [
+      "Reported starting five, not a complete registered substitute list.",
+      "Already eliminated before the cutoff. Zero future-stage probabilities are known-event conditioning, not a fitted weakness estimate.",
+      "Elimination date is local Los Angeles event date; scheduled UTC start is retained separately."
+    ]
+  },
+  {
+    "code": "FUR",
+    "name": "FURIA",
+    "region": "CBLOL",
+    "seed": 2,
+    "as_of": "2026-10-23T07:25:50Z",
+    "status": "eliminated_in_playins",
+    "finish": 18,
+    "roster": [
+      {
+        "role": "TOP",
+        "player": "Guigo",
+        "status": "reported_worlds_starter",
+        "source": "https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+        "source_publication_date": "2026-10-15"
+      },
+      {
+        "role": "JUNGLE",
+        "player": "Tatu",
+        "status": "reported_worlds_starter",
+        "source": "https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+        "source_publication_date": "2026-10-15"
+      },
+      {
+        "role": "MID",
+        "player": "Tutsz",
+        "status": "reported_worlds_starter",
+        "source": "https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+        "source_publication_date": "2026-10-15"
+      },
+      {
+        "role": "BOT",
+        "player": "Ayu",
+        "status": "reported_worlds_starter",
+        "source": "https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+        "source_publication_date": "2026-10-15"
+      },
+      {
+        "role": "SUPPORT",
+        "player": "Jojo",
+        "status": "reported_worlds_starter",
+        "source": "https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+        "source_publication_date": "2026-10-15"
+      }
+    ],
+    "seed_source": "https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+    "elimination_event_local_date": "2026-10-17",
+    "elimination_match_scheduled_start_utc": "2026-10-17T18:00:00Z",
+    "elimination_opponent": "MVK",
+    "elimination_score": {
+      "MVK": 3,
+      "FUR": 1
+    },
+    "elimination_source": {
+      "url": "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=98767975604431411",
+      "snapshot": "evidence/history_riot_schedule_worlds_0.json",
+      "match_id": "115660588583171798",
+      "official": true,
+      "snapshot_sha256": "cac559fedd589c05d6c453d32c9c28784607d5df27fc77f7be45105dc190d89c"
+    },
+    "conditional_remaining_event_probabilities": {
+      "qualified": 0.0,
+      "semifinalist": 0.0,
+      "finalist": 0.0,
+      "champion": 0.0
+    },
+    "notes": [
+      "Reported starting five, not a complete registered substitute list.",
+      "Already eliminated before the cutoff. Zero future-stage probabilities are known-event conditioning, not a fitted weakness estimate.",
+      "Elimination date is local Los Angeles event date; scheduled UTC start is retained separately."
+    ]
+  },
+  {
+    "code": "MVK",
+    "name": "MVK Esports",
+    "region": "LCP",
+    "seed": 3,
+    "as_of": "2026-10-23T07:25:50Z",
+    "status": "eliminated_in_playins",
+    "finish": 17,
+    "roster": [
+      {
+        "role": "TOP",
+        "player": "Kratos",
+        "status": "reported_worlds_starter",
+        "source": "https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+        "source_publication_date": "2026-10-15"
+      },
+      {
+        "role": "JUNGLE",
+        "player": "Gury",
+        "status": "reported_worlds_starter",
+        "source": "https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+        "source_publication_date": "2026-10-15"
+      },
+      {
+        "role": "MID",
+        "player": "Chika",
+        "status": "reported_worlds_starter",
+        "source": "https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+        "source_publication_date": "2026-10-15"
+      },
+      {
+        "role": "BOT",
+        "player": "Harky",
+        "status": "reported_worlds_starter",
+        "source": "https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+        "source_publication_date": "2026-10-15"
+      },
+      {
+        "role": "SUPPORT",
+        "player": "SiuLoong",
+        "status": "reported_worlds_starter",
+        "source": "https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+        "source_publication_date": "2026-10-15"
+      }
+    ],
+    "seed_source": "https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+    "elimination_event_local_date": "2026-10-18",
+    "elimination_match_scheduled_start_utc": "2026-10-18T18:00:00Z",
+    "elimination_opponent": "KC",
+    "elimination_score": {
+      "KC": 3,
+      "MVK": 0
+    },
+    "elimination_source": {
+      "url": "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=98767975604431411",
+      "snapshot": "evidence/history_riot_schedule_worlds_0.json",
+      "match_id": "116299649498303884",
+      "official": true,
+      "snapshot_sha256": "cac559fedd589c05d6c453d32c9c28784607d5df27fc77f7be45105dc190d89c"
+    },
+    "conditional_remaining_event_probabilities": {
+      "qualified": 0.0,
+      "semifinalist": 0.0,
+      "finalist": 0.0,
+      "champion": 0.0
+    },
+    "notes": [
+      "Reported starting five, not a complete registered substitute list.",
+      "Already eliminated before the cutoff. Zero future-stage probabilities are known-event conditioning, not a fitted weakness estimate.",
+      "Elimination date is local Los Angeles event date; scheduled UTC start is retained separately."
+    ]
+  }
+]

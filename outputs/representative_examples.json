@@ -1,0 +1,2372 @@
+[
+  {
+    "selection_reason": "First stored actual realization won by GEN; not a modal path.",
+    "path": {
+      "simulation_index": 0,
+      "kind": "random_illustrative_realization",
+      "stages": [
+        {
+          "stage": "swiss",
+          "round": 1,
+          "record_before": "0-0",
+          "best_of": 1,
+          "matches": [
+            {
+              "a": "GEN",
+              "b": "IG",
+              "winner": "GEN",
+              "p_a_single_game": 0.7103663749110563,
+              "p_a_series": 0.7103663749110563,
+              "status": "simulated"
+            },
+            {
+              "a": "HLE",
+              "b": "TES",
+              "winner": "HLE",
+              "p_a_single_game": 0.6360505929954162,
+              "p_a_series": 0.6360505929954162,
+              "status": "simulated"
+            },
+            {
+              "a": "BLG",
+              "b": "MKOI",
+              "winner": "MKOI",
+              "p_a_single_game": 0.7004069364049575,
+              "p_a_series": 0.7004069364049575,
+              "status": "simulated"
+            },
+            {
+              "a": "AL",
+              "b": "KC",
+              "winner": "AL",
+              "p_a_single_game": 0.5171084106107522,
+              "p_a_series": 0.5171084106107522,
+              "status": "simulated"
+            },
+            {
+              "a": "G2",
+              "b": "DK",
+              "winner": "DK",
+              "p_a_single_game": 0.4410449023153706,
+              "p_a_series": 0.4410449023153706,
+              "status": "simulated"
+            },
+            {
+              "a": "TLAW",
+              "b": "CFO",
+              "winner": "TLAW",
+              "p_a_single_game": 0.6400577037828609,
+              "p_a_series": 0.6400577037828609,
+              "status": "simulated"
+            },
+            {
+              "a": "LOS",
+              "b": "T1",
+              "winner": "LOS",
+              "p_a_single_game": 0.2760125187276291,
+              "p_a_series": 0.2760125187276291,
+              "status": "simulated"
+            },
+            {
+              "a": "TSW",
+              "b": "LYON",
+              "winner": "LYON",
+              "p_a_single_game": 0.49556569411917106,
+              "p_a_series": 0.49556569411917106,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 2,
+          "record_before": "1-0",
+          "best_of": 1,
+          "matches": [
+            {
+              "a": "GEN",
+              "b": "HLE",
+              "winner": "GEN",
+              "p_a_single_game": 0.5639068599379986,
+              "p_a_series": 0.5639068599379986,
+              "status": "simulated"
+            },
+            {
+              "a": "DK",
+              "b": "LOS",
+              "winner": "LOS",
+              "p_a_single_game": 0.7032666310582588,
+              "p_a_series": 0.7032666310582588,
+              "status": "simulated"
+            },
+            {
+              "a": "AL",
+              "b": "MKOI",
+              "winner": "MKOI",
+              "p_a_single_game": 0.6131880115963504,
+              "p_a_series": 0.6131880115963504,
+              "status": "simulated"
+            },
+            {
+              "a": "TLAW",
+              "b": "LYON",
+              "winner": "TLAW",
+              "p_a_single_game": 0.4960282558338503,
+              "p_a_series": 0.4960282558338503,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 2,
+          "record_before": "0-1",
+          "best_of": 1,
+          "matches": [
+            {
+              "a": "T1",
+              "b": "G2",
+              "winner": "G2",
+              "p_a_single_game": 0.5837715387404419,
+              "p_a_series": 0.5837715387404419,
+              "status": "simulated"
+            },
+            {
+              "a": "BLG",
+              "b": "TES",
+              "winner": "BLG",
+              "p_a_single_game": 0.6220765344986068,
+              "p_a_series": 0.6220765344986068,
+              "status": "simulated"
+            },
+            {
+              "a": "IG",
+              "b": "CFO",
+              "winner": "CFO",
+              "p_a_single_game": 0.640066588902227,
+              "p_a_series": 0.640066588902227,
+              "status": "simulated"
+            },
+            {
+              "a": "KC",
+              "b": "TSW",
+              "winner": "KC",
+              "p_a_single_game": 0.5312386602886758,
+              "p_a_series": 0.5312386602886758,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 3,
+          "record_before": "2-0",
+          "best_of": 3,
+          "matches": [
+            {
+              "a": "GEN",
+              "b": "MKOI",
+              "winner": "GEN",
+              "p_a_single_game": 0.7625012912852516,
+              "p_a_series": 0.857575621809505,
+              "status": "simulated"
+            },
+            {
+              "a": "TLAW",
+              "b": "LOS",
+              "winner": "TLAW",
+              "p_a_single_game": 0.5996184248889931,
+              "p_a_series": 0.6474504445915252,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 3,
+          "record_before": "1-1",
+          "best_of": 1,
+          "matches": [
+            {
+              "a": "HLE",
+              "b": "G2",
+              "winner": "HLE",
+              "p_a_single_game": 0.603014905347727,
+              "p_a_series": 0.603014905347727,
+              "status": "simulated"
+            },
+            {
+              "a": "DK",
+              "b": "BLG",
+              "winner": "DK",
+              "p_a_single_game": 0.4697306521843167,
+              "p_a_series": 0.4697306521843167,
+              "status": "simulated"
+            },
+            {
+              "a": "AL",
+              "b": "CFO",
+              "winner": "CFO",
+              "p_a_single_game": 0.6829648632772273,
+              "p_a_series": 0.6829648632772273,
+              "status": "simulated"
+            },
+            {
+              "a": "KC",
+              "b": "LYON",
+              "winner": "KC",
+              "p_a_single_game": 0.5268191488460409,
+              "p_a_series": 0.5268191488460409,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 3,
+          "record_before": "0-2",
+          "best_of": 3,
+          "matches": [
+            {
+              "a": "T1",
+              "b": "TES",
+              "winner": "T1",
+              "p_a_single_game": 0.6173900884909839,
+              "p_a_series": 0.672849760266979,
+              "status": "simulated"
+            },
+            {
+              "a": "IG",
+              "b": "TSW",
+              "winner": "IG",
+              "p_a_single_game": 0.5004722324968416,
+              "p_a_series": 0.5007083485346434,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 4,
+          "record_before": "2-1",
+          "best_of": 3,
+          "matches": [
+            {
+              "a": "HLE",
+              "b": "CFO",
+              "winner": "HLE",
+              "p_a_single_game": 0.7713682439167375,
+              "p_a_series": 0.8670848580748766,
+              "status": "simulated"
+            },
+            {
+              "a": "DK",
+              "b": "KC",
+              "winner": "DK",
+              "p_a_single_game": 0.5831157462600908,
+              "p_a_series": 0.6235252544593164,
+              "status": "simulated"
+            },
+            {
+              "a": "MKOI",
+              "b": "LOS",
+              "winner": "LOS",
+              "p_a_single_game": 0.5336694002878127,
+              "p_a_series": 0.5504277632471708,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 4,
+          "record_before": "1-2",
+          "best_of": 3,
+          "matches": [
+            {
+              "a": "T1",
+              "b": "BLG",
+              "winner": "T1",
+              "p_a_single_game": 0.4950298441440837,
+              "p_a_series": 0.49254501176617094,
+              "status": "simulated"
+            },
+            {
+              "a": "AL",
+              "b": "G2",
+              "winner": "G2",
+              "p_a_single_game": 0.49245420564133036,
+              "p_a_series": 0.48868216776215423,
+              "status": "simulated"
+            },
+            {
+              "a": "IG",
+              "b": "LYON",
+              "winner": "IG",
+              "p_a_single_game": 0.49603789357627903,
+              "p_a_series": 0.49405696476098854,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 5,
+          "record_before": "2-2",
+          "best_of": 3,
+          "matches": [
+            {
+              "a": "T1",
+              "b": "CFO",
+              "winner": "T1",
+              "p_a_single_game": 0.7569811315142683,
+              "p_a_series": 0.8515299881901177,
+              "status": "simulated"
+            },
+            {
+              "a": "IG",
+              "b": "G2",
+              "winner": "G2",
+              "p_a_single_game": 0.4447570271720321,
+              "p_a_series": 0.4174727202253763,
+              "status": "simulated"
+            },
+            {
+              "a": "MKOI",
+              "b": "KC",
+              "winner": "KC",
+              "p_a_single_game": 0.4031735711817005,
+              "p_a_series": 0.3565759215084886,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "quarterfinal",
+          "round": 1,
+          "record_before": null,
+          "best_of": 5,
+          "matches": [
+            {
+              "a": "GEN",
+              "b": "KC",
+              "winner": "GEN",
+              "p_a_single_game": 0.6843533226066338,
+              "p_a_series": 0.8156128166948791,
+              "status": "simulated"
+            },
+            {
+              "a": "LOS",
+              "b": "HLE",
+              "winner": "HLE",
+              "p_a_single_game": 0.2603482630692472,
+              "p_a_series": 0.11472951912947246,
+              "status": "simulated"
+            },
+            {
+              "a": "TLAW",
+              "b": "G2",
+              "winner": "G2",
+              "p_a_single_game": 0.4447475059868623,
+              "p_a_series": 0.3972418686581756,
+              "status": "simulated"
+            },
+            {
+              "a": "T1",
+              "b": "DK",
+              "winner": "T1",
+              "p_a_single_game": 0.5253143580945226,
+              "p_a_series": 0.5473833744783395,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "semifinal",
+          "round": 2,
+          "record_before": null,
+          "best_of": 5,
+          "matches": [
+            {
+              "a": "GEN",
+              "b": "HLE",
+              "winner": "GEN",
+              "p_a_single_game": 0.5639068599379986,
+              "p_a_series": 0.618526752293393,
+              "status": "simulated"
+            },
+            {
+              "a": "G2",
+              "b": "T1",
+              "winner": "T1",
+              "p_a_single_game": 0.41622846125955826,
+              "p_a_series": 0.34584301689276375,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "final",
+          "round": 3,
+          "record_before": null,
+          "best_of": 5,
+          "matches": [
+            {
+              "a": "GEN",
+              "b": "T1",
+              "winner": "GEN",
+              "p_a_single_game": 0.5834121102451167,
+              "p_a_series": 0.6535202013442986,
+              "status": "simulated"
+            }
+          ]
+        }
+      ],
+      "swiss_final_records": {
+        "GEN": "3-0",
+        "HLE": "3-1",
+        "T1": "3-2",
+        "DK": "3-1",
+        "AL": "1-3",
+        "BLG": "1-3",
+        "TES": "0-3",
+        "IG": "2-3",
+        "G2": "3-2",
+        "MKOI": "2-3",
+        "KC": "3-2",
+        "TLAW": "3-0",
+        "LYON": "1-3",
+        "TSW": "0-3",
+        "CFO": "2-3",
+        "LOS": "3-1"
+      },
+      "quarterfinal_bracket": [
+        {
+          "half": 0,
+          "teams": [
+            "GEN",
+            "KC"
+          ]
+        },
+        {
+          "half": 0,
+          "teams": [
+            "LOS",
+            "HLE"
+          ]
+        },
+        {
+          "half": 1,
+          "teams": [
+            "TLAW",
+            "G2"
+          ]
+        },
+        {
+          "half": 1,
+          "teams": [
+            "T1",
+            "DK"
+          ]
+        }
+      ],
+      "champion": "GEN"
+    }
+  },
+  {
+    "selection_reason": "First stored actual realization won by HLE; not a modal path.",
+    "path": {
+      "simulation_index": 2,
+      "kind": "random_illustrative_realization",
+      "stages": [
+        {
+          "stage": "swiss",
+          "round": 1,
+          "record_before": "0-0",
+          "best_of": 1,
+          "matches": [
+            {
+              "a": "GEN",
+              "b": "IG",
+              "winner": "IG",
+              "p_a_single_game": 0.7103663749110563,
+              "p_a_series": 0.7103663749110563,
+              "status": "simulated"
+            },
+            {
+              "a": "HLE",
+              "b": "TES",
+              "winner": "HLE",
+              "p_a_single_game": 0.6360505929954162,
+              "p_a_series": 0.6360505929954162,
+              "status": "simulated"
+            },
+            {
+              "a": "BLG",
+              "b": "MKOI",
+              "winner": "BLG",
+              "p_a_single_game": 0.7004069364049575,
+              "p_a_series": 0.7004069364049575,
+              "status": "simulated"
+            },
+            {
+              "a": "AL",
+              "b": "KC",
+              "winner": "KC",
+              "p_a_single_game": 0.5171084106107522,
+              "p_a_series": 0.5171084106107522,
+              "status": "simulated"
+            },
+            {
+              "a": "G2",
+              "b": "DK",
+              "winner": "G2",
+              "p_a_single_game": 0.4410449023153706,
+              "p_a_series": 0.4410449023153706,
+              "status": "simulated"
+            },
+            {
+              "a": "TLAW",
+              "b": "CFO",
+              "winner": "CFO",
+              "p_a_single_game": 0.6400577037828609,
+              "p_a_series": 0.6400577037828609,
+              "status": "simulated"
+            },
+            {
+              "a": "LOS",
+              "b": "T1",
+              "winner": "T1",
+              "p_a_single_game": 0.2760125187276291,
+              "p_a_series": 0.2760125187276291,
+              "status": "simulated"
+            },
+            {
+              "a": "TSW",
+              "b": "LYON",
+              "winner": "TSW",
+              "p_a_single_game": 0.49556569411917106,
+              "p_a_series": 0.49556569411917106,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 2,
+          "record_before": "1-0",
+          "best_of": 1,
+          "matches": [
+            {
+              "a": "HLE",
+              "b": "BLG",
+              "winner": "HLE",
+              "p_a_single_game": 0.5149640751756905,
+              "p_a_series": 0.5149640751756905,
+              "status": "simulated"
+            },
+            {
+              "a": "T1",
+              "b": "IG",
+              "winner": "T1",
+              "p_a_single_game": 0.6364983321188247,
+              "p_a_series": 0.6364983321188247,
+              "status": "simulated"
+            },
+            {
+              "a": "G2",
+              "b": "KC",
+              "winner": "G2",
+              "p_a_single_game": 0.5246415367697765,
+              "p_a_series": 0.5246415367697765,
+              "status": "simulated"
+            },
+            {
+              "a": "TSW",
+              "b": "CFO",
+              "winner": "TSW",
+              "p_a_single_game": 0.6396311484648527,
+              "p_a_series": 0.6396311484648527,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 2,
+          "record_before": "0-1",
+          "best_of": 1,
+          "matches": [
+            {
+              "a": "GEN",
+              "b": "LOS",
+              "winner": "LOS",
+              "p_a_single_game": 0.7860877869956053,
+              "p_a_series": 0.7860877869956053,
+              "status": "simulated"
+            },
+            {
+              "a": "DK",
+              "b": "LYON",
+              "winner": "DK",
+              "p_a_single_game": 0.6089674420097666,
+              "p_a_series": 0.6089674420097666,
+              "status": "simulated"
+            },
+            {
+              "a": "AL",
+              "b": "TLAW",
+              "winner": "TLAW",
+              "p_a_single_game": 0.5477860424903229,
+              "p_a_series": 0.5477860424903229,
+              "status": "simulated"
+            },
+            {
+              "a": "TES",
+              "b": "MKOI",
+              "winner": "TES",
+              "p_a_single_game": 0.5867908091070255,
+              "p_a_series": 0.5867908091070255,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 3,
+          "record_before": "2-0",
+          "best_of": 3,
+          "matches": [
+            {
+              "a": "HLE",
+              "b": "TSW",
+              "winner": "HLE",
+              "p_a_single_game": 0.6551767485337094,
+              "p_a_series": 0.7252918654351455,
+              "status": "simulated"
+            },
+            {
+              "a": "T1",
+              "b": "G2",
+              "winner": "T1",
+              "p_a_single_game": 0.5837715387404419,
+              "p_a_series": 0.6244815459643447,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 3,
+          "record_before": "1-1",
+          "best_of": 1,
+          "matches": [
+            {
+              "a": "DK",
+              "b": "BLG",
+              "winner": "DK",
+              "p_a_single_game": 0.4697306521843167,
+              "p_a_series": 0.4697306521843167,
+              "status": "simulated"
+            },
+            {
+              "a": "TES",
+              "b": "KC",
+              "winner": "TES",
+              "p_a_single_game": 0.48961685059087756,
+              "p_a_series": 0.48961685059087756,
+              "status": "simulated"
+            },
+            {
+              "a": "IG",
+              "b": "CFO",
+              "winner": "IG",
+              "p_a_single_game": 0.640066588902227,
+              "p_a_series": 0.640066588902227,
+              "status": "simulated"
+            },
+            {
+              "a": "TLAW",
+              "b": "LOS",
+              "winner": "LOS",
+              "p_a_single_game": 0.5996184248889931,
+              "p_a_series": 0.5996184248889931,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 3,
+          "record_before": "0-2",
+          "best_of": 3,
+          "matches": [
+            {
+              "a": "GEN",
+              "b": "MKOI",
+              "winner": "GEN",
+              "p_a_single_game": 0.7625012912852516,
+              "p_a_series": 0.857575621809505,
+              "status": "simulated"
+            },
+            {
+              "a": "AL",
+              "b": "LYON",
+              "winner": "AL",
+              "p_a_single_game": 0.5438474397966646,
+              "p_a_series": 0.5656025576969219,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 4,
+          "record_before": "2-1",
+          "best_of": 3,
+          "matches": [
+            {
+              "a": "DK",
+              "b": "TSW",
+              "winner": "TSW",
+              "p_a_single_game": 0.6131839105813189,
+              "p_a_series": 0.6668759588021973,
+              "status": "simulated"
+            },
+            {
+              "a": "TES",
+              "b": "IG",
+              "winner": "IG",
+              "p_a_single_game": 0.5204110535066838,
+              "p_a_series": 0.5305995733169042,
+              "status": "simulated"
+            },
+            {
+              "a": "G2",
+              "b": "LOS",
+              "winner": "LOS",
+              "p_a_single_game": 0.6515480675349209,
+              "p_a_series": 0.7203609479034554,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 4,
+          "record_before": "1-2",
+          "best_of": 3,
+          "matches": [
+            {
+              "a": "GEN",
+              "b": "TLAW",
+              "winner": "GEN",
+              "p_a_single_game": 0.7103743132717039,
+              "p_a_series": 0.7969402499718367,
+              "status": "simulated"
+            },
+            {
+              "a": "AL",
+              "b": "BLG",
+              "winner": "AL",
+              "p_a_single_game": 0.40411473017303157,
+              "p_a_series": 0.3579352307187743,
+              "status": "simulated"
+            },
+            {
+              "a": "KC",
+              "b": "CFO",
+              "winner": "KC",
+              "p_a_single_game": 0.6679511963432252,
+              "p_a_series": 0.742451792720672,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 5,
+          "record_before": "2-2",
+          "best_of": 3,
+          "matches": [
+            {
+              "a": "GEN",
+              "b": "KC",
+              "winner": "GEN",
+              "p_a_single_game": 0.6843533226066338,
+              "p_a_series": 0.763999065460816,
+              "status": "simulated"
+            },
+            {
+              "a": "DK",
+              "b": "TES",
+              "winner": "DK",
+              "p_a_single_game": 0.5931786238471473,
+              "p_a_series": 0.6381499344495833,
+              "status": "simulated"
+            },
+            {
+              "a": "AL",
+              "b": "G2",
+              "winner": "AL",
+              "p_a_single_game": 0.49245420564133036,
+              "p_a_series": 0.48868216776215423,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "quarterfinal",
+          "round": 1,
+          "record_before": null,
+          "best_of": 5,
+          "matches": [
+            {
+              "a": "HLE",
+              "b": "DK",
+              "winner": "HLE",
+              "p_a_single_game": 0.5451519767832118,
+              "p_a_series": 0.5842008255571984,
+              "status": "simulated"
+            },
+            {
+              "a": "GEN",
+              "b": "IG",
+              "winner": "GEN",
+              "p_a_single_game": 0.7103663749110563,
+              "p_a_series": 0.8503610840868854,
+              "status": "simulated"
+            },
+            {
+              "a": "T1",
+              "b": "AL",
+              "winner": "AL",
+              "p_a_single_game": 0.5910880080922465,
+              "p_a_series": 0.6670488410056647,
+              "status": "simulated"
+            },
+            {
+              "a": "TSW",
+              "b": "LOS",
+              "winner": "LOS",
+              "p_a_single_game": 0.5991740337594776,
+              "p_a_series": 0.6811317504199992,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "semifinal",
+          "round": 2,
+          "record_before": null,
+          "best_of": 5,
+          "matches": [
+            {
+              "a": "HLE",
+              "b": "GEN",
+              "winner": "HLE",
+              "p_a_single_game": 0.4360931400620014,
+              "p_a_series": 0.38147324770660707,
+              "status": "simulated"
+            },
+            {
+              "a": "AL",
+              "b": "LOS",
+              "winner": "AL",
+              "p_a_single_game": 0.6446613073958144,
+              "p_a_series": 0.75648350564081,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "final",
+          "round": 3,
+          "record_before": null,
+          "best_of": 5,
+          "matches": [
+            {
+              "a": "HLE",
+              "b": "AL",
+              "winner": "HLE",
+              "p_a_single_game": 0.6102194431139458,
+              "p_a_series": 0.7000641457177675,
+              "status": "simulated"
+            }
+          ]
+        }
+      ],
+      "swiss_final_records": {
+        "GEN": "3-2",
+        "HLE": "3-0",
+        "T1": "3-0",
+        "DK": "3-2",
+        "AL": "3-2",
+        "BLG": "1-3",
+        "TES": "2-3",
+        "IG": "3-1",
+        "G2": "2-3",
+        "MKOI": "0-3",
+        "KC": "2-3",
+        "TLAW": "1-3",
+        "LYON": "0-3",
+        "TSW": "3-1",
+        "CFO": "1-3",
+        "LOS": "3-1"
+      },
+      "quarterfinal_bracket": [
+        {
+          "half": 0,
+          "teams": [
+            "HLE",
+            "DK"
+          ]
+        },
+        {
+          "half": 0,
+          "teams": [
+            "GEN",
+            "IG"
+          ]
+        },
+        {
+          "half": 1,
+          "teams": [
+            "T1",
+            "AL"
+          ]
+        },
+        {
+          "half": 1,
+          "teams": [
+            "TSW",
+            "LOS"
+          ]
+        }
+      ],
+      "champion": "HLE"
+    }
+  },
+  {
+    "selection_reason": "First stored actual realization won by BLG; not a modal path.",
+    "path": {
+      "simulation_index": 6,
+      "kind": "random_illustrative_realization",
+      "stages": [
+        {
+          "stage": "swiss",
+          "round": 1,
+          "record_before": "0-0",
+          "best_of": 1,
+          "matches": [
+            {
+              "a": "GEN",
+              "b": "IG",
+              "winner": "IG",
+              "p_a_single_game": 0.7103663749110563,
+              "p_a_series": 0.7103663749110563,
+              "status": "simulated"
+            },
+            {
+              "a": "HLE",
+              "b": "TES",
+              "winner": "HLE",
+              "p_a_single_game": 0.6360505929954162,
+              "p_a_series": 0.6360505929954162,
+              "status": "simulated"
+            },
+            {
+              "a": "BLG",
+              "b": "MKOI",
+              "winner": "BLG",
+              "p_a_single_game": 0.7004069364049575,
+              "p_a_series": 0.7004069364049575,
+              "status": "simulated"
+            },
+            {
+              "a": "AL",
+              "b": "KC",
+              "winner": "AL",
+              "p_a_single_game": 0.5171084106107522,
+              "p_a_series": 0.5171084106107522,
+              "status": "simulated"
+            },
+            {
+              "a": "G2",
+              "b": "DK",
+              "winner": "DK",
+              "p_a_single_game": 0.4410449023153706,
+              "p_a_series": 0.4410449023153706,
+              "status": "simulated"
+            },
+            {
+              "a": "TLAW",
+              "b": "CFO",
+              "winner": "CFO",
+              "p_a_single_game": 0.6400577037828609,
+              "p_a_series": 0.6400577037828609,
+              "status": "simulated"
+            },
+            {
+              "a": "LOS",
+              "b": "T1",
+              "winner": "LOS",
+              "p_a_single_game": 0.2760125187276291,
+              "p_a_series": 0.2760125187276291,
+              "status": "simulated"
+            },
+            {
+              "a": "TSW",
+              "b": "LYON",
+              "winner": "TSW",
+              "p_a_single_game": 0.49556569411917106,
+              "p_a_series": 0.49556569411917106,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 2,
+          "record_before": "1-0",
+          "best_of": 1,
+          "matches": [
+            {
+              "a": "HLE",
+              "b": "TSW",
+              "winner": "TSW",
+              "p_a_single_game": 0.6551767485337094,
+              "p_a_series": 0.6551767485337094,
+              "status": "simulated"
+            },
+            {
+              "a": "DK",
+              "b": "CFO",
+              "winner": "CFO",
+              "p_a_single_game": 0.7378348861380977,
+              "p_a_series": 0.7378348861380977,
+              "status": "simulated"
+            },
+            {
+              "a": "AL",
+              "b": "IG",
+              "winner": "IG",
+              "p_a_single_game": 0.5477764917762351,
+              "p_a_series": 0.5477764917762351,
+              "status": "simulated"
+            },
+            {
+              "a": "BLG",
+              "b": "LOS",
+              "winner": "LOS",
+              "p_a_single_game": 0.7279461675545873,
+              "p_a_series": 0.7279461675545873,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 2,
+          "record_before": "0-1",
+          "best_of": 1,
+          "matches": [
+            {
+              "a": "GEN",
+              "b": "T1",
+              "winner": "T1",
+              "p_a_single_game": 0.5834121102451167,
+              "p_a_series": 0.5834121102451167,
+              "status": "simulated"
+            },
+            {
+              "a": "TES",
+              "b": "MKOI",
+              "winner": "TES",
+              "p_a_single_game": 0.5867908091070255,
+              "p_a_series": 0.5867908091070255,
+              "status": "simulated"
+            },
+            {
+              "a": "G2",
+              "b": "TLAW",
+              "winner": "G2",
+              "p_a_single_game": 0.5552524940131377,
+              "p_a_series": 0.5552524940131377,
+              "status": "simulated"
+            },
+            {
+              "a": "KC",
+              "b": "LYON",
+              "winner": "LYON",
+              "p_a_single_game": 0.5268191488460409,
+              "p_a_series": 0.5268191488460409,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 3,
+          "record_before": "2-0",
+          "best_of": 3,
+          "matches": [
+            {
+              "a": "IG",
+              "b": "CFO",
+              "winner": "CFO",
+              "p_a_single_game": 0.640066588902227,
+              "p_a_series": 0.7046040487732195,
+              "status": "simulated"
+            },
+            {
+              "a": "TSW",
+              "b": "LOS",
+              "winner": "TSW",
+              "p_a_single_game": 0.5991740337594776,
+              "p_a_series": 0.6468102004084912,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 3,
+          "record_before": "1-1",
+          "best_of": 1,
+          "matches": [
+            {
+              "a": "HLE",
+              "b": "DK",
+              "winner": "HLE",
+              "p_a_single_game": 0.5451519767832118,
+              "p_a_series": 0.5451519767832118,
+              "status": "simulated"
+            },
+            {
+              "a": "T1",
+              "b": "TES",
+              "winner": "T1",
+              "p_a_single_game": 0.6173900884909839,
+              "p_a_series": 0.6173900884909839,
+              "status": "simulated"
+            },
+            {
+              "a": "AL",
+              "b": "G2",
+              "winner": "G2",
+              "p_a_single_game": 0.49245420564133036,
+              "p_a_series": 0.49245420564133036,
+              "status": "simulated"
+            },
+            {
+              "a": "BLG",
+              "b": "LYON",
+              "winner": "BLG",
+              "p_a_single_game": 0.6374311244484114,
+              "p_a_series": 0.6374311244484114,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 3,
+          "record_before": "0-2",
+          "best_of": 3,
+          "matches": [
+            {
+              "a": "GEN",
+              "b": "KC",
+              "winner": "GEN",
+              "p_a_single_game": 0.6843533226066338,
+              "p_a_series": 0.763999065460816,
+              "status": "simulated"
+            },
+            {
+              "a": "MKOI",
+              "b": "TLAW",
+              "winner": "MKOI",
+              "p_a_single_game": 0.4331580534695416,
+              "p_a_series": 0.40033435922658867,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 4,
+          "record_before": "2-1",
+          "best_of": 3,
+          "matches": [
+            {
+              "a": "HLE",
+              "b": "BLG",
+              "winner": "HLE",
+              "p_a_single_game": 0.5149640751756905,
+              "p_a_series": 0.522439411145988,
+              "status": "simulated"
+            },
+            {
+              "a": "T1",
+              "b": "G2",
+              "winner": "G2",
+              "p_a_single_game": 0.5837715387404419,
+              "p_a_series": 0.6244815459643447,
+              "status": "simulated"
+            },
+            {
+              "a": "IG",
+              "b": "LOS",
+              "winner": "IG",
+              "p_a_single_game": 0.599627682232372,
+              "p_a_series": 0.6474637793455252,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 4,
+          "record_before": "1-2",
+          "best_of": 3,
+          "matches": [
+            {
+              "a": "GEN",
+              "b": "LYON",
+              "winner": "LYON",
+              "p_a_single_game": 0.7070921832327302,
+              "p_a_series": 0.7928750785372896,
+              "status": "simulated"
+            },
+            {
+              "a": "DK",
+              "b": "MKOI",
+              "winner": "DK",
+              "p_a_single_game": 0.6743521311398422,
+              "p_a_series": 0.7509280524359195,
+              "status": "simulated"
+            },
+            {
+              "a": "AL",
+              "b": "TES",
+              "winner": "AL",
+              "p_a_single_game": 0.5274721259262296,
+              "p_a_series": 0.5411667214897985,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 5,
+          "record_before": "2-2",
+          "best_of": 3,
+          "matches": [
+            {
+              "a": "T1",
+              "b": "BLG",
+              "winner": "BLG",
+              "p_a_single_game": 0.4950298441440837,
+              "p_a_series": 0.49254501176617094,
+              "status": "simulated"
+            },
+            {
+              "a": "DK",
+              "b": "AL",
+              "winner": "DK",
+              "p_a_single_game": 0.5663832818968648,
+              "p_a_series": 0.5989898551026436,
+              "status": "simulated"
+            },
+            {
+              "a": "LYON",
+              "b": "LOS",
+              "winner": "LYON",
+              "p_a_single_game": 0.6034271775735401,
+              "p_a_series": 0.652928007870081,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "quarterfinal",
+          "round": 1,
+          "record_before": null,
+          "best_of": 5,
+          "matches": [
+            {
+              "a": "CFO",
+              "b": "BLG",
+              "winner": "BLG",
+              "p_a_single_game": 0.2393759122269818,
+              "p_a_series": 0.09262938537321866,
+              "status": "simulated"
+            },
+            {
+              "a": "LYON",
+              "b": "G2",
+              "winner": "LYON",
+              "p_a_single_game": 0.44867439439023954,
+              "p_a_series": 0.40443839217736693,
+              "status": "simulated"
+            },
+            {
+              "a": "TSW",
+              "b": "DK",
+              "winner": "DK",
+              "p_a_single_game": 0.38681608941868106,
+              "p_a_series": 0.2949184867067088,
+              "status": "simulated"
+            },
+            {
+              "a": "HLE",
+              "b": "IG",
+              "winner": "IG",
+              "p_a_single_game": 0.6547496941843431,
+              "p_a_series": 0.772158836221327,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "semifinal",
+          "round": 2,
+          "record_before": null,
+          "best_of": 5,
+          "matches": [
+            {
+              "a": "BLG",
+              "b": "LYON",
+              "winner": "BLG",
+              "p_a_single_game": 0.6374311244484114,
+              "p_a_series": 0.7449989897079146,
+              "status": "simulated"
+            },
+            {
+              "a": "DK",
+              "b": "IG",
+              "winner": "DK",
+              "p_a_single_game": 0.6127356791376364,
+              "p_a_series": 0.7043246809903015,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "final",
+          "round": 3,
+          "record_before": null,
+          "best_of": 5,
+          "matches": [
+            {
+              "a": "BLG",
+              "b": "DK",
+              "winner": "BLG",
+              "p_a_single_game": 0.5302693478156834,
+              "p_a_series": 0.5566165106782202,
+              "status": "simulated"
+            }
+          ]
+        }
+      ],
+      "swiss_final_records": {
+        "GEN": "1-3",
+        "HLE": "3-1",
+        "T1": "2-3",
+        "DK": "3-2",
+        "AL": "2-3",
+        "BLG": "3-2",
+        "TES": "1-3",
+        "IG": "3-1",
+        "G2": "3-1",
+        "MKOI": "1-3",
+        "KC": "0-3",
+        "TLAW": "0-3",
+        "LYON": "3-2",
+        "TSW": "3-0",
+        "CFO": "3-0",
+        "LOS": "2-3"
+      },
+      "quarterfinal_bracket": [
+        {
+          "half": 0,
+          "teams": [
+            "CFO",
+            "BLG"
+          ]
+        },
+        {
+          "half": 0,
+          "teams": [
+            "LYON",
+            "G2"
+          ]
+        },
+        {
+          "half": 1,
+          "teams": [
+            "TSW",
+            "DK"
+          ]
+        },
+        {
+          "half": 1,
+          "teams": [
+            "HLE",
+            "IG"
+          ]
+        }
+      ],
+      "champion": "BLG"
+    }
+  },
+  {
+    "selection_reason": "First stored actual realization where GEN is eliminated in Swiss; not the most likely exit.",
+    "path": {
+      "simulation_index": 6,
+      "kind": "random_illustrative_realization",
+      "stages": [
+        {
+          "stage": "swiss",
+          "round": 1,
+          "record_before": "0-0",
+          "best_of": 1,
+          "matches": [
+            {
+              "a": "GEN",
+              "b": "IG",
+              "winner": "IG",
+              "p_a_single_game": 0.7103663749110563,
+              "p_a_series": 0.7103663749110563,
+              "status": "simulated"
+            },
+            {
+              "a": "HLE",
+              "b": "TES",
+              "winner": "HLE",
+              "p_a_single_game": 0.6360505929954162,
+              "p_a_series": 0.6360505929954162,
+              "status": "simulated"
+            },
+            {
+              "a": "BLG",
+              "b": "MKOI",
+              "winner": "BLG",
+              "p_a_single_game": 0.7004069364049575,
+              "p_a_series": 0.7004069364049575,
+              "status": "simulated"
+            },
+            {
+              "a": "AL",
+              "b": "KC",
+              "winner": "AL",
+              "p_a_single_game": 0.5171084106107522,
+              "p_a_series": 0.5171084106107522,
+              "status": "simulated"
+            },
+            {
+              "a": "G2",
+              "b": "DK",
+              "winner": "DK",
+              "p_a_single_game": 0.4410449023153706,
+              "p_a_series": 0.4410449023153706,
+              "status": "simulated"
+            },
+            {
+              "a": "TLAW",
+              "b": "CFO",
+              "winner": "CFO",
+              "p_a_single_game": 0.6400577037828609,
+              "p_a_series": 0.6400577037828609,
+              "status": "simulated"
+            },
+            {
+              "a": "LOS",
+              "b": "T1",
+              "winner": "LOS",
+              "p_a_single_game": 0.2760125187276291,
+              "p_a_series": 0.2760125187276291,
+              "status": "simulated"
+            },
+            {
+              "a": "TSW",
+              "b": "LYON",
+              "winner": "TSW",
+              "p_a_single_game": 0.49556569411917106,
+              "p_a_series": 0.49556569411917106,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 2,
+          "record_before": "1-0",
+          "best_of": 1,
+          "matches": [
+            {
+              "a": "HLE",
+              "b": "TSW",
+              "winner": "TSW",
+              "p_a_single_game": 0.6551767485337094,
+              "p_a_series": 0.6551767485337094,
+              "status": "simulated"
+            },
+            {
+              "a": "DK",
+              "b": "CFO",
+              "winner": "CFO",
+              "p_a_single_game": 0.7378348861380977,
+              "p_a_series": 0.7378348861380977,
+              "status": "simulated"
+            },
+            {
+              "a": "AL",
+              "b": "IG",
+              "winner": "IG",
+              "p_a_single_game": 0.5477764917762351,
+              "p_a_series": 0.5477764917762351,
+              "status": "simulated"
+            },
+            {
+              "a": "BLG",
+              "b": "LOS",
+              "winner": "LOS",
+              "p_a_single_game": 0.7279461675545873,
+              "p_a_series": 0.7279461675545873,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 2,
+          "record_before": "0-1",
+          "best_of": 1,
+          "matches": [
+            {
+              "a": "GEN",
+              "b": "T1",
+              "winner": "T1",
+              "p_a_single_game": 0.5834121102451167,
+              "p_a_series": 0.5834121102451167,
+              "status": "simulated"
+            },
+            {
+              "a": "TES",
+              "b": "MKOI",
+              "winner": "TES",
+              "p_a_single_game": 0.5867908091070255,
+              "p_a_series": 0.5867908091070255,
+              "status": "simulated"
+            },
+            {
+              "a": "G2",
+              "b": "TLAW",
+              "winner": "G2",
+              "p_a_single_game": 0.5552524940131377,
+              "p_a_series": 0.5552524940131377,
+              "status": "simulated"
+            },
+            {
+              "a": "KC",
+              "b": "LYON",
+              "winner": "LYON",
+              "p_a_single_game": 0.5268191488460409,
+              "p_a_series": 0.5268191488460409,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 3,
+          "record_before": "2-0",
+          "best_of": 3,
+          "matches": [
+            {
+              "a": "IG",
+              "b": "CFO",
+              "winner": "CFO",
+              "p_a_single_game": 0.640066588902227,
+              "p_a_series": 0.7046040487732195,
+              "status": "simulated"
+            },
+            {
+              "a": "TSW",
+              "b": "LOS",
+              "winner": "TSW",
+              "p_a_single_game": 0.5991740337594776,
+              "p_a_series": 0.6468102004084912,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 3,
+          "record_before": "1-1",
+          "best_of": 1,
+          "matches": [
+            {
+              "a": "HLE",
+              "b": "DK",
+              "winner": "HLE",
+              "p_a_single_game": 0.5451519767832118,
+              "p_a_series": 0.5451519767832118,
+              "status": "simulated"
+            },
+            {
+              "a": "T1",
+              "b": "TES",
+              "winner": "T1",
+              "p_a_single_game": 0.6173900884909839,
+              "p_a_series": 0.6173900884909839,
+              "status": "simulated"
+            },
+            {
+              "a": "AL",
+              "b": "G2",
+              "winner": "G2",
+              "p_a_single_game": 0.49245420564133036,
+              "p_a_series": 0.49245420564133036,
+              "status": "simulated"
+            },
+            {
+              "a": "BLG",
+              "b": "LYON",
+              "winner": "BLG",
+              "p_a_single_game": 0.6374311244484114,
+              "p_a_series": 0.6374311244484114,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 3,
+          "record_before": "0-2",
+          "best_of": 3,
+          "matches": [
+            {
+              "a": "GEN",
+              "b": "KC",
+              "winner": "GEN",
+              "p_a_single_game": 0.6843533226066338,
+              "p_a_series": 0.763999065460816,
+              "status": "simulated"
+            },
+            {
+              "a": "MKOI",
+              "b": "TLAW",
+              "winner": "MKOI",
+              "p_a_single_game": 0.4331580534695416,
+              "p_a_series": 0.40033435922658867,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 4,
+          "record_before": "2-1",
+          "best_of": 3,
+          "matches": [
+            {
+              "a": "HLE",
+              "b": "BLG",
+              "winner": "HLE",
+              "p_a_single_game": 0.5149640751756905,
+              "p_a_series": 0.522439411145988,
+              "status": "simulated"
+            },
+            {
+              "a": "T1",
+              "b": "G2",
+              "winner": "G2",
+              "p_a_single_game": 0.5837715387404419,
+              "p_a_series": 0.6244815459643447,
+              "status": "simulated"
+            },
+            {
+              "a": "IG",
+              "b": "LOS",
+              "winner": "IG",
+              "p_a_single_game": 0.599627682232372,
+              "p_a_series": 0.6474637793455252,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 4,
+          "record_before": "1-2",
+          "best_of": 3,
+          "matches": [
+            {
+              "a": "GEN",
+              "b": "LYON",
+              "winner": "LYON",
+              "p_a_single_game": 0.7070921832327302,
+              "p_a_series": 0.7928750785372896,
+              "status": "simulated"
+            },
+            {
+              "a": "DK",
+              "b": "MKOI",
+              "winner": "DK",
+              "p_a_single_game": 0.6743521311398422,
+              "p_a_series": 0.7509280524359195,
+              "status": "simulated"
+            },
+            {
+              "a": "AL",
+              "b": "TES",
+              "winner": "AL",
+              "p_a_single_game": 0.5274721259262296,
+              "p_a_series": 0.5411667214897985,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 5,
+          "record_before": "2-2",
+          "best_of": 3,
+          "matches": [
+            {
+              "a": "T1",
+              "b": "BLG",
+              "winner": "BLG",
+              "p_a_single_game": 0.4950298441440837,
+              "p_a_series": 0.49254501176617094,
+              "status": "simulated"
+            },
+            {
+              "a": "DK",
+              "b": "AL",
+              "winner": "DK",
+              "p_a_single_game": 0.5663832818968648,
+              "p_a_series": 0.5989898551026436,
+              "status": "simulated"
+            },
+            {
+              "a": "LYON",
+              "b": "LOS",
+              "winner": "LYON",
+              "p_a_single_game": 0.6034271775735401,
+              "p_a_series": 0.652928007870081,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "quarterfinal",
+          "round": 1,
+          "record_before": null,
+          "best_of": 5,
+          "matches": [
+            {
+              "a": "CFO",
+              "b": "BLG",
+              "winner": "BLG",
+              "p_a_single_game": 0.2393759122269818,
+              "p_a_series": 0.09262938537321866,
+              "status": "simulated"
+            },
+            {
+              "a": "LYON",
+              "b": "G2",
+              "winner": "LYON",
+              "p_a_single_game": 0.44867439439023954,
+              "p_a_series": 0.40443839217736693,
+              "status": "simulated"
+            },
+            {
+              "a": "TSW",
+              "b": "DK",
+              "winner": "DK",
+              "p_a_single_game": 0.38681608941868106,
+              "p_a_series": 0.2949184867067088,
+              "status": "simulated"
+            },
+            {
+              "a": "HLE",
+              "b": "IG",
+              "winner": "IG",
+              "p_a_single_game": 0.6547496941843431,
+              "p_a_series": 0.772158836221327,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "semifinal",
+          "round": 2,
+          "record_before": null,
+          "best_of": 5,
+          "matches": [
+            {
+              "a": "BLG",
+              "b": "LYON",
+              "winner": "BLG",
+              "p_a_single_game": 0.6374311244484114,
+              "p_a_series": 0.7449989897079146,
+              "status": "simulated"
+            },
+            {
+              "a": "DK",
+              "b": "IG",
+              "winner": "DK",
+              "p_a_single_game": 0.6127356791376364,
+              "p_a_series": 0.7043246809903015,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "final",
+          "round": 3,
+          "record_before": null,
+          "best_of": 5,
+          "matches": [
+            {
+              "a": "BLG",
+              "b": "DK",
+              "winner": "BLG",
+              "p_a_single_game": 0.5302693478156834,
+              "p_a_series": 0.5566165106782202,
+              "status": "simulated"
+            }
+          ]
+        }
+      ],
+      "swiss_final_records": {
+        "GEN": "1-3",
+        "HLE": "3-1",
+        "T1": "2-3",
+        "DK": "3-2",
+        "AL": "2-3",
+        "BLG": "3-2",
+        "TES": "1-3",
+        "IG": "3-1",
+        "G2": "3-1",
+        "MKOI": "1-3",
+        "KC": "0-3",
+        "TLAW": "0-3",
+        "LYON": "3-2",
+        "TSW": "3-0",
+        "CFO": "3-0",
+        "LOS": "2-3"
+      },
+      "quarterfinal_bracket": [
+        {
+          "half": 0,
+          "teams": [
+            "CFO",
+            "BLG"
+          ]
+        },
+        {
+          "half": 0,
+          "teams": [
+            "LYON",
+            "G2"
+          ]
+        },
+        {
+          "half": 1,
+          "teams": [
+            "TSW",
+            "DK"
+          ]
+        },
+        {
+          "half": 1,
+          "teams": [
+            "HLE",
+            "IG"
+          ]
+        }
+      ],
+      "champion": "BLG"
+    }
+  },
+  {
+    "selection_reason": "First stored actual realization where HLE is eliminated in Swiss; not the most likely exit.",
+    "path": {
+      "simulation_index": 4,
+      "kind": "random_illustrative_realization",
+      "stages": [
+        {
+          "stage": "swiss",
+          "round": 1,
+          "record_before": "0-0",
+          "best_of": 1,
+          "matches": [
+            {
+              "a": "GEN",
+              "b": "IG",
+              "winner": "GEN",
+              "p_a_single_game": 0.7103663749110563,
+              "p_a_series": 0.7103663749110563,
+              "status": "simulated"
+            },
+            {
+              "a": "HLE",
+              "b": "TES",
+              "winner": "HLE",
+              "p_a_single_game": 0.6360505929954162,
+              "p_a_series": 0.6360505929954162,
+              "status": "simulated"
+            },
+            {
+              "a": "BLG",
+              "b": "MKOI",
+              "winner": "BLG",
+              "p_a_single_game": 0.7004069364049575,
+              "p_a_series": 0.7004069364049575,
+              "status": "simulated"
+            },
+            {
+              "a": "AL",
+              "b": "KC",
+              "winner": "KC",
+              "p_a_single_game": 0.5171084106107522,
+              "p_a_series": 0.5171084106107522,
+              "status": "simulated"
+            },
+            {
+              "a": "G2",
+              "b": "DK",
+              "winner": "DK",
+              "p_a_single_game": 0.4410449023153706,
+              "p_a_series": 0.4410449023153706,
+              "status": "simulated"
+            },
+            {
+              "a": "TLAW",
+              "b": "CFO",
+              "winner": "TLAW",
+              "p_a_single_game": 0.6400577037828609,
+              "p_a_series": 0.6400577037828609,
+              "status": "simulated"
+            },
+            {
+              "a": "LOS",
+              "b": "T1",
+              "winner": "LOS",
+              "p_a_single_game": 0.2760125187276291,
+              "p_a_series": 0.2760125187276291,
+              "status": "simulated"
+            },
+            {
+              "a": "TSW",
+              "b": "LYON",
+              "winner": "TSW",
+              "p_a_single_game": 0.49556569411917106,
+              "p_a_series": 0.49556569411917106,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 2,
+          "record_before": "1-0",
+          "best_of": 1,
+          "matches": [
+            {
+              "a": "GEN",
+              "b": "TSW",
+              "winner": "TSW",
+              "p_a_single_game": 0.7107551653957301,
+              "p_a_series": 0.7107551653957301,
+              "status": "simulated"
+            },
+            {
+              "a": "HLE",
+              "b": "DK",
+              "winner": "DK",
+              "p_a_single_game": 0.5451519767832118,
+              "p_a_series": 0.5451519767832118,
+              "status": "simulated"
+            },
+            {
+              "a": "BLG",
+              "b": "LOS",
+              "winner": "LOS",
+              "p_a_single_game": 0.7279461675545873,
+              "p_a_series": 0.7279461675545873,
+              "status": "simulated"
+            },
+            {
+              "a": "KC",
+              "b": "TLAW",
+              "winner": "KC",
+              "p_a_single_game": 0.5307778373270056,
+              "p_a_series": 0.5307778373270056,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 2,
+          "record_before": "0-1",
+          "best_of": 1,
+          "matches": [
+            {
+              "a": "T1",
+              "b": "MKOI",
+              "winner": "MKOI",
+              "p_a_single_game": 0.6962156270087246,
+              "p_a_series": 0.6962156270087246,
+              "status": "simulated"
+            },
+            {
+              "a": "AL",
+              "b": "IG",
+              "winner": "AL",
+              "p_a_single_game": 0.5477764917762351,
+              "p_a_series": 0.5477764917762351,
+              "status": "simulated"
+            },
+            {
+              "a": "TES",
+              "b": "LYON",
+              "winner": "LYON",
+              "p_a_single_game": 0.5164542461698034,
+              "p_a_series": 0.5164542461698034,
+              "status": "simulated"
+            },
+            {
+              "a": "G2",
+              "b": "CFO",
+              "winner": "G2",
+              "p_a_single_game": 0.6894683192527602,
+              "p_a_series": 0.6894683192527602,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 3,
+          "record_before": "2-0",
+          "best_of": 3,
+          "matches": [
+            {
+              "a": "DK",
+              "b": "TSW",
+              "winner": "DK",
+              "p_a_single_game": 0.6131839105813189,
+              "p_a_series": 0.6668759588021973,
+              "status": "simulated"
+            },
+            {
+              "a": "KC",
+              "b": "LOS",
+              "winner": "KC",
+              "p_a_single_game": 0.6288229785360844,
+              "p_a_series": 0.68895874044578,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 3,
+          "record_before": "1-1",
+          "best_of": 1,
+          "matches": [
+            {
+              "a": "GEN",
+              "b": "TLAW",
+              "winner": "TLAW",
+              "p_a_single_game": 0.7103743132717039,
+              "p_a_series": 0.7103743132717039,
+              "status": "simulated"
+            },
+            {
+              "a": "HLE",
+              "b": "MKOI",
+              "winner": "MKOI",
+              "p_a_single_game": 0.7128273880250875,
+              "p_a_series": 0.7128273880250875,
+              "status": "simulated"
+            },
+            {
+              "a": "AL",
+              "b": "BLG",
+              "winner": "BLG",
+              "p_a_single_game": 0.40411473017303157,
+              "p_a_series": 0.40411473017303157,
+              "status": "simulated"
+            },
+            {
+              "a": "G2",
+              "b": "LYON",
+              "winner": "G2",
+              "p_a_single_game": 0.5513256056097604,
+              "p_a_series": 0.5513256056097604,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 3,
+          "record_before": "0-2",
+          "best_of": 3,
+          "matches": [
+            {
+              "a": "T1",
+              "b": "TES",
+              "winner": "T1",
+              "p_a_single_game": 0.6173900884909839,
+              "p_a_series": 0.672849760266979,
+              "status": "simulated"
+            },
+            {
+              "a": "IG",
+              "b": "CFO",
+              "winner": "IG",
+              "p_a_single_game": 0.640066588902227,
+              "p_a_series": 0.7046040487732195,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 4,
+          "record_before": "2-1",
+          "best_of": 3,
+          "matches": [
+            {
+              "a": "BLG",
+              "b": "TLAW",
+              "winner": "BLG",
+              "p_a_single_game": 0.641096064312757,
+              "p_a_series": 0.706026187532565,
+              "status": "simulated"
+            },
+            {
+              "a": "G2",
+              "b": "MKOI",
+              "winner": "G2",
+              "p_a_single_game": 0.620324455974203,
+              "p_a_series": 0.6770025751012123,
+              "status": "simulated"
+            },
+            {
+              "a": "TSW",
+              "b": "LOS",
+              "winner": "TSW",
+              "p_a_single_game": 0.5991740337594776,
+              "p_a_series": 0.6468102004084912,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 4,
+          "record_before": "1-2",
+          "best_of": 3,
+          "matches": [
+            {
+              "a": "GEN",
+              "b": "AL",
+              "winner": "GEN",
+              "p_a_single_game": 0.6693734442392745,
+              "p_a_series": 0.7443424111961945,
+              "status": "simulated"
+            },
+            {
+              "a": "HLE",
+              "b": "IG",
+              "winner": "HLE",
+              "p_a_single_game": 0.6547496941843431,
+              "p_a_series": 0.7247128146239152,
+              "status": "simulated"
+            },
+            {
+              "a": "T1",
+              "b": "LYON",
+              "winner": "T1",
+              "p_a_single_game": 0.6328223765677086,
+              "p_a_series": 0.694547117571167,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "swiss",
+          "round": 5,
+          "record_before": "2-2",
+          "best_of": 3,
+          "matches": [
+            {
+              "a": "GEN",
+              "b": "HLE",
+              "winner": "GEN",
+              "p_a_single_game": 0.5639068599379986,
+              "p_a_series": 0.5953382875875501,
+              "status": "simulated"
+            },
+            {
+              "a": "T1",
+              "b": "TLAW",
+              "winner": "TLAW",
+              "p_a_single_game": 0.6365072550474162,
+              "p_a_series": 0.6996734672108718,
+              "status": "simulated"
+            },
+            {
+              "a": "MKOI",
+              "b": "LOS",
+              "winner": "LOS",
+              "p_a_single_game": 0.5336694002878127,
+              "p_a_series": 0.5504277632471708,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "quarterfinal",
+          "round": 1,
+          "record_before": null,
+          "best_of": 5,
+          "matches": [
+            {
+              "a": "DK",
+              "b": "TLAW",
+              "winner": "TLAW",
+              "p_a_single_game": 0.6127448295192479,
+              "p_a_series": 0.7043401377337288,
+              "status": "simulated"
+            },
+            {
+              "a": "LOS",
+              "b": "BLG",
+              "winner": "BLG",
+              "p_a_single_game": 0.27205383244541265,
+              "p_a_series": 0.1281282955001712,
+              "status": "simulated"
+            },
+            {
+              "a": "KC",
+              "b": "GEN",
+              "winner": "GEN",
+              "p_a_single_game": 0.3156466773933661,
+              "p_a_series": 0.18438718330512094,
+              "status": "simulated"
+            },
+            {
+              "a": "TSW",
+              "b": "G2",
+              "winner": "G2",
+              "p_a_single_game": 0.4442905824857447,
+              "p_a_series": 0.3964061044222285,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "semifinal",
+          "round": 2,
+          "record_before": null,
+          "best_of": 5,
+          "matches": [
+            {
+              "a": "TLAW",
+              "b": "BLG",
+              "winner": "TLAW",
+              "p_a_single_game": 0.35890393568724294,
+              "p_a_series": 0.2491541260870161,
+              "status": "simulated"
+            },
+            {
+              "a": "GEN",
+              "b": "G2",
+              "winner": "GEN",
+              "p_a_single_game": 0.6626559050768458,
+              "p_a_series": 0.784146056985527,
+              "status": "simulated"
+            }
+          ]
+        },
+        {
+          "stage": "final",
+          "round": 3,
+          "record_before": null,
+          "best_of": 5,
+          "matches": [
+            {
+              "a": "TLAW",
+              "b": "GEN",
+              "winner": "GEN",
+              "p_a_single_game": 0.28962568672829625,
+              "p_a_series": 0.14962883481638245,
+              "status": "simulated"
+            }
+          ]
+        }
+      ],
+      "swiss_final_records": {
+        "GEN": "3-2",
+        "HLE": "2-3",
+        "T1": "2-3",
+        "DK": "3-0",
+        "AL": "1-3",
+        "BLG": "3-1",
+        "TES": "0-3",
+        "IG": "1-3",
+        "G2": "3-1",
+        "MKOI": "2-3",
+        "KC": "3-0",
+        "TLAW": "3-2",
+        "LYON": "1-3",
+        "TSW": "3-1",
+        "CFO": "0-3",
+        "LOS": "3-2"
+      },
+      "quarterfinal_bracket": [
+        {
+          "half": 0,
+          "teams": [
+            "DK",
+            "TLAW"
+          ]
+        },
+        {
+          "half": 0,
+          "teams": [
+            "LOS",
+            "BLG"
+          ]
+        },
+        {
+          "half": 1,
+          "teams": [
+            "KC",
+            "GEN"
+          ]
+        },
+        {
+          "half": 1,
+          "teams": [
+            "TSW",
+            "G2"
+          ]
+        }
+      ],
+      "champion": "GEN"
+    }
+  }
+]

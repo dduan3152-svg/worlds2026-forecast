@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "cutoff": "2026-10-23T07:25:50Z",
+  "sources": [
+    {
+      "id": "riot_primer",
+      "url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+      "retrieved_on": "2026-10-23",
+      "knowledge_cutoff": "2026-10-23T07:25:50Z",
+      "web_reference": "turn35view1",
+      "type": "official_primary",
+      "access_status": "page_opened",
+      "claims": [
+        "Official list of qualified team identities and regions.",
+        "First Swiss match starts October 23 at 12:00 CDT / October 24 at 01:00 China time.",
+        "First-round draw tiers and matching structure."
+      ]
+    },
+    {
+      "id": "riot_overview",
+      "url": "https://lolesports.com/en-US/tournament/115660540725177488/overview",
+      "retrieved_on": "2026-10-23",
+      "knowledge_cutoff": "2026-10-23T07:25:50Z",
+      "web_reference": "turn43view1",
+      "type": "official_primary",
+      "access_status": "page_opened",
+      "claims": [
+        "Official 2026 Worlds entrants by region, including LOS and KC.",
+        "Swiss stage has 16 teams."
+      ]
+    },
+    {
+      "id": "riot_schedule",
+      "url": "https://lolesports.com/zh-TW/",
+      "retrieved_on": "2026-10-23",
+      "knowledge_cutoff": "2026-10-23T07:25:50Z",
+      "web_reference": "turn43view0",
+      "type": "official_primary",
+      "access_status": "page_opened",
+      "claims": [
+        "Riot schedule records LOS 3-2 FURIA on October 10.",
+        "Riot schedule records KC 3-0 MVK in the October 18 Play-In final."
+      ]
+    },
+    {
+      "id": "tencent_round1",
+      "url": "https://lol.qq.com/news/space-detail.shtml?docid=12269142849346097404",
+      "retrieved_on": "2026-10-23",
+      "knowledge_cutoff": "2026-10-23T07:25:50Z",
+      "web_reference": "turn38search0",
+      "type": "official_primary",
+      "access_status": "search_excerpt_only_full_open_failed",
+      "claims": [
+        "Official Tencent/LoL Esports 2026-10-20 first-round schedule announcement.",
+        "Search excerpt confirms October 24 opener at 01:00, GEN-IG; complete schedule cross-checked with CNMO."
+      ]
+    },
+    {
+      "id": "cnmo_round1",
+      "url": "https://feng.ifeng.com/c/8xN9PJ6IRc5",
+      "retrieved_on": "2026-10-23",
+      "knowledge_cutoff": "2026-10-23T07:25:50Z",
+      "web_reference": "turn42view0",
+      "type": "esports_reporting",
+      "access_status": "page_opened",
+      "claims": [
+        "Complete eight-pair first-round order and approximate Beijing start times, attributed to LoL Esports official announcement."
+      ]
+    },
+    {
+      "id": "gosu_rosters",
+      "url": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+      "retrieved_on": "2026-10-23",
+      "knowledge_cutoff": "2026-10-23T07:25:50Z",
+      "web_reference": "turn35view0",
+      "type": "esports_reporting",
+      "access_status": "page_opened",
+      "claims": [
+        "All 16 Swiss participants' reported five-player Worlds rosters.",
+        "Regional seed positions except the then-pending CBLOL final."
+      ]
+    },
+    {
+      "id": "strafe_lck",
+      "url": "https://www.strafe.com/news/read/all-lck-teams-at-worlds-2026-and-how-they-qualified/",
+      "retrieved_on": "2026-10-23",
+      "knowledge_cutoff": "2026-10-23T07:25:50Z",
+      "web_reference": "turn38view1",
+      "type": "esports_reporting",
+      "access_status": "page_opened",
+      "claims": [
+        "All four LCK regional seeds and five-player Worlds rosters, including Peyz on T1 and Smash/Career on DK."
+      ]
+    },
+    {
+      "id": "tipsgg_rosters",
+      "url": "https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+      "retrieved_on": "2026-10-23",
+      "knowledge_cutoff": "2026-10-23T07:25:50Z",
+      "web_reference": "turn39view3",
+      "type": "esports_reporting",
+      "access_status": "page_opened",
+      "claims": [
+        "All 19 qualified teams' reported rosters, corroborating the 16 Swiss roster entries.",
+        "LOS regional first seed; TES uses 369; BLG uses Bin and Viper."
+      ]
+    },
+    {
+      "id": "esports_seeds",
+      "url": "https://esports.gg/news/all-teams-qualified-to-league-of-legends-2026-world-championship",
+      "retrieved_on": "2026-10-23",
+      "knowledge_cutoff": "2026-10-23T07:25:50Z",
+      "web_reference": "turn41view2",
+      "type": "esports_reporting",
+      "access_status": "page_opened",
+      "claims": [
+        "Regional seeds for all 19 qualified teams, including LOS first and KC third."
+      ]
+    },
+    {
+      "id": "tes_visa",
+      "url": "https://news.zhibo8.com/game/2026-10-06/6ac484c493fe3native.htm",
+      "retrieved_on": "2026-10-23",
+      "knowledge_cutoff": "2026-10-23T07:25:50Z",
+      "web_reference": "turn47view0",
+      "type": "club_announcement_reproduced",
+      "access_status": "page_opened",
+      "claims": [
+        "Complete reproduced TES club announcement dated October 6: ZUIAN's first two US visa interviews unsuccessful; 369 added to starting lineup while a further attempt was pursued."
+      ]
+    },
+    {
+      "id": "tes_media_day",
+      "url": "https://news.zhibo8.com/game/2026-10-22/6ad96ac33fb35native.htm",
+      "retrieved_on": "2026-10-23",
+      "knowledge_cutoff": "2026-10-23T07:25:50Z",
+      "web_reference": "turn39view1",
+      "type": "esports_reporting",
+      "access_status": "page_opened",
+      "claims": [
+        "October 22 JackeyLove media-day interview: 369 returned, was recovering form and practicing with the team, and was expected to play."
+      ]
+    }
+  ],
+  "evidence_notes": [
+    "This is a fresh 2026-10-23 roster/state verification. Earlier predictions are not treated as evidence.",
+    "Spelling/case of handles is normalized across reports (e.g. knight, Xun, POUT, kyeahoo, Zest) without changing player identity.",
+    "The source roster list is pre-match and does not prove the final submitted five for an individual game.",
+    "All starting roles have at least one opened esports source; LCK starters, BLG Bin/Viper, T1 Peyz, DK Smash and the TES top-lane substitution were explicitly cross-checked.",
+    "No analyst power rankings, betting odds, Reddit comments, unverified training results, or speculative visa updates enter the team/state files.",
+    "The data contains only player handles, team mappings, dates and short factual paraphrases; no article text is reproduced.",
+    "Source web references are retrieval provenance. Stable URLs are the primary reusable citations."
+  ],
+  "missing_fields": [],
+  "excluded_claims": [
+    {
+      "claim": "ZUIAN is permanently absent for all of Worlds or will definitely return by a particular round",
+      "reason": "Not established by the verified club announcement and October 22 player interview."
+    },
+    {
+      "claim": "Every last-minute first-round submitted lineup equals the pre-event roster",
+      "reason": "No game-specific first-round lineup cards were independently verified before cutoff."
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "status": "passed",
+  "method": "actual PNG visual inspection via view_image after rendering; data invariant checks in build_figures.py --strict",
+  "checks": [
+    "Chinese glyphs rendered with verified Noto font",
+    "Heatmap row/column interpretation and labels clear; top label overlap corrected",
+    "Champion 19-team chart shows 90% model bootstrap interval separately from 95% Monte Carlo numerical error",
+    "Favorite-perspective calibration shows four nonempty bins, map weights and empty high bin without a point",
+    "Swiss bars sum to 100%, qualifier markers and labels readable",
+    "Cutoff and source notes present; chart footers and legends do not overlap",
+    "Heatmap side footnote refined to refer only to unknown future selections; historical side used by the model is not denied"
+  ],
+  "files": [
+    {
+      "path": "worlds2026-model-v1/figures/01_matchup_matrix_bo1.png",
+      "pixels": [
+        2657,
+        2676
+      ],
+      "bytes": 743527,
+      "sha256": "fc5dc72a9fdce7468f252a62732e601576456c322f909a337b9b0ed423b1ac5a"
+    },
+    {
+      "path": "worlds2026-model-v1/figures/02_champion_probabilities.png",
+      "pixels": [
+        2312,
+        2179
+      ],
+      "bytes": 312595,
+      "sha256": "c9e6be8bb2b8d6852b39c9c842cc279968cd61a899569a2e805ef3e0b22ec3ba"
+    },
+    {
+      "path": "worlds2026-model-v1/figures/03_calibration.png",
+      "pixels": [
+        2194,
+        2303
+      ],
+      "bytes": 299723,
+      "sha256": "ac28b8788e5f046f2cd3184c05bb504bbeb625f68bb726bf54203089c28dd2da"
+    },
+    {
+      "path": "worlds2026-model-v1/figures/04_swiss_records.png",
+      "pixels": [
+        2382,
+        2179
+      ],
+      "bytes": 468832,
+      "sha256": "014cec1188d0cd4372ac70c7c6f77f9d4bc0086afd8673b2aa9c22c819ed39c2"
+    }
+  ],
+  "final_complete_decode_verification_utc": "2026-10-23T08:02:03.913439+00:00",
+  "final_complete_decode_verification": [
+    {
+      "path": "figures/01_matchup_matrix_bo1.png",
+      "bytes": 743527,
+      "sha256": "fc5dc72a9fdce7468f252a62732e601576456c322f909a337b9b0ed423b1ac5a",
+      "pixels": [
+        2657,
+        2676
+      ],
+      "PIL_verify": "passed",
+      "PIL_load": "passed"
+    },
+    {
+      "path": "figures/02_champion_probabilities.png",
+      "bytes": 312595,
+      "sha256": "c9e6be8bb2b8d6852b39c9c842cc279968cd61a899569a2e805ef3e0b22ec3ba",
+      "pixels": [
+        2312,
+        2179
+      ],
+      "PIL_verify": "passed",
+      "PIL_load": "passed"
+    },
+    {
+      "path": "figures/03_calibration.png",
+      "bytes": 299723,
+      "sha256": "ac28b8788e5f046f2cd3184c05bb504bbeb625f68bb726bf54203089c28dd2da",
+      "pixels": [
+        2194,
+        2303
+      ],
+      "PIL_verify": "passed",
+      "PIL_load": "passed"
+    },
+    {
+      "path": "figures/04_swiss_records.png",
+      "bytes": 468832,
+      "sha256": "014cec1188d0cd4372ac70c7c6f77f9d4bc0086afd8673b2aa9c22c819ed39c2",
+      "pixels": [
+        2382,
+        2179
+      ],
+      "PIL_verify": "passed",
+      "PIL_load": "passed"
+    }
+  ]
+}

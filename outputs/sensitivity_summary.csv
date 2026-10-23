@@ -1,0 +1,17 @@
+scenario,description,n_completed,seed,leader,leader_champion_probability,draw_method,half_life,model_is_refit,all_invariants_passed
+baseline,Primary fitted model,100000,20261023,GEN,0.3413,next_available_slot,120.0,False,True
+half_life_30,"30-day recency stress, other parameters fixed",100000,20261023,GEN,0.23103,next_available_slot,30.0,True,True
+half_life_365,"365-day recency stress, other parameters fixed",100000,20261023,GEN,0.35621,next_available_slot,365.0,True,True
+international_half_weight,Known cross-region maps weighted 0.5x,100000,20261023,GEN,0.32011,next_available_slot,120.0,True,True
+international_double_weight,Known cross-region maps weighted 2x,100000,20261023,GEN,0.34751,next_available_slot,120.0,True,True
+uniform_legal_draw,Alternative draw distribution; same strength matrix,100000,20261023,GEN,0.3414,uniform_valid,120.0,False,True
+exclude_EWC,Drop EWC main as event-composition sensitivity,100000,20261023,GEN,0.319,next_available_slot,120.0,True,True
+extended_events,"Include EWC qualifiers and DCGI, without retuning",100000,20261023,GEN,0.34313,next_available_slot,120.0,True,True
+lpl_strength_plus_0p30,"Assumed unobserved region drift: LPL +0.30 logit, not estimated",100000,20261023,GEN,0.29563,next_available_slot,120.0,False,True
+lck_strength_plus_0p30,"Assumed unobserved region drift: LCK +0.30 logit, not estimated",100000,20261023,GEN,0.38585,next_available_slot,120.0,False,True
+tes_roster_minus_0p30,"TES roster stress: -0.30 logit, not measured player impact",100000,20261023,GEN,0.34303,next_available_slot,120.0,False,True
+tes_roster_plus_0p30,"TES roster stress: +0.30 logit, not measured player impact",100000,20261023,GEN,0.336,next_available_slot,120.0,False,True
+series_correlation_0.10,"Unestimated intra-series exchangeable Bernoulli correlation rho=0.1; Beta-mixture stress scenario, unchanged mean map probability.",100000,20261023,GEN,0.30116,next_available_slot,120.0,False,True
+series_correlation_0.25,"Unestimated intra-series exchangeable Bernoulli correlation rho=0.25; Beta-mixture stress scenario, unchanged mean map probability.",100000,20261023,GEN,0.26539,next_available_slot,120.0,False,True
+lineup_transfer_0.50,"Historical map likelihood weight x0.5 per team whose observed lineup differs from the final-cutoff reported/current lineup; descriptive sensitivity, not validated or causal player effect.",100000,20261023,GEN,0.30768,next_available_slot,120.0,True,True
+lineup_transfer_0.25,"Historical map likelihood weight x0.25 per team whose observed lineup differs from the final-cutoff reported/current lineup; descriptive sensitivity, not validated or causal player effect.",100000,20261023,GEN,0.28819,next_available_slot,120.0,True,True

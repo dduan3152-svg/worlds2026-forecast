@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "cutoff_utc": "2026-10-23T07:25:50Z",
+  "cutoff_beijing": "2026-10-23T15:25:50+08:00",
+  "dataset_snapshot": "chaincc_2026_20261022_plus_riot_residuals",
+  "primary_selection": "major_leagues_and_international_mains",
+  "excluded_from_primary": ["EWC_qualifier", "DCGI"],
+  "included_from_primary": ["LCK", "LPL", "LEC", "LCS", "LCP", "CBLOL", "FST", "MSI", "AC", "EWC_main", "LPL_RQ", "WORLDS"],
+  "grid_half_life_days": [30, 60, 120, 365],
+  "grid_ridge": [0.25, 1.0, 4.0],
+  "grid_temperature": [0.8, 1.0, 1.2, 1.5],
+  "tuning_folds": [
+    ["2026-05-01T00:00:00Z", "2026-06-01T00:00:00Z"],
+    ["2026-06-01T00:00:00Z", "2026-07-01T00:00:00Z"],
+    ["2026-07-01T00:00:00Z", "2026-08-01T00:00:00Z"]
+  ],
+  "test_folds": [
+    ["2026-08-01T00:00:00Z", "2026-09-01T00:00:00Z"],
+    ["2026-09-01T00:00:00Z", "2026-10-01T00:00:00Z"],
+    ["2026-10-01T00:00:00Z", "2026-10-23T07:25:50Z"]
+  ],
+  "elo_k": 20,
+  "elo_scale": 400,
+  "future_side": "independent 50:50 marginal per map; not an estimated First Selection policy",
+  "series_assumption": "IID conditional on fixed team strengths; no estimated Fearless adaptation",
+  "simulation_seed": 20261023,
+  "simulation_count": 100000,
+  "draw_method": "next_available_slot",
+  "sensitivity_count_each": 100000,
+  "bootstrap_seed": 20261024,
+  "bootstrap_replicates": 200,
+  "bootstrap_simulations_each": 10000,
+  "bootstrap_interval": [0.05, 0.95],
+  "bootstrap_method": "Independent Exp(1) weights per complete series, normalized to mean 1; same fixed hyperparameters, refit strengths and side coefficient; each simulated tournament uses one fixed parameter vector.",
+  "uncertainty_label": "90% series-cluster weighted-bootstrap model-resampling interval; not a validated frequentist coverage guarantee or a complete model-risk interval",
+  "precision_policy": "Public probabilities generally one decimal percentage point; round small nonzero estimates to <0.1%, retain full machine precision in CSV."
+}

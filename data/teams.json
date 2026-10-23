@@ -1,0 +1,1005 @@
+[
+  {
+    "code": "GEN",
+    "name": "Gen.G",
+    "region": "LCK",
+    "seed": 1,
+    "draw_tier": 1,
+    "as_of": "2026-10-23T07:25:50Z",
+    "roster": [
+      {
+        "role": "TOP",
+        "player": "Kiin",
+        "status": "reported_worlds_starter",
+        "source": "https://www.strafe.com/news/read/all-lck-teams-at-worlds-2026-and-how-they-qualified/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "JUNGLE",
+        "player": "Canyon",
+        "status": "reported_worlds_starter",
+        "source": "https://www.strafe.com/news/read/all-lck-teams-at-worlds-2026-and-how-they-qualified/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "MID",
+        "player": "Chovy",
+        "status": "reported_worlds_starter",
+        "source": "https://www.strafe.com/news/read/all-lck-teams-at-worlds-2026-and-how-they-qualified/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "BOT",
+        "player": "Ruler",
+        "status": "reported_worlds_starter",
+        "source": "https://www.strafe.com/news/read/all-lck-teams-at-worlds-2026-and-how-they-qualified/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "SUPPORT",
+        "player": "Duro",
+        "status": "reported_worlds_starter",
+        "source": "https://www.strafe.com/news/read/all-lck-teams-at-worlds-2026-and-how-they-qualified/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      }
+    ],
+    "notes": [
+      "Roster records the reported five expected to start Worlds, not every registered substitute; individual game lineups can change."
+    ],
+    "seed_source": "https://esports.gg/news/all-teams-qualified-to-league-of-legends-2026-world-championship",
+    "team_name_source": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+    "draw_tier_source": "https://lolesports.com/en-GB/news/worlds-2026-primer"
+  },
+  {
+    "code": "HLE",
+    "name": "Hanwha Life Esports",
+    "region": "LCK",
+    "seed": 2,
+    "draw_tier": 2,
+    "as_of": "2026-10-23T07:25:50Z",
+    "roster": [
+      {
+        "role": "TOP",
+        "player": "Zeus",
+        "status": "reported_worlds_starter",
+        "source": "https://www.strafe.com/news/read/all-lck-teams-at-worlds-2026-and-how-they-qualified/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "JUNGLE",
+        "player": "Kanavi",
+        "status": "reported_worlds_starter",
+        "source": "https://www.strafe.com/news/read/all-lck-teams-at-worlds-2026-and-how-they-qualified/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "MID",
+        "player": "Zeka",
+        "status": "reported_worlds_starter",
+        "source": "https://www.strafe.com/news/read/all-lck-teams-at-worlds-2026-and-how-they-qualified/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "BOT",
+        "player": "Gumayusi",
+        "status": "reported_worlds_starter",
+        "source": "https://www.strafe.com/news/read/all-lck-teams-at-worlds-2026-and-how-they-qualified/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "SUPPORT",
+        "player": "Delight",
+        "status": "reported_worlds_starter",
+        "source": "https://www.strafe.com/news/read/all-lck-teams-at-worlds-2026-and-how-they-qualified/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      }
+    ],
+    "notes": [
+      "Roster records the reported five expected to start Worlds, not every registered substitute; individual game lineups can change."
+    ],
+    "seed_source": "https://esports.gg/news/all-teams-qualified-to-league-of-legends-2026-world-championship",
+    "team_name_source": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+    "draw_tier_source": "https://lolesports.com/en-GB/news/worlds-2026-primer"
+  },
+  {
+    "code": "T1",
+    "name": "T1",
+    "region": "LCK",
+    "seed": 3,
+    "draw_tier": 3,
+    "as_of": "2026-10-23T07:25:50Z",
+    "roster": [
+      {
+        "role": "TOP",
+        "player": "Doran",
+        "status": "reported_worlds_starter",
+        "source": "https://www.strafe.com/news/read/all-lck-teams-at-worlds-2026-and-how-they-qualified/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "JUNGLE",
+        "player": "Oner",
+        "status": "reported_worlds_starter",
+        "source": "https://www.strafe.com/news/read/all-lck-teams-at-worlds-2026-and-how-they-qualified/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "MID",
+        "player": "Faker",
+        "status": "reported_worlds_starter",
+        "source": "https://www.strafe.com/news/read/all-lck-teams-at-worlds-2026-and-how-they-qualified/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "BOT",
+        "player": "Peyz",
+        "status": "reported_worlds_starter",
+        "source": "https://www.strafe.com/news/read/all-lck-teams-at-worlds-2026-and-how-they-qualified/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "SUPPORT",
+        "player": "Keria",
+        "status": "reported_worlds_starter",
+        "source": "https://www.strafe.com/news/read/all-lck-teams-at-worlds-2026-and-how-they-qualified/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      }
+    ],
+    "notes": [
+      "Roster records the reported five expected to start Worlds, not every registered substitute; individual game lineups can change.",
+      "Peyz is the 2026 starting bot laner."
+    ],
+    "seed_source": "https://esports.gg/news/all-teams-qualified-to-league-of-legends-2026-world-championship",
+    "team_name_source": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+    "draw_tier_source": "https://lolesports.com/en-GB/news/worlds-2026-primer"
+  },
+  {
+    "code": "DK",
+    "name": "Dplus KIA",
+    "region": "LCK",
+    "seed": 4,
+    "draw_tier": 4,
+    "as_of": "2026-10-23T07:25:50Z",
+    "roster": [
+      {
+        "role": "TOP",
+        "player": "Siwoo",
+        "status": "reported_worlds_starter",
+        "source": "https://www.strafe.com/news/read/all-lck-teams-at-worlds-2026-and-how-they-qualified/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "JUNGLE",
+        "player": "Lucid",
+        "status": "reported_worlds_starter",
+        "source": "https://www.strafe.com/news/read/all-lck-teams-at-worlds-2026-and-how-they-qualified/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "MID",
+        "player": "ShowMaker",
+        "status": "reported_worlds_starter",
+        "source": "https://www.strafe.com/news/read/all-lck-teams-at-worlds-2026-and-how-they-qualified/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "BOT",
+        "player": "Smash",
+        "status": "reported_worlds_starter",
+        "source": "https://www.strafe.com/news/read/all-lck-teams-at-worlds-2026-and-how-they-qualified/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "SUPPORT",
+        "player": "Career",
+        "status": "reported_worlds_starter",
+        "source": "https://www.strafe.com/news/read/all-lck-teams-at-worlds-2026-and-how-they-qualified/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      }
+    ],
+    "notes": [
+      "Roster records the reported five expected to start Worlds, not every registered substitute; individual game lineups can change.",
+      "Smash is the 2026 starting bot laner; Career is support."
+    ],
+    "seed_source": "https://esports.gg/news/all-teams-qualified-to-league-of-legends-2026-world-championship",
+    "team_name_source": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+    "draw_tier_source": "https://lolesports.com/en-GB/news/worlds-2026-primer"
+  },
+  {
+    "code": "AL",
+    "name": "Anyone's Legend",
+    "region": "LPL",
+    "seed": 1,
+    "draw_tier": 1,
+    "as_of": "2026-10-23T07:25:50Z",
+    "roster": [
+      {
+        "role": "TOP",
+        "player": "Breathe",
+        "status": "reported_worlds_starter",
+        "source": "https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026"
+        ]
+      },
+      {
+        "role": "JUNGLE",
+        "player": "Tarzan",
+        "status": "reported_worlds_starter",
+        "source": "https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026"
+        ]
+      },
+      {
+        "role": "MID",
+        "player": "Shanks",
+        "status": "reported_worlds_starter",
+        "source": "https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026"
+        ]
+      },
+      {
+        "role": "BOT",
+        "player": "Hope",
+        "status": "reported_worlds_starter",
+        "source": "https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026"
+        ]
+      },
+      {
+        "role": "SUPPORT",
+        "player": "Kael",
+        "status": "reported_worlds_starter",
+        "source": "https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026"
+        ]
+      }
+    ],
+    "notes": [
+      "Roster records the reported five expected to start Worlds, not every registered substitute; individual game lineups can change."
+    ],
+    "seed_source": "https://esports.gg/news/all-teams-qualified-to-league-of-legends-2026-world-championship",
+    "team_name_source": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+    "draw_tier_source": "https://lolesports.com/en-GB/news/worlds-2026-primer"
+  },
+  {
+    "code": "BLG",
+    "name": "Bilibili Gaming",
+    "region": "LPL",
+    "seed": 2,
+    "draw_tier": 2,
+    "as_of": "2026-10-23T07:25:50Z",
+    "roster": [
+      {
+        "role": "TOP",
+        "player": "Bin",
+        "status": "reported_worlds_starter",
+        "source": "https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026"
+        ]
+      },
+      {
+        "role": "JUNGLE",
+        "player": "Xun",
+        "status": "reported_worlds_starter",
+        "source": "https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026"
+        ]
+      },
+      {
+        "role": "MID",
+        "player": "knight",
+        "status": "reported_worlds_starter",
+        "source": "https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026"
+        ]
+      },
+      {
+        "role": "BOT",
+        "player": "Viper",
+        "status": "reported_worlds_starter",
+        "source": "https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026"
+        ]
+      },
+      {
+        "role": "SUPPORT",
+        "player": "ON",
+        "status": "reported_worlds_starter",
+        "source": "https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026"
+        ]
+      }
+    ],
+    "notes": [
+      "Roster records the reported five expected to start Worlds, not every registered substitute; individual game lineups can change.",
+      "Bin is listed as the active top laner and Viper as bot; the earlier Bin leave is not treated as a current absence."
+    ],
+    "seed_source": "https://esports.gg/news/all-teams-qualified-to-league-of-legends-2026-world-championship",
+    "team_name_source": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+    "draw_tier_source": "https://lolesports.com/en-GB/news/worlds-2026-primer"
+  },
+  {
+    "code": "TES",
+    "name": "TOP Esports",
+    "region": "LPL",
+    "seed": 3,
+    "draw_tier": 3,
+    "as_of": "2026-10-23T07:25:50Z",
+    "roster": [
+      {
+        "role": "TOP",
+        "player": "369",
+        "status": "announced_replacement_starter",
+        "source": "https://news.zhibo8.com/game/2026-10-22/6ad96ac33fb35native.htm",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "JUNGLE",
+        "player": "Tian",
+        "status": "reported_worlds_starter",
+        "source": "https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026"
+        ]
+      },
+      {
+        "role": "MID",
+        "player": "Creme",
+        "status": "reported_worlds_starter",
+        "source": "https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026"
+        ]
+      },
+      {
+        "role": "BOT",
+        "player": "JackeyLove",
+        "status": "reported_worlds_starter",
+        "source": "https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026"
+        ]
+      },
+      {
+        "role": "SUPPORT",
+        "player": "Zhuo",
+        "status": "reported_worlds_starter",
+        "source": "https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026"
+        ]
+      }
+    ],
+    "notes": [
+      "Roster records the reported five expected to start Worlds, not every registered substitute; individual game lineups can change.",
+      "369 is the announced replacement for ZUIAN due to US visa problems. JackeyLove's 2026-10-22 media-day interview confirms 369 had returned and was preparing to play. No claim is made that ZUIAN is permanently ruled out for the entire tournament."
+    ],
+    "seed_source": "https://esports.gg/news/all-teams-qualified-to-league-of-legends-2026-world-championship",
+    "team_name_source": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+    "draw_tier_source": "https://lolesports.com/en-GB/news/worlds-2026-primer"
+  },
+  {
+    "code": "IG",
+    "name": "Shanghai Invictus Gaming Meituan",
+    "region": "LPL",
+    "seed": 4,
+    "draw_tier": 4,
+    "as_of": "2026-10-23T07:25:50Z",
+    "roster": [
+      {
+        "role": "TOP",
+        "player": "TheShy",
+        "status": "reported_worlds_starter",
+        "source": "https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026"
+        ]
+      },
+      {
+        "role": "JUNGLE",
+        "player": "Wei",
+        "status": "reported_worlds_starter",
+        "source": "https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026"
+        ]
+      },
+      {
+        "role": "MID",
+        "player": "Rookie",
+        "status": "reported_worlds_starter",
+        "source": "https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026"
+        ]
+      },
+      {
+        "role": "BOT",
+        "player": "JiaQi",
+        "status": "reported_worlds_starter",
+        "source": "https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026"
+        ]
+      },
+      {
+        "role": "SUPPORT",
+        "player": "Meiko",
+        "status": "reported_worlds_starter",
+        "source": "https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+        "corroborating_sources": [
+          "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026"
+        ]
+      }
+    ],
+    "notes": [
+      "Roster records the reported five expected to start Worlds, not every registered substitute; individual game lineups can change."
+    ],
+    "seed_source": "https://esports.gg/news/all-teams-qualified-to-league-of-legends-2026-world-championship",
+    "team_name_source": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+    "draw_tier_source": "https://lolesports.com/en-GB/news/worlds-2026-primer"
+  },
+  {
+    "code": "G2",
+    "name": "G2 Esports",
+    "region": "LEC",
+    "seed": 1,
+    "draw_tier": 1,
+    "as_of": "2026-10-23T07:25:50Z",
+    "roster": [
+      {
+        "role": "TOP",
+        "player": "BrokenBlade",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "JUNGLE",
+        "player": "SkewMond",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "MID",
+        "player": "Caps",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "BOT",
+        "player": "Hans Sama",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "SUPPORT",
+        "player": "Labrov",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      }
+    ],
+    "notes": [
+      "Roster records the reported five expected to start Worlds, not every registered substitute; individual game lineups can change."
+    ],
+    "seed_source": "https://esports.gg/news/all-teams-qualified-to-league-of-legends-2026-world-championship",
+    "team_name_source": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+    "draw_tier_source": "https://lolesports.com/en-GB/news/worlds-2026-primer"
+  },
+  {
+    "code": "MKOI",
+    "name": "Movistar KOI",
+    "region": "LEC",
+    "seed": 2,
+    "draw_tier": 3,
+    "as_of": "2026-10-23T07:25:50Z",
+    "roster": [
+      {
+        "role": "TOP",
+        "player": "Myrwn",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "JUNGLE",
+        "player": "Elyoya",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "MID",
+        "player": "jojopyun",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "BOT",
+        "player": "Supa",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "SUPPORT",
+        "player": "Alvaro",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      }
+    ],
+    "notes": [
+      "Roster records the reported five expected to start Worlds, not every registered substitute; individual game lineups can change."
+    ],
+    "seed_source": "https://esports.gg/news/all-teams-qualified-to-league-of-legends-2026-world-championship",
+    "team_name_source": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+    "draw_tier_source": "https://lolesports.com/en-GB/news/worlds-2026-primer"
+  },
+  {
+    "code": "KC",
+    "name": "Karmine Corp",
+    "region": "LEC",
+    "seed": 3,
+    "draw_tier": 4,
+    "as_of": "2026-10-23T07:25:50Z",
+    "roster": [
+      {
+        "role": "TOP",
+        "player": "Canna",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "JUNGLE",
+        "player": "Yike",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "MID",
+        "player": "kyeahoo",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "BOT",
+        "player": "Caliste",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "SUPPORT",
+        "player": "Busio",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      }
+    ],
+    "notes": [
+      "Roster records the reported five expected to start Worlds, not every registered substitute; individual game lineups can change.",
+      "Won Play-In final 3-0 against MVK on 2026-10-18 US event date, confirmed on Riot schedule; enters Swiss from draw tier 4."
+    ],
+    "seed_source": "https://esports.gg/news/all-teams-qualified-to-league-of-legends-2026-world-championship",
+    "team_name_source": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+    "draw_tier_source": "https://lolesports.com/en-GB/news/worlds-2026-primer"
+  },
+  {
+    "code": "TLAW",
+    "name": "Team Liquid Alienware",
+    "region": "LCS",
+    "seed": 1,
+    "draw_tier": 1,
+    "as_of": "2026-10-23T07:25:50Z",
+    "roster": [
+      {
+        "role": "TOP",
+        "player": "Morgan",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "JUNGLE",
+        "player": "Josedeodo",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "MID",
+        "player": "Quid",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "BOT",
+        "player": "Yeon",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "SUPPORT",
+        "player": "CoreJJ",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      }
+    ],
+    "notes": [
+      "Roster records the reported five expected to start Worlds, not every registered substitute; individual game lineups can change."
+    ],
+    "seed_source": "https://esports.gg/news/all-teams-qualified-to-league-of-legends-2026-world-championship",
+    "team_name_source": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+    "draw_tier_source": "https://lolesports.com/en-GB/news/worlds-2026-primer"
+  },
+  {
+    "code": "LYON",
+    "name": "LYON",
+    "region": "LCS",
+    "seed": 2,
+    "draw_tier": 3,
+    "as_of": "2026-10-23T07:25:50Z",
+    "roster": [
+      {
+        "role": "TOP",
+        "player": "Dhokla",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "JUNGLE",
+        "player": "Inspired",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "MID",
+        "player": "Saint",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "BOT",
+        "player": "Berserker",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "SUPPORT",
+        "player": "Isles",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      }
+    ],
+    "notes": [
+      "Roster records the reported five expected to start Worlds, not every registered substitute; individual game lineups can change."
+    ],
+    "seed_source": "https://esports.gg/news/all-teams-qualified-to-league-of-legends-2026-world-championship",
+    "team_name_source": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+    "draw_tier_source": "https://lolesports.com/en-GB/news/worlds-2026-primer"
+  },
+  {
+    "code": "TSW",
+    "name": "Team Secret Whales",
+    "region": "LCP",
+    "seed": 1,
+    "draw_tier": 2,
+    "as_of": "2026-10-23T07:25:50Z",
+    "roster": [
+      {
+        "role": "TOP",
+        "player": "Pun",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "JUNGLE",
+        "player": "Hizto",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "MID",
+        "player": "Dire",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "BOT",
+        "player": "Eddie",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "SUPPORT",
+        "player": "Bie",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      }
+    ],
+    "notes": [
+      "Roster records the reported five expected to start Worlds, not every registered substitute; individual game lineups can change."
+    ],
+    "seed_source": "https://esports.gg/news/all-teams-qualified-to-league-of-legends-2026-world-championship",
+    "team_name_source": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+    "draw_tier_source": "https://lolesports.com/en-GB/news/worlds-2026-primer"
+  },
+  {
+    "code": "CFO",
+    "name": "CTBC Flying Oyster",
+    "region": "LCP",
+    "seed": 2,
+    "draw_tier": 4,
+    "as_of": "2026-10-23T07:25:50Z",
+    "roster": [
+      {
+        "role": "TOP",
+        "player": "Rest",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "JUNGLE",
+        "player": "Shad0w",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "MID",
+        "player": "POUT",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "BOT",
+        "player": "Doggo",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "SUPPORT",
+        "player": "Kino",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      }
+    ],
+    "notes": [
+      "Roster records the reported five expected to start Worlds, not every registered substitute; individual game lineups can change."
+    ],
+    "seed_source": "https://esports.gg/news/all-teams-qualified-to-league-of-legends-2026-world-championship",
+    "team_name_source": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+    "draw_tier_source": "https://lolesports.com/en-GB/news/worlds-2026-primer"
+  },
+  {
+    "code": "LOS",
+    "name": "LOS",
+    "region": "CBLOL",
+    "seed": 1,
+    "draw_tier": 2,
+    "as_of": "2026-10-23T07:25:50Z",
+    "roster": [
+      {
+        "role": "TOP",
+        "player": "Zest",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "JUNGLE",
+        "player": "Curse",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "MID",
+        "player": "Feisty",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "BOT",
+        "player": "Duduhh",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      },
+      {
+        "role": "SUPPORT",
+        "player": "Ackerman",
+        "status": "reported_worlds_starter",
+        "source": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026",
+        "corroborating_sources": [
+          "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+        ]
+      }
+    ],
+    "notes": [
+      "Roster records the reported five expected to start Worlds, not every registered substitute; individual game lineups can change.",
+      "CBLOL number-one seed; Riot schedule records 3-2 over FURIA in the 2026-10-10 regional final."
+    ],
+    "seed_source": "https://esports.gg/news/all-teams-qualified-to-league-of-legends-2026-world-championship",
+    "team_name_source": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+    "draw_tier_source": "https://lolesports.com/en-GB/news/worlds-2026-primer"
+  }
+]

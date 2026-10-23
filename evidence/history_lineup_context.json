@@ -1,0 +1,55 @@
+{
+  "purpose": "Descriptive context for historically observed lineups; no change to frozen model, features, validation or probabilities.",
+  "cutoff_utc": "2026-10-23T07:25:50Z",
+  "TES": {
+    "finding": "ZUIAN and 369 are different players; the mismatch between latest observed TES lineup and reported Worlds lineup is a confirmed starting-player change, not a name alias.",
+    "official_announcement_date_local": "2026-10-06T13:16:47+08:00",
+    "official_announcement_source": "https://weibo.com/5449734852/Rlp1a8DYO",
+    "official_account_post_accessible_on_sina": "https://3g.sina.com.cn/news/detail/5351010602060310.html",
+    "source_identity": "Page identifies author as verified official Top Esports Weibo account.",
+    "announcement_summary": "The club said ZUIAN had not passed two visa interviews and could not travel with the initial team departure, so 369 would join the starters while another interview was sought.",
+    "access_note": "Original Weibo URL returned a restricted fetch error through web retrieval; the official-account post on Sina was accessible and read.",
+    "corroborating_report": "https://esports.gg/news/league-of-legends/tes-zuian-worlds-2026-visa-issues/",
+    "observed_primary_lineups": [
+      {
+        "players": {
+          "top": "369",
+          "jungle": "naiyou",
+          "mid": "Creme",
+          "bot": "JiaQi",
+          "support": "fengyue"
+        },
+        "actual_maps": 43,
+        "first_utc": "2026-01-14T12:37:55Z",
+        "last_utc": "2026-03-02T12:52:33Z"
+      },
+      {
+        "players": {
+          "top": "ZUIAN",
+          "jungle": "Tian",
+          "mid": "Creme",
+          "bot": "JackeyLove",
+          "support": "fengyue"
+        },
+        "actual_maps": 52,
+        "first_utc": "2026-04-04T07:13:58Z",
+        "last_utc": "2026-07-05T05:40:56Z"
+      },
+      {
+        "players": {
+          "top": "ZUIAN",
+          "jungle": "Tian",
+          "mid": "Creme",
+          "bot": "JackeyLove",
+          "support": "Zhuo"
+        },
+        "actual_maps": 45,
+        "first_utc": "2026-07-22T11:54:52Z",
+        "last_utc": "2026-09-17T12:10:40Z"
+      }
+    ],
+    "worlds_reported_exact_five_historical_maps": 0,
+    "interpretation": "The five expected Worlds starters have no exact-five match in the selected 2026 records. Existing 369 games involved different teammates. This limits a straightforward lineup adjustment; no uplift or penalty is inferred."
+  },
+  "normalization": "Case and whitespace only. Preserve ZUIAN, 369 and all other handles as different unless independently verified as aliases."
+}

@@ -1,0 +1,16 @@
+{
+  "all19_seat_sums": {
+    "qualified": 8.0,
+    "semifinalist": 4.0,
+    "finalist": 2.0,
+    "champion": 1.0
+  },
+  "three_all19_matrices_complementary": true,
+  "prediction_series_not_split_or_updated_midseries": true,
+  "observed_actual_maps": 2597,
+  "residual_count_rows": 2,
+  "calibration_map_count": 711,
+  "round2_vs_independent_analytic_max_standard_errors": 3.186271755077129,
+  "round2_analytic_condition": "All 16 teams are 0-0 at the frozen cutoff; later updated states require a different analytic check.",
+  "all_checks_passed": true
+}

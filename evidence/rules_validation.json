@@ -1,0 +1,255 @@
+{
+  "date": "2026-10-23",
+  "scope": "Synthetic numerical and tournament-mechanics validation; not fitted esports forecasts",
+  "simulator_sha256": "ebe6800753c7d61838eab2d7fae8ae515b25915766e27655b9d65b729671aefa",
+  "validation_runs": {
+    "next_available_slot": {
+      "n": 100000,
+      "seed": 20261023,
+      "elapsed_seconds": 1.863051328000438,
+      "equal_strength_champion_max_abs_z": 2.1686149189440407,
+      "checks": {
+        "wrong_record_pairings": 0,
+        "swiss_repeat_matches": 0,
+        "repeat_waiver_group_count": 0,
+        "swiss_matches": 3300000,
+        "knockout_matches": 700000,
+        "fixed_swiss_match_instances": 0,
+        "sampled_swiss_matches": 3300000,
+        "terminal_record_errors": 0,
+        "qualified_per_tournament_min": 8,
+        "qualified_per_tournament_max": 8,
+        "quarterfinal_duplicate_team_errors": 0,
+        "three_zero_vs_three_two_errors": 0,
+        "three_zero_same_half_errors": 0,
+        "champion_count_total": 100000,
+        "finalist_count_total": 200000,
+        "semifinalist_count_total": 400000,
+        "qualified_count_total": 800000,
+        "final_pair_count_total": 100000,
+        "record_count_totals": [
+          200000,
+          300000,
+          300000,
+          300000,
+          300000,
+          200000
+        ],
+        "round2_row_total_errors": 0,
+        "round2_conditioning_total_errors": 0,
+        "draw_cache": {
+          "hits": 603,
+          "misses": 3348,
+          "maxsize": 65536,
+          "currsize": 3348
+        }
+      }
+    },
+    "uniform_valid": {
+      "n": 100000,
+      "seed": 20261023,
+      "elapsed_seconds": 0.7413940870028455,
+      "equal_strength_champion_max_abs_z": 2.090231247174979,
+      "checks": {
+        "wrong_record_pairings": 0,
+        "swiss_repeat_matches": 0,
+        "repeat_waiver_group_count": 0,
+        "swiss_matches": 3300000,
+        "knockout_matches": 700000,
+        "fixed_swiss_match_instances": 0,
+        "sampled_swiss_matches": 3300000,
+        "terminal_record_errors": 0,
+        "qualified_per_tournament_min": 8,
+        "qualified_per_tournament_max": 8,
+        "quarterfinal_duplicate_team_errors": 0,
+        "three_zero_vs_three_two_errors": 0,
+        "three_zero_same_half_errors": 0,
+        "champion_count_total": 100000,
+        "finalist_count_total": 200000,
+        "semifinalist_count_total": 400000,
+        "qualified_count_total": 800000,
+        "final_pair_count_total": 100000,
+        "record_count_totals": [
+          200000,
+          300000,
+          300000,
+          300000,
+          300000,
+          200000
+        ],
+        "round2_row_total_errors": 0,
+        "round2_conditioning_total_errors": 0,
+        "draw_cache": {
+          "hits": 1206,
+          "misses": 6681,
+          "maxsize": 65536,
+          "currsize": 6681
+        }
+      }
+    },
+    "two_completed_rounds_and_announced_round_3": {
+      "n": 10000,
+      "elapsed_seconds": 0.056704897000599885,
+      "updates": {
+        "known_swiss_match_count": 16,
+        "completed_swiss_rounds": 2,
+        "announced_rounds": [
+          1,
+          2,
+          3
+        ],
+        "scope": "Swiss completed-round prefix plus current/next complete announced round; no knockout observations",
+        "p1_updated_from_observations_here": false
+      },
+      "checks": {
+        "wrong_record_pairings": 0,
+        "swiss_repeat_matches": 0,
+        "repeat_waiver_group_count": 0,
+        "swiss_matches": 330000,
+        "knockout_matches": 70000,
+        "fixed_swiss_match_instances": 160000,
+        "sampled_swiss_matches": 170000,
+        "terminal_record_errors": 0,
+        "qualified_per_tournament_min": 8,
+        "qualified_per_tournament_max": 8,
+        "quarterfinal_duplicate_team_errors": 0,
+        "three_zero_vs_three_two_errors": 0,
+        "three_zero_same_half_errors": 0,
+        "champion_count_total": 10000,
+        "finalist_count_total": 20000,
+        "semifinalist_count_total": 40000,
+        "qualified_count_total": 80000,
+        "final_pair_count_total": 10000,
+        "record_count_totals": [
+          20000,
+          30000,
+          30000,
+          30000,
+          30000,
+          20000
+        ],
+        "round2_row_total_errors": 0,
+        "round2_conditioning_total_errors": 0,
+        "draw_cache": {
+          "hits": 1730,
+          "misses": 6686,
+          "maxsize": 65536,
+          "currsize": 6686
+        }
+      }
+    },
+    "expanded_api_default_100000": {
+      "n": 100000,
+      "elapsed_seconds": 1.1009999119996792,
+      "equal_strength_champion_max_abs_z": 2.1686149189440407,
+      "checks": {
+        "wrong_record_pairings": 0,
+        "swiss_repeat_matches": 0,
+        "repeat_waiver_group_count": 0,
+        "swiss_matches": 3300000,
+        "knockout_matches": 700000,
+        "fixed_swiss_match_instances": 0,
+        "sampled_swiss_matches": 3300000,
+        "fixed_knockout_match_instances": 0,
+        "sampled_knockout_matches": 700000,
+        "terminal_record_errors": 0,
+        "qualified_per_tournament_min": 8,
+        "qualified_per_tournament_max": 8,
+        "quarterfinal_duplicate_team_errors": 0,
+        "three_zero_vs_three_two_errors": 0,
+        "three_zero_same_half_errors": 0,
+        "champion_count_total": 100000,
+        "finalist_count_total": 200000,
+        "semifinalist_count_total": 400000,
+        "qualified_count_total": 800000,
+        "final_pair_count_total": 100000,
+        "record_count_totals": [
+          200000,
+          300000,
+          300000,
+          300000,
+          300000,
+          200000
+        ],
+        "round2_row_total_errors": 0,
+        "round2_conditioning_total_errors": 0,
+        "draw_cache": {
+          "hits": 3254,
+          "misses": 3406,
+          "maxsize": 65536,
+          "currsize": 3406
+        }
+      }
+    },
+    "knockout_updates": {
+      "draw_only": {
+        "known_count": 0,
+        "elapsed_seconds": 0.006672901999991154,
+        "fixed_instances": 0,
+        "sampled_matches": 7000
+      },
+      "partial_qf": {
+        "known_count": 2,
+        "elapsed_seconds": 0.006883379999635508,
+        "fixed_instances": 2000,
+        "sampled_matches": 5000
+      },
+      "qf_complete": {
+        "known_count": 4,
+        "elapsed_seconds": 0.006628523999097524,
+        "fixed_instances": 4000,
+        "sampled_matches": 3000
+      },
+      "partial_sf": {
+        "known_count": 5,
+        "elapsed_seconds": 0.006667182999080978,
+        "fixed_instances": 5000,
+        "sampled_matches": 2000
+      },
+      "all_completed": {
+        "known_count": 7,
+        "elapsed_seconds": 0.0064178869979514275,
+        "fixed_instances": 7000,
+        "sampled_matches": 0
+      }
+    }
+  },
+  "additional_passed_checks": {
+    "identical_seed_reproducible": true,
+    "independent_explicit_slot_enumeration": {
+      "permutations": 720,
+      "group_size": 6,
+      "forbidden_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "all_probabilities_matched": true
+    },
+    "deterministic_transitive_strength": {
+      "n": 1000,
+      "strongest_team_champions": 1000
+    },
+    "partial_current_round": {
+      "n": 1000,
+      "fixed_observed_matches": 17,
+      "fixed_match_instances": 17000
+    },
+    "all_swiss_observed": {
+      "n": 1000,
+      "fixed_observed_matches": 33,
+      "sampled_swiss_matches": 0
+    },
+    "invalid_cutoff_and_noncontiguous_observations_rejected": true,
+    "undefined_conditioning_serializes_as_null": true,
+    "knockout_wrong_chronology_rejected": 2,
+    "beta_mixture_complement_symmetry_and_bounds": true,
+    "beta_mixture_perfect_correlation_limit_is_single_game_p": true,
+    "default_results_unchanged_by_optional_api_extensions": true
+  }
+}

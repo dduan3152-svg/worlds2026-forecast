@@ -1,0 +1,289 @@
+{
+  "schema_version": "1.0",
+  "event": "League of Legends World Championship 2026",
+  "cutoff_utc": "2026-10-23T07:25:50Z",
+  "cutoff_beijing": "2026-10-23T15:25:50+08:00",
+  "swiss_start_utc": "2026-10-23T17:00:00Z",
+  "swiss_start_beijing": "2026-10-24T01:00:00+08:00",
+  "swiss_results_known_at_cutoff": 0,
+  "simulate_future_only": true,
+  "first_round": {
+    "status": "fixed_input_verified_by_main_pipeline",
+    "match_count": 8,
+    "best_of": 1,
+    "region_avoidance": true,
+    "pool_pairings": [
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "draw_order_is_not_play_order": true
+  },
+  "swiss": {
+    "team_count": 16,
+    "max_rounds": 5,
+    "qualify_at_wins": 3,
+    "eliminate_at_losses": 3,
+    "groups": [
+      {
+        "round": 1,
+        "record": "0-0",
+        "teams": 16,
+        "best_of": 1
+      },
+      {
+        "round": 2,
+        "record": "1-0",
+        "teams": 8,
+        "best_of": 1
+      },
+      {
+        "round": 2,
+        "record": "0-1",
+        "teams": 8,
+        "best_of": 1
+      },
+      {
+        "round": 3,
+        "record": "2-0",
+        "teams": 4,
+        "best_of": 3
+      },
+      {
+        "round": 3,
+        "record": "1-1",
+        "teams": 8,
+        "best_of": 1
+      },
+      {
+        "round": 3,
+        "record": "0-2",
+        "teams": 4,
+        "best_of": 3
+      },
+      {
+        "round": 4,
+        "record": "2-1",
+        "teams": 6,
+        "best_of": 3
+      },
+      {
+        "round": 4,
+        "record": "1-2",
+        "teams": 6,
+        "best_of": 3
+      },
+      {
+        "round": 5,
+        "record": "2-2",
+        "teams": 6,
+        "best_of": 3
+      }
+    ],
+    "terminal_record_counts": {
+      "3-0": 2,
+      "3-1": 3,
+      "3-2": 3,
+      "2-3": 3,
+      "1-3": 3,
+      "0-3": 2
+    },
+    "match_count": 33,
+    "same_record_pairing": true,
+    "same_region_allowed_from_round": 2,
+    "rematch_avoidance": true,
+    "official_conflict_handling": "Advance a drawn team to the next available position if its placement causes an immediate or forced later conflict.",
+    "official_no_valid_draw_exception": "Officials may waive rematch avoidance if no eligible draw exists.",
+    "source": "official_worlds_rules",
+    "source_sections": [
+      "4.1.2",
+      "4.3.2",
+      "4.3.3"
+    ]
+  },
+  "draw_implementation": {
+    "full_machine_executable_official_algorithm_recovered": false,
+    "default": "next_available_slot",
+    "default_status": "operationalization_of_published_slot_advance_language",
+    "default_algorithm": "Uniformly randomize the ball order within each record group. Place each ball into the earliest slot permitting a complete rematch-free pairing. Enumerate the induced weights over all ball permutations and sample from those weights.",
+    "sensitivity_alternative": "uniform_valid",
+    "sensitivity_algorithm": "Sample uniformly among legal unordered perfect matchings, without claiming this is the official draw distribution.",
+    "no_valid_matching_model_fallback": "Use an unrestricted random pairing only if no legal matching exists; report every invocation as a discretionary-waiver assumption.",
+    "global_completion_check_scope": "remaining slots of the current record-group draw, not unknown future match results",
+    "equal_probability_of_legal_matchings_assumed_by_default": false
+  },
+  "knockout": {
+    "qualifiers": 8,
+    "best_of": 5,
+    "elimination": "single",
+    "quarterfinal_30_vs_32_match_count": 2,
+    "three_zero_teams_in_opposite_halves": true,
+    "remaining_teams_randomly_paired": 4,
+    "extra_region_or_rematch_restrictions": false,
+    "match_count": 7,
+    "source": "official_worlds_rules",
+    "source_sections": [
+      "4.1.3",
+      "4.3.4"
+    ]
+  },
+  "first_selection": {
+    "choice": [
+      "map_side",
+      "draft_pick_order"
+    ],
+    "opponent_controls_other_choice": true,
+    "swiss_game_1": "higher regional seed; equal seeds use coinflip or an equivalent method such as applicable draw order",
+    "quarterfinal_game_1": "better Swiss record; equal records use draw order",
+    "semifinal_and_final_game_1": "coinflip or equivalent method",
+    "later_games": "previous game loser",
+    "separately_modeled_effect": false,
+    "source": "official_worlds_rules",
+    "source_sections": [
+      "4.1.4"
+    ]
+  },
+  "fearless_draft": {
+    "reported_best_of": [
+      3,
+      5
+    ],
+    "reported_rule": "A champion picked by either team is unavailable to either team for the remaining games of that series; resets for a new series.",
+    "verification_status": "2026_secondary_format_confirmation; primary international rules explicitly handle Fearless selection errors but do not fully define Fearless operation",
+    "primary_evidence_boundary": "Both the Worlds-specific rules and the 2026 International Events Competition Ruleset v1.1 were retrieved. International sections 4.5.6-4.5.7 handle unavailable Fearless champion picks/bans. Neither retrieved PDF expressly defines both-team carryover, ordinary-ban carryover, game-5 reset, or the Worlds-specific scope of Fearless series.",
+    "separately_modeled_effect": false,
+    "source": "liquipedia_2026_format",
+    "verified_primary_selection_error_rules": {
+      "unavailable_champion_pick": "Restart champion selection at the error so it can be corrected",
+      "unavailable_champion_ban": "Continue champion selection; no restart",
+      "source": "official_international_rules",
+      "source_sections": [
+        "4.5.6",
+        "4.5.7"
+      ]
+    },
+    "unconfirmed_in_retrieved_2026_primary_text": [
+      "both_teams_prior_picks_unavailable_to_both_teams",
+      "ordinary_bans_do_not_carry_over",
+      "no_game_5_reset",
+      "all_worlds_bo3_and_bo5_use_fearless"
+    ]
+  },
+  "patch": {
+    "version": "26.20",
+    "source": "official_worlds_rules",
+    "section": "5.1"
+  },
+  "beijing_schedule": {
+    "swiss_0100": [
+      "2026-10-24",
+      "2026-10-25",
+      "2026-10-26",
+      "2026-10-27",
+      "2026-11-01"
+    ],
+    "swiss_0400": [
+      "2026-10-29",
+      "2026-10-30",
+      "2026-10-31"
+    ],
+    "quarterfinal_0600": [
+      "2026-11-04",
+      "2026-11-05",
+      "2026-11-06",
+      "2026-11-07"
+    ],
+    "semifinal_0600": [
+      "2026-11-08",
+      "2026-11-09"
+    ],
+    "final": "2026-11-15T03:00:00+08:00",
+    "source": "official_primer"
+  },
+  "model_series_assumption": {
+    "type": "independent_identically_distributed_games",
+    "bo3": "3*p^2 - 2*p^3",
+    "bo5": "10*p^3 - 15*p^4 + 6*p^5",
+    "not_estimated": [
+      "first_selection_effect",
+      "fearless_champion_pool_effect",
+      "within_series_adaptation",
+      "shared_match_day_shocks"
+    ],
+    "optional_sensitivity": {
+      "parameter": "series_correlation",
+      "default": 0,
+      "range": "0 <= rho < 1",
+      "distribution": "Beta-binomial mixture; independent latent probability for each series",
+      "kappa": "1/rho - 1",
+      "alpha": "kappa*p",
+      "moment_k": "product((alpha+j)/(kappa+j), j=0..k-1)",
+      "estimated_from_data": false,
+      "between_series_correlation": false
+    }
+  },
+  "update_support": {
+    "known_matches": "Swiss results with round/a/b/winner; completed rounds form a contiguous prefix",
+    "announced_rounds": "Complete pairings for current or next Swiss round after previous rounds complete",
+    "partial_current_round": true,
+    "all_swiss_known_then_simulate_knockouts": true,
+    "rejection_sampling_used": false,
+    "explicit_updated_cutoff_required_with_observations": true,
+    "known_knockout_results_or_draw_supported": true,
+    "quarterfinal_bracket": "Four ordered pairs; matches 0/1 share one half, 2/3 share the other; all Swiss results required",
+    "known_knockout": "stage/a/b/winner records; full quarterfinal history before observed semifinals and both semifinal results before observed final",
+    "strength_model_refitted_here": false
+  },
+  "sources": [
+    {
+      "id": "official_worlds_rules",
+      "title": "2026 World Championship Event Specific Ruleset v1.01",
+      "url": "https://cdn.sanity.io/files/dsfx7636/news_live/faa5ce974e58615911fbee931c6123e2785a8b46.pdf",
+      "discovered_via": "https://competitiveops.riotgames.com/en-US/library?game=lol",
+      "library_publication_date": "2026-08-31",
+      "retrieved_on": "2026-10-23",
+      "primary": true
+    },
+    {
+      "id": "official_primer",
+      "title": "Worlds 2026 Primer",
+      "url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+      "publication_date": "2026-10-05",
+      "retrieved_on": "2026-10-23",
+      "primary": true
+    },
+    {
+      "id": "official_first_selection",
+      "title": "Season Start 2026: LoL Esports",
+      "url": "https://lolesports.com/en-US/news/season-start-2026-lol-esports",
+      "publication_date": "2026-01-08",
+      "retrieved_on": "2026-10-23",
+      "primary": true
+    },
+    {
+      "id": "liquipedia_2026_format",
+      "title": "2026 World Championship - Format",
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2026",
+      "retrieval_mode": "indexed search extract; direct page fetch returned 403",
+      "retrieved_on": "2026-10-23",
+      "primary": false
+    },
+    {
+      "id": "official_international_rules",
+      "title": "2026 League of Legends Esports International Events Competition Ruleset v1.1",
+      "url": "https://cdn.sanity.io/files/dsfx7636/news_live/d29e446e0a0d0813a8caaae1d2817dd82cfe79c6.pdf",
+      "discovered_via": "https://competitiveops.riotgames.com/en-US/library?game=lol",
+      "library_publication_date": "2026-07-27",
+      "retrieved_on": "2026-10-23",
+      "retrieval_mode": "Official directory raw HTML embedded data; public CDN PDF downloaded using urllib; pdftotext extraction",
+      "local_pdf": "evidence/rules_international_2026_v1_1.pdf",
+      "local_text": "evidence/rules_international_2026_v1_1.txt",
+      "primary": true
+    }
+  ]
+}

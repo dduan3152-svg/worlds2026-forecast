@@ -1,0 +1,225 @@
+{
+  "cutoff_utc": "2026-10-23T07:25:50Z",
+  "publisher": "ChainCC",
+  "publisher_page": "https://chaincc.lol/free/data/",
+  "published_file_url": "https://chaincc.lol/data/chaincc-teams-2026.csv.gz",
+  "publisher_metadata": {
+    "updated_at": "2026-10-22T06:40:55-03:00",
+    "licence": "CC BY 4.0",
+    "attribution": "chaincc.lol"
+  },
+  "raw_sha256": "ae1008ed9424a5eda59a873e9d70d06669337a2068d48497efbbd695e1c8105d",
+  "raw_team_rows": 19506,
+  "raw_unique_games": 9753,
+  "selected_games": 2849,
+  "selected_series_groups": 1107,
+  "selected_teams": 63,
+  "first_selected_game": "2026-01-14T08:13:43Z",
+  "last_selected_game": "2026-10-18T19:48:36Z",
+  "coverage": [
+    {
+      "competition": "AC",
+      "games": 19,
+      "series_groups": 6,
+      "first_game": "2026-03-04T21:12:25Z",
+      "last_game": "2026-03-08T20:51:01Z",
+      "teams": 4
+    },
+    {
+      "competition": "CBLOL",
+      "games": 275,
+      "series_groups": 117,
+      "first_game": "2026-01-17T16:19:20Z",
+      "last_game": "2026-10-10T20:22:04Z",
+      "teams": 8
+    },
+    {
+      "competition": "DCGI",
+      "games": 71,
+      "series_groups": 27,
+      "first_game": "2026-10-03T08:07:22Z",
+      "last_game": "2026-10-17T11:38:16Z",
+      "teams": 12
+    },
+    {
+      "competition": "EWC",
+      "games": 232,
+      "series_groups": 103,
+      "first_game": "2026-04-14T18:07:58Z",
+      "last_game": "2026-07-19T15:15:31Z",
+      "teams": 50
+    },
+    {
+      "competition": "FST",
+      "games": 45,
+      "series_groups": 13,
+      "first_game": "2026-03-16T13:10:29Z",
+      "last_game": "2026-03-22T16:04:39Z",
+      "teams": 8
+    },
+    {
+      "competition": "LCK",
+      "games": 502,
+      "series_groups": 188,
+      "first_game": "2026-01-14T08:13:43Z",
+      "last_game": "2026-09-13T08:19:05Z",
+      "teams": 10
+    },
+    {
+      "competition": "LCP",
+      "games": 283,
+      "series_groups": 97,
+      "first_game": "2026-01-16T06:23:26Z",
+      "last_game": "2026-08-30T10:26:53Z",
+      "teams": 8
+    },
+    {
+      "competition": "LCS",
+      "games": 260,
+      "series_groups": 95,
+      "first_game": "2026-01-24T21:24:34Z",
+      "last_game": "2026-10-04T23:31:20Z",
+      "teams": 8
+    },
+    {
+      "competition": "LEC",
+      "games": 383,
+      "series_groups": 186,
+      "first_game": "2026-01-17T16:08:02Z",
+      "last_game": "2026-09-20T17:13:10Z",
+      "teams": 12
+    },
+    {
+      "competition": "LPL",
+      "games": 674,
+      "series_groups": 246,
+      "first_game": "2026-01-14T09:13:04Z",
+      "last_game": "2026-09-13T12:03:56Z",
+      "teams": 14
+    },
+    {
+      "competition": "LPL_RQ",
+      "games": 12,
+      "series_groups": 3,
+      "first_game": "2026-09-17T09:11:42Z",
+      "last_game": "2026-09-19T12:09:59Z",
+      "teams": 4
+    },
+    {
+      "competition": "MSI",
+      "games": 71,
+      "series_groups": 20,
+      "first_game": "2026-06-28T03:10:49Z",
+      "last_game": "2026-07-12T11:11:20Z",
+      "teams": 11
+    },
+    {
+      "competition": "WORLDS",
+      "games": 22,
+      "series_groups": 6,
+      "first_game": "2026-10-15T18:16:33Z",
+      "last_game": "2026-10-18T19:48:36Z",
+      "teams": 4
+    }
+  ],
+  "rejected_game_count": 0,
+  "exclusions": {
+    "competition_not_selected:DCup": 3,
+    "competition_not_selected:LIT": 280,
+    "competition_not_selected:LCKC": 491,
+    "competition_not_selected:AL": 350,
+    "competition_not_selected:ROL": 257,
+    "competition_not_selected:HLL": 235,
+    "competition_not_selected:NLC": 210,
+    "competition_not_selected:TCL": 208,
+    "competition_not_selected:CCWS": 40,
+    "competition_not_selected:LFL": 261,
+    "competition_not_selected:HW": 103,
+    "competition_not_selected:EBL": 208,
+    "competition_not_selected:LJL": 363,
+    "competition_not_selected:PRM": 300,
+    "competition_not_selected:LPLOL": 162,
+    "competition_not_selected:LES": 193,
+    "competition_not_selected:RL": 211,
+    "competition_not_selected:CD Qualifier": 70,
+    "competition_not_selected:VCS": 155,
+    "competition_not_selected:LRN": 176,
+    "competition_not_selected:LRS": 187,
+    "competition_not_selected:EM": 519,
+    "competition_not_selected:LAS": 510,
+    "competition_not_selected:NACL": 281,
+    "competition_not_selected:CD": 188,
+    "competition_not_selected:NL": 149,
+    "competition_not_selected:HM": 174,
+    "competition_not_selected:HC": 201,
+    "competition_not_selected:PCS": 86,
+    "competition_not_selected:AM": 63,
+    "competition_not_selected:KeSPA Cup": 61,
+    "competition_not_selected:WLRQ": 6,
+    "competition_not_selected:EBL Promotion": 5,
+    "competition_not_selected:PRM Promotion": 22,
+    "competition_not_selected:LFL Promotion": 14,
+    "competition_not_selected:WSCI": 85,
+    "competition_not_selected:LES Promotion": 15,
+    "competition_not_selected:CBLOL Promotion": 24,
+    "competition_not_selected:LCS Promotion": 23,
+    "competition_not_selected:ROL Promotion": 4,
+    "competition_not_selected:TCL Promotion": 11
+  },
+  "noncontiguous_series_groups": [
+    "derived:7b72be4dd5c908980902"
+  ],
+  "worlds_play_in_maps": 22,
+  "lpl_regional_qualifier_maps_relabelled_from_WLDs": 12,
+  "date_interpretation": "Source timestamps have no offset. Interpret as UTC; Worlds game start times align with official UTC schedules. Cutoff uses start plus gamelength, not merely date.",
+  "observation_unit": "One row per actual observed game. wins_a + wins_b = 1; best_of=1 denotes the observation unit, not the parent match format.",
+  "series_table_semantics": "Counts of observed actual games grouped by pairing, competition, split and game-number resets within 12 hours (or source match prefix). best_of is blank because publisher bo_format is entirely missing. No unobserved game order or match format is fabricated.",
+  "selection": "Six major regional leagues plus First Stand, MSI, EWC including qualifiers, Americas Cup, Worlds play-ins, LPL regional qualifier and DCGI. Other academy/regional lower-tier competitions and KeSPA Cup excluded.",
+  "limitations": [
+    "This is a third-party published match-data snapshot, not a complete Riot-certified census. Independent primary-source spotchecks are separate evidence files.",
+    "Raw WLDs also includes 12 LPL regional-qualifier maps in September; these are relabelled LPL_RQ. October WLDs contains 22 Worlds play-in maps.",
+    "WLRQ is a different academy/amateur competition and is excluded; it must not be interpreted as a Worlds regional qualifier.",
+    "Team Secret and Team Secret Whales have distinct source team IDs. Retained separately as TS and TSW pending identity confirmation (eight selected TS games).",
+    "Roster changes, substitute appearances and competition strength are not inferred from team-result data. Selected EWC rows include domestic qualifiers.",
+    "The source patch field uses values such as 16.20; retain it as a vendor label rather than silently converting it to Riot's 26.20 label or using it as an independently verified patch feature.",
+    "All bo_format, match_in_series and game_in_match source fields are empty; derived series IDs and exact game_number are explicitly distinguished.",
+    "Published dataset may be updated after this run. The included gzip, SHA-256 and metadata preserve the snapshot actually modeled."
+  ],
+  "official_reconciliation": {
+    "cutoff_utc": "2026-10-23T07:25:50Z",
+    "official_series": 1004,
+    "exact_score_matches": 1002,
+    "partial_source_series": 2,
+    "absent_source_series": 0,
+    "contradictions": 0,
+    "supplement_rows": 2,
+    "supplement_observed_games": 2,
+    "note": "Supplements are aggregate outcome counts verified from official scores, never fabricated individual games or their side/order. Review contradictions before using supplements."
+  },
+  "official_coverage_basis": "All 2026 completed public Riot schedule series for the six major leagues, FST, MSI, Worlds, Americas Cup and DCGI; paginated back through the 2026 boundary. EWC is not present in that official Riot schedule feed.",
+  "model_sets": {
+    "core": {
+      "competitions": [
+        "LCK",
+        "LPL",
+        "LEC",
+        "LCS",
+        "LCP",
+        "CBLOL",
+        "LPL_RQ",
+        "FST",
+        "MSI",
+        "WORLDS"
+      ],
+      "actual_game_rows": 2527,
+      "official_residual_game_counts": 2
+    },
+    "extensions": {
+      "EWC_main_games": 51,
+      "EWC_qualifier_games": 181,
+      "Americas_Cup_games": 19,
+      "DCGI_games": 71,
+      "basis": "EWC main event provides additional direct international comparisons, while its qualifiers add domestic results. Americas Cup bridges LCS/CBLOL in March. DCGI bridges regions in October among teams outside Worlds. These different populations and timing make them suitable for a separate sensitivity specification."
+    }
+  }
+}

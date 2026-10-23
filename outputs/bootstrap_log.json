@@ -1,0 +1,1422 @@
+{
+  "completed": true,
+  "replicates_completed": 200,
+  "tournaments_each": 10000,
+  "total_tournaments_completed": 2000000,
+  "seed": 20261024,
+  "seconds": 24.68452544199681,
+  "method": "Independent Exp(1) weights per complete series, normalized to mean 1; same fixed hyperparameters, refit strengths and side coefficient; each simulated tournament uses one fixed parameter vector.",
+  "interval_label": "90% series-cluster weighted-bootstrap model-resampling interval; not a validated frequentist coverage guarantee or a complete model-risk interval",
+  "hyperparameters_fixed": true,
+  "inner_simulation_max_mc_se": 0.005,
+  "not_covered": [
+    "Dataset systematic errors",
+    "Team-specific patch effects",
+    "Unrecorded lineup changes",
+    "Model selection uncertainty",
+    "Non-IID game effects",
+    "Unknown official draw implementation"
+  ],
+  "replicate_logs": [
+    {
+      "replicate": 0,
+      "seed": 211099115,
+      "completed": 10000,
+      "side_beta": 0.21290307312332854,
+      "leader": "HLE"
+    },
+    {
+      "replicate": 1,
+      "seed": 1701756121,
+      "completed": 10000,
+      "side_beta": 0.20879465728295254,
+      "leader": "BLG"
+    },
+    {
+      "replicate": 2,
+      "seed": 634944894,
+      "completed": 10000,
+      "side_beta": 0.18614455720731818,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 3,
+      "seed": 3069207469,
+      "completed": 10000,
+      "side_beta": 0.2090688675539835,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 4,
+      "seed": 2449079420,
+      "completed": 10000,
+      "side_beta": 0.07824222917878032,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 5,
+      "seed": 1328205306,
+      "completed": 10000,
+      "side_beta": 0.11564075278333785,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 6,
+      "seed": 4252849592,
+      "completed": 10000,
+      "side_beta": 0.20329241587051192,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 7,
+      "seed": 1549307635,
+      "completed": 10000,
+      "side_beta": 0.21779053578812604,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 8,
+      "seed": 1815898481,
+      "completed": 10000,
+      "side_beta": 0.16999800760559106,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 9,
+      "seed": 3908838321,
+      "completed": 10000,
+      "side_beta": 0.12015777841083794,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 10,
+      "seed": 3459192157,
+      "completed": 10000,
+      "side_beta": 0.22222731348402391,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 11,
+      "seed": 2881225173,
+      "completed": 10000,
+      "side_beta": 0.2331835519077893,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 12,
+      "seed": 1436936555,
+      "completed": 10000,
+      "side_beta": 0.17919045046253568,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 13,
+      "seed": 3488654023,
+      "completed": 10000,
+      "side_beta": 0.2925288234837711,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 14,
+      "seed": 1412998292,
+      "completed": 10000,
+      "side_beta": 0.20804307666892716,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 15,
+      "seed": 822326144,
+      "completed": 10000,
+      "side_beta": 0.24304010125200567,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 16,
+      "seed": 3625466516,
+      "completed": 10000,
+      "side_beta": 0.3172740980136107,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 17,
+      "seed": 2017204959,
+      "completed": 10000,
+      "side_beta": 0.13731622915093683,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 18,
+      "seed": 1459177438,
+      "completed": 10000,
+      "side_beta": 0.18366719527643421,
+      "leader": "T1"
+    },
+    {
+      "replicate": 19,
+      "seed": 3352636992,
+      "completed": 10000,
+      "side_beta": 0.26066379333257567,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 20,
+      "seed": 3229085226,
+      "completed": 10000,
+      "side_beta": 0.1298424926885116,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 21,
+      "seed": 1736533366,
+      "completed": 10000,
+      "side_beta": 0.26978282384076824,
+      "leader": "T1"
+    },
+    {
+      "replicate": 22,
+      "seed": 1017540170,
+      "completed": 10000,
+      "side_beta": 0.18313711829766635,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 23,
+      "seed": 4290563326,
+      "completed": 10000,
+      "side_beta": 0.11457107688423265,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 24,
+      "seed": 1085548881,
+      "completed": 10000,
+      "side_beta": 0.08175810504808546,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 25,
+      "seed": 2625679784,
+      "completed": 10000,
+      "side_beta": 0.19870714175169216,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 26,
+      "seed": 3387748694,
+      "completed": 10000,
+      "side_beta": 0.14879243671232673,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 27,
+      "seed": 3664836018,
+      "completed": 10000,
+      "side_beta": 0.16820227089840983,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 28,
+      "seed": 2018217415,
+      "completed": 10000,
+      "side_beta": 0.08560169097827108,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 29,
+      "seed": 3292016576,
+      "completed": 10000,
+      "side_beta": 0.08715898897035124,
+      "leader": "HLE"
+    },
+    {
+      "replicate": 30,
+      "seed": 133883506,
+      "completed": 10000,
+      "side_beta": 0.20576133099797073,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 31,
+      "seed": 2832379150,
+      "completed": 10000,
+      "side_beta": 0.2325926158246449,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 32,
+      "seed": 177944687,
+      "completed": 10000,
+      "side_beta": 0.19926305865433577,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 33,
+      "seed": 3070915388,
+      "completed": 10000,
+      "side_beta": 0.17760393677407396,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 34,
+      "seed": 2420418795,
+      "completed": 10000,
+      "side_beta": 0.18957481533321557,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 35,
+      "seed": 2700392153,
+      "completed": 10000,
+      "side_beta": 0.22632980541577583,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 36,
+      "seed": 1634398588,
+      "completed": 10000,
+      "side_beta": 0.22114083176038737,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 37,
+      "seed": 2475971223,
+      "completed": 10000,
+      "side_beta": 0.20636828118295616,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 38,
+      "seed": 2576293154,
+      "completed": 10000,
+      "side_beta": 0.1396120801648556,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 39,
+      "seed": 2164784089,
+      "completed": 10000,
+      "side_beta": 0.22220003817639022,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 40,
+      "seed": 4270005335,
+      "completed": 10000,
+      "side_beta": 0.2051827719293392,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 41,
+      "seed": 1159753344,
+      "completed": 10000,
+      "side_beta": 0.21683406786203038,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 42,
+      "seed": 2733628686,
+      "completed": 10000,
+      "side_beta": 0.2270429581296024,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 43,
+      "seed": 3574049709,
+      "completed": 10000,
+      "side_beta": 0.1884453925972325,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 44,
+      "seed": 49933089,
+      "completed": 10000,
+      "side_beta": 0.11750191428006497,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 45,
+      "seed": 3613172660,
+      "completed": 10000,
+      "side_beta": 0.19189439688686893,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 46,
+      "seed": 240569861,
+      "completed": 10000,
+      "side_beta": 0.07986110307163181,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 47,
+      "seed": 1086547682,
+      "completed": 10000,
+      "side_beta": 0.1929000677438814,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 48,
+      "seed": 1428305731,
+      "completed": 10000,
+      "side_beta": 0.1575249357700195,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 49,
+      "seed": 1305594936,
+      "completed": 10000,
+      "side_beta": 0.16123280131495907,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 50,
+      "seed": 3791137426,
+      "completed": 10000,
+      "side_beta": 0.29486828833715917,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 51,
+      "seed": 2203422785,
+      "completed": 10000,
+      "side_beta": 0.16725966938947692,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 52,
+      "seed": 3654926353,
+      "completed": 10000,
+      "side_beta": 0.08161232885365034,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 53,
+      "seed": 2085667435,
+      "completed": 10000,
+      "side_beta": 0.2007162863172003,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 54,
+      "seed": 3332732144,
+      "completed": 10000,
+      "side_beta": 0.16300954642597967,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 55,
+      "seed": 1269880415,
+      "completed": 10000,
+      "side_beta": 0.09530675351337922,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 56,
+      "seed": 3935540498,
+      "completed": 10000,
+      "side_beta": 0.09282476956428545,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 57,
+      "seed": 3196321139,
+      "completed": 10000,
+      "side_beta": 0.16491297278478148,
+      "leader": "HLE"
+    },
+    {
+      "replicate": 58,
+      "seed": 954584969,
+      "completed": 10000,
+      "side_beta": 0.20634147787402451,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 59,
+      "seed": 3946178634,
+      "completed": 10000,
+      "side_beta": 0.09070192037842516,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 60,
+      "seed": 3428139933,
+      "completed": 10000,
+      "side_beta": 0.20179994661782588,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 61,
+      "seed": 1083369201,
+      "completed": 10000,
+      "side_beta": 0.21837817164570014,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 62,
+      "seed": 4005445683,
+      "completed": 10000,
+      "side_beta": 0.09903281334487282,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 63,
+      "seed": 640708886,
+      "completed": 10000,
+      "side_beta": 0.10007079398116371,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 64,
+      "seed": 825780357,
+      "completed": 10000,
+      "side_beta": 0.16528747154189116,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 65,
+      "seed": 2561970331,
+      "completed": 10000,
+      "side_beta": 0.2208924038550016,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 66,
+      "seed": 3178080339,
+      "completed": 10000,
+      "side_beta": 0.18501330227350915,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 67,
+      "seed": 2650285824,
+      "completed": 10000,
+      "side_beta": 0.086280745064806,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 68,
+      "seed": 2636459148,
+      "completed": 10000,
+      "side_beta": 0.2359492055698428,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 69,
+      "seed": 1964696724,
+      "completed": 10000,
+      "side_beta": 0.12530372872814674,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 70,
+      "seed": 1550992680,
+      "completed": 10000,
+      "side_beta": 0.13064451931866822,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 71,
+      "seed": 2291234294,
+      "completed": 10000,
+      "side_beta": 0.22173480628573972,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 72,
+      "seed": 3817085476,
+      "completed": 10000,
+      "side_beta": 0.12904218330132186,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 73,
+      "seed": 653695748,
+      "completed": 10000,
+      "side_beta": 0.23541441265558266,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 74,
+      "seed": 2701869571,
+      "completed": 10000,
+      "side_beta": 0.2461832361063973,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 75,
+      "seed": 656230956,
+      "completed": 10000,
+      "side_beta": 0.08931319567942154,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 76,
+      "seed": 69318925,
+      "completed": 10000,
+      "side_beta": 0.16218647237981398,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 77,
+      "seed": 508399540,
+      "completed": 10000,
+      "side_beta": 0.13883139646611875,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 78,
+      "seed": 4205038783,
+      "completed": 10000,
+      "side_beta": 0.2569095458813678,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 79,
+      "seed": 2441411852,
+      "completed": 10000,
+      "side_beta": 0.1679947308779864,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 80,
+      "seed": 849516186,
+      "completed": 10000,
+      "side_beta": 0.23927896047404465,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 81,
+      "seed": 98245865,
+      "completed": 10000,
+      "side_beta": 0.18212837724094244,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 82,
+      "seed": 3737834075,
+      "completed": 10000,
+      "side_beta": 0.19121820283603122,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 83,
+      "seed": 3947996279,
+      "completed": 10000,
+      "side_beta": 0.17554476728003524,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 84,
+      "seed": 4112939994,
+      "completed": 10000,
+      "side_beta": 0.14168417373722791,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 85,
+      "seed": 2195880560,
+      "completed": 10000,
+      "side_beta": 0.17904727658044672,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 86,
+      "seed": 2537515382,
+      "completed": 10000,
+      "side_beta": 0.1943830640543009,
+      "leader": "BLG"
+    },
+    {
+      "replicate": 87,
+      "seed": 139328308,
+      "completed": 10000,
+      "side_beta": 0.11849050017794328,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 88,
+      "seed": 3984935588,
+      "completed": 10000,
+      "side_beta": 0.13553293665764488,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 89,
+      "seed": 3688978858,
+      "completed": 10000,
+      "side_beta": 0.18968307115502459,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 90,
+      "seed": 588152252,
+      "completed": 10000,
+      "side_beta": 0.14096319403562327,
+      "leader": "BLG"
+    },
+    {
+      "replicate": 91,
+      "seed": 347040040,
+      "completed": 10000,
+      "side_beta": 0.21945579758185083,
+      "leader": "BLG"
+    },
+    {
+      "replicate": 92,
+      "seed": 3616746546,
+      "completed": 10000,
+      "side_beta": 0.13466870544686768,
+      "leader": "BLG"
+    },
+    {
+      "replicate": 93,
+      "seed": 2837702208,
+      "completed": 10000,
+      "side_beta": 0.1870459578909315,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 94,
+      "seed": 597615697,
+      "completed": 10000,
+      "side_beta": 0.20733016302829466,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 95,
+      "seed": 475452389,
+      "completed": 10000,
+      "side_beta": 0.15210842037128836,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 96,
+      "seed": 682215723,
+      "completed": 10000,
+      "side_beta": 0.3096995308355337,
+      "leader": "BLG"
+    },
+    {
+      "replicate": 97,
+      "seed": 2043179558,
+      "completed": 10000,
+      "side_beta": 0.16321515199978653,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 98,
+      "seed": 2475103637,
+      "completed": 10000,
+      "side_beta": 0.1933846037814921,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 99,
+      "seed": 3586784921,
+      "completed": 10000,
+      "side_beta": 0.11307671679036291,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 100,
+      "seed": 3008006475,
+      "completed": 10000,
+      "side_beta": 0.17827510505377456,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 101,
+      "seed": 3580236284,
+      "completed": 10000,
+      "side_beta": 0.19141811399622358,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 102,
+      "seed": 701170338,
+      "completed": 10000,
+      "side_beta": 0.15277571608049798,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 103,
+      "seed": 3616904833,
+      "completed": 10000,
+      "side_beta": 0.12634267587248038,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 104,
+      "seed": 1746568728,
+      "completed": 10000,
+      "side_beta": 0.1864972112790898,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 105,
+      "seed": 2941295046,
+      "completed": 10000,
+      "side_beta": 0.21157173366034188,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 106,
+      "seed": 442727381,
+      "completed": 10000,
+      "side_beta": 0.19680365225891341,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 107,
+      "seed": 835731098,
+      "completed": 10000,
+      "side_beta": 0.217429646104611,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 108,
+      "seed": 1892831521,
+      "completed": 10000,
+      "side_beta": 0.23271788059435594,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 109,
+      "seed": 2526015860,
+      "completed": 10000,
+      "side_beta": 0.2193905180842228,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 110,
+      "seed": 3819445188,
+      "completed": 10000,
+      "side_beta": 0.2465509114244332,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 111,
+      "seed": 1657953501,
+      "completed": 10000,
+      "side_beta": 0.19645486712348417,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 112,
+      "seed": 4216119021,
+      "completed": 10000,
+      "side_beta": 0.13641997267034203,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 113,
+      "seed": 1182910069,
+      "completed": 10000,
+      "side_beta": 0.22611196991866692,
+      "leader": "BLG"
+    },
+    {
+      "replicate": 114,
+      "seed": 748401784,
+      "completed": 10000,
+      "side_beta": 0.17111640830775046,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 115,
+      "seed": 3730018376,
+      "completed": 10000,
+      "side_beta": 0.12092450213845213,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 116,
+      "seed": 4145907078,
+      "completed": 10000,
+      "side_beta": 0.08023900295160827,
+      "leader": "T1"
+    },
+    {
+      "replicate": 117,
+      "seed": 2356604372,
+      "completed": 10000,
+      "side_beta": 0.11543247243316514,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 118,
+      "seed": 2984509411,
+      "completed": 10000,
+      "side_beta": 0.17904968104212238,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 119,
+      "seed": 643612231,
+      "completed": 10000,
+      "side_beta": 0.26799229460818874,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 120,
+      "seed": 940682301,
+      "completed": 10000,
+      "side_beta": 0.16099424024967612,
+      "leader": "HLE"
+    },
+    {
+      "replicate": 121,
+      "seed": 3002480349,
+      "completed": 10000,
+      "side_beta": 0.21237478427806292,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 122,
+      "seed": 865527141,
+      "completed": 10000,
+      "side_beta": 0.21467487214330835,
+      "leader": "BLG"
+    },
+    {
+      "replicate": 123,
+      "seed": 2089059730,
+      "completed": 10000,
+      "side_beta": 0.2325700936480956,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 124,
+      "seed": 4017397850,
+      "completed": 10000,
+      "side_beta": 0.16370793472226114,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 125,
+      "seed": 3451669366,
+      "completed": 10000,
+      "side_beta": 0.2140772049471975,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 126,
+      "seed": 744983914,
+      "completed": 10000,
+      "side_beta": 0.2847252684940177,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 127,
+      "seed": 994183880,
+      "completed": 10000,
+      "side_beta": 0.11107315354601653,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 128,
+      "seed": 4269414789,
+      "completed": 10000,
+      "side_beta": 0.14475446343113138,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 129,
+      "seed": 2993579468,
+      "completed": 10000,
+      "side_beta": 0.2278558621128739,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 130,
+      "seed": 1171912337,
+      "completed": 10000,
+      "side_beta": 0.15188691309276162,
+      "leader": "BLG"
+    },
+    {
+      "replicate": 131,
+      "seed": 3113261615,
+      "completed": 10000,
+      "side_beta": 0.14300135762864144,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 132,
+      "seed": 534637504,
+      "completed": 10000,
+      "side_beta": 0.21260592830593833,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 133,
+      "seed": 3114040752,
+      "completed": 10000,
+      "side_beta": 0.2485032994476692,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 134,
+      "seed": 564266055,
+      "completed": 10000,
+      "side_beta": 0.11991187287928337,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 135,
+      "seed": 1823137048,
+      "completed": 10000,
+      "side_beta": 0.24324530137183087,
+      "leader": "BLG"
+    },
+    {
+      "replicate": 136,
+      "seed": 3906134857,
+      "completed": 10000,
+      "side_beta": 0.15836601582431403,
+      "leader": "BLG"
+    },
+    {
+      "replicate": 137,
+      "seed": 3282576411,
+      "completed": 10000,
+      "side_beta": 0.12104564013674618,
+      "leader": "T1"
+    },
+    {
+      "replicate": 138,
+      "seed": 2690229020,
+      "completed": 10000,
+      "side_beta": 0.20209699772140094,
+      "leader": "HLE"
+    },
+    {
+      "replicate": 139,
+      "seed": 3333789304,
+      "completed": 10000,
+      "side_beta": 0.1307585477536461,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 140,
+      "seed": 3755009867,
+      "completed": 10000,
+      "side_beta": 0.19632115617899779,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 141,
+      "seed": 1571856891,
+      "completed": 10000,
+      "side_beta": 0.16201478440911762,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 142,
+      "seed": 886133435,
+      "completed": 10000,
+      "side_beta": 0.17816842684263534,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 143,
+      "seed": 1378579236,
+      "completed": 10000,
+      "side_beta": 0.17421310569422127,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 144,
+      "seed": 381197100,
+      "completed": 10000,
+      "side_beta": 0.21193926682026107,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 145,
+      "seed": 2903308703,
+      "completed": 10000,
+      "side_beta": 0.19851667614430799,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 146,
+      "seed": 214106584,
+      "completed": 10000,
+      "side_beta": 0.19416048565654012,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 147,
+      "seed": 4154336026,
+      "completed": 10000,
+      "side_beta": 0.31174842677810227,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 148,
+      "seed": 4105511947,
+      "completed": 10000,
+      "side_beta": 0.24669711005966505,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 149,
+      "seed": 1226936457,
+      "completed": 10000,
+      "side_beta": 0.24609829084002433,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 150,
+      "seed": 3478725051,
+      "completed": 10000,
+      "side_beta": 0.1792069550784315,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 151,
+      "seed": 3670331121,
+      "completed": 10000,
+      "side_beta": 0.23164152498803614,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 152,
+      "seed": 1789738690,
+      "completed": 10000,
+      "side_beta": 0.1857198973903297,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 153,
+      "seed": 3463834882,
+      "completed": 10000,
+      "side_beta": 0.10724481223414516,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 154,
+      "seed": 3614923861,
+      "completed": 10000,
+      "side_beta": 0.2327358710320024,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 155,
+      "seed": 2228189414,
+      "completed": 10000,
+      "side_beta": 0.17316524873131167,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 156,
+      "seed": 1556416750,
+      "completed": 10000,
+      "side_beta": 0.20235111787352522,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 157,
+      "seed": 1962953521,
+      "completed": 10000,
+      "side_beta": 0.19894187046034384,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 158,
+      "seed": 486564724,
+      "completed": 10000,
+      "side_beta": 0.1249746758897609,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 159,
+      "seed": 3734795662,
+      "completed": 10000,
+      "side_beta": 0.1820249113778779,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 160,
+      "seed": 4007965378,
+      "completed": 10000,
+      "side_beta": 0.26453704281822255,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 161,
+      "seed": 3072661974,
+      "completed": 10000,
+      "side_beta": 0.16196279770960606,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 162,
+      "seed": 3062393725,
+      "completed": 10000,
+      "side_beta": 0.17041156840257904,
+      "leader": "HLE"
+    },
+    {
+      "replicate": 163,
+      "seed": 3050126666,
+      "completed": 10000,
+      "side_beta": 0.17289515945891382,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 164,
+      "seed": 1235839005,
+      "completed": 10000,
+      "side_beta": 0.2422915445652309,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 165,
+      "seed": 4186420026,
+      "completed": 10000,
+      "side_beta": 0.2240182358686817,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 166,
+      "seed": 392898672,
+      "completed": 10000,
+      "side_beta": 0.11933495453023175,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 167,
+      "seed": 2351796715,
+      "completed": 10000,
+      "side_beta": 0.09759630134731226,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 168,
+      "seed": 3203204147,
+      "completed": 10000,
+      "side_beta": 0.2348794786043515,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 169,
+      "seed": 1639908231,
+      "completed": 10000,
+      "side_beta": 0.2613208561166604,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 170,
+      "seed": 1536631055,
+      "completed": 10000,
+      "side_beta": 0.18279890475874888,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 171,
+      "seed": 3744859047,
+      "completed": 10000,
+      "side_beta": 0.16051800065699215,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 172,
+      "seed": 3330464119,
+      "completed": 10000,
+      "side_beta": 0.15950592567133834,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 173,
+      "seed": 3521515928,
+      "completed": 10000,
+      "side_beta": 0.1402986845095223,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 174,
+      "seed": 136472250,
+      "completed": 10000,
+      "side_beta": 0.21108478943472653,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 175,
+      "seed": 3570675457,
+      "completed": 10000,
+      "side_beta": 0.23820736945406484,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 176,
+      "seed": 1866114776,
+      "completed": 10000,
+      "side_beta": 0.23874651088446014,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 177,
+      "seed": 3656425040,
+      "completed": 10000,
+      "side_beta": 0.2540449212024419,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 178,
+      "seed": 337889475,
+      "completed": 10000,
+      "side_beta": 0.22132272564290703,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 179,
+      "seed": 2842282775,
+      "completed": 10000,
+      "side_beta": 0.2670704836586804,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 180,
+      "seed": 3452690047,
+      "completed": 10000,
+      "side_beta": 0.19611350190948326,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 181,
+      "seed": 1967362125,
+      "completed": 10000,
+      "side_beta": 0.18085076346268858,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 182,
+      "seed": 2540164603,
+      "completed": 10000,
+      "side_beta": 0.19595132051209296,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 183,
+      "seed": 3416528757,
+      "completed": 10000,
+      "side_beta": 0.21207161117620213,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 184,
+      "seed": 948447928,
+      "completed": 10000,
+      "side_beta": 0.17904795174944063,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 185,
+      "seed": 3652685634,
+      "completed": 10000,
+      "side_beta": 0.20685689816302535,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 186,
+      "seed": 1835430932,
+      "completed": 10000,
+      "side_beta": 0.12347278610555662,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 187,
+      "seed": 3350903095,
+      "completed": 10000,
+      "side_beta": 0.16766692775631775,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 188,
+      "seed": 172595548,
+      "completed": 10000,
+      "side_beta": 0.23184243508168229,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 189,
+      "seed": 48946993,
+      "completed": 10000,
+      "side_beta": 0.13225410647811828,
+      "leader": "BLG"
+    },
+    {
+      "replicate": 190,
+      "seed": 282725857,
+      "completed": 10000,
+      "side_beta": 0.18132712501256457,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 191,
+      "seed": 3912248818,
+      "completed": 10000,
+      "side_beta": 0.12534937713699457,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 192,
+      "seed": 1629620935,
+      "completed": 10000,
+      "side_beta": 0.25944561663660065,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 193,
+      "seed": 3049860732,
+      "completed": 10000,
+      "side_beta": 0.11625873066927976,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 194,
+      "seed": 1087924038,
+      "completed": 10000,
+      "side_beta": 0.256713259925321,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 195,
+      "seed": 3458879929,
+      "completed": 10000,
+      "side_beta": 0.1846729594482326,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 196,
+      "seed": 777707310,
+      "completed": 10000,
+      "side_beta": 0.1404102827892196,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 197,
+      "seed": 2310843351,
+      "completed": 10000,
+      "side_beta": 0.10452013588433984,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 198,
+      "seed": 3853457151,
+      "completed": 10000,
+      "side_beta": 0.23374498343482403,
+      "leader": "GEN"
+    },
+    {
+      "replicate": 199,
+      "seed": 1602973488,
+      "completed": 10000,
+      "side_beta": 0.14506548518569534,
+      "leader": "GEN"
+    }
+  ]
+}

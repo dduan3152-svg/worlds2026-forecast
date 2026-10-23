@@ -1,0 +1,79 @@
+{
+  "cutoff": "2026-10-23T07:25:50Z",
+  "source_url": "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=98767975604431411",
+  "events": [
+    {
+      "match_id": "W26-SW-R1-1",
+      "official_match_id": "115660540726095005",
+      "start_utc": "2026-10-23T17:00:00Z",
+      "state": "unstarted",
+      "a": "GEN",
+      "b": "IG",
+      "best_of": 1
+    },
+    {
+      "match_id": "W26-SW-R1-2",
+      "official_match_id": "115660540726095013",
+      "start_utc": "2026-10-23T18:00:00Z",
+      "state": "unstarted",
+      "a": "HLE",
+      "b": "TES",
+      "best_of": 1
+    },
+    {
+      "match_id": "W26-SW-R1-3",
+      "official_match_id": "115660540726095019",
+      "start_utc": "2026-10-23T19:00:00Z",
+      "state": "unstarted",
+      "a": "BLG",
+      "b": "MKOI",
+      "best_of": 1
+    },
+    {
+      "match_id": "W26-SW-R1-4",
+      "official_match_id": "115660540726095009",
+      "start_utc": "2026-10-23T20:00:00Z",
+      "state": "unstarted",
+      "a": "AL",
+      "b": "KC",
+      "best_of": 1
+    },
+    {
+      "match_id": "W26-SW-R1-5",
+      "official_match_id": "115660540726095011",
+      "start_utc": "2026-10-23T21:00:00Z",
+      "state": "unstarted",
+      "a": "G2",
+      "b": "DK",
+      "best_of": 1
+    },
+    {
+      "match_id": "W26-SW-R1-6",
+      "official_match_id": "115660540726095007",
+      "start_utc": "2026-10-23T22:00:00Z",
+      "state": "unstarted",
+      "a": "TLAW",
+      "b": "CFO",
+      "best_of": 1
+    },
+    {
+      "match_id": "W26-SW-R1-7",
+      "official_match_id": "115660540726095015",
+      "start_utc": "2026-10-23T23:00:00Z",
+      "state": "unstarted",
+      "a": "LOS",
+      "b": "T1",
+      "best_of": 1
+    },
+    {
+      "match_id": "W26-SW-R1-8",
+      "official_match_id": "115660540726095017",
+      "start_utc": "2026-10-24T00:00:00Z",
+      "state": "unstarted",
+      "a": "TSW",
+      "b": "LYON",
+      "best_of": 1
+    }
+  ],
+  "snapshot_sha256": "cac559fedd589c05d6c453d32c9c28784607d5df27fc77f7be45105dc190d89c"
+}

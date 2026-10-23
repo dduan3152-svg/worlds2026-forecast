@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "cutoff": "2026-10-23T07:25:50Z",
+  "cutoff_bjt": "2026-10-23T15:25:50+08:00",
+  "cutoff_policy": "Only results and announcements available on or before cutoff are admitted. An announced future fixture is known; its winner is not.",
+  "stage": "Swiss",
+  "swiss_has_started": false,
+  "first_swiss_start_utc": "2026-10-23T17:00:00Z",
+  "first_round": [
+    {
+      "match_id": "W26-SW-R1-1",
+      "order": 1,
+      "a": "GEN",
+      "b": "IG",
+      "best_of": 1,
+      "start_bjt": "2026-10-24T01:00:00+08:00",
+      "start_time_is_approximate": false,
+      "completed": false,
+      "winner": null,
+      "a_wins": null,
+      "b_wins": null,
+      "status": "scheduled_at_cutoff",
+      "sources": [
+        "https://lol.qq.com/news/space-detail.shtml?docid=12269142849346097404",
+        "https://feng.ifeng.com/c/8xN9PJ6IRc5",
+        "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=98767975604431411"
+      ],
+      "official_match_id": "115660540726095005",
+      "official_schedule_snapshot": "evidence/history_riot_schedule_worlds_0.json"
+    },
+    {
+      "match_id": "W26-SW-R1-2",
+      "order": 2,
+      "a": "HLE",
+      "b": "TES",
+      "best_of": 1,
+      "start_bjt": "2026-10-24T02:00:00+08:00",
+      "start_time_is_approximate": true,
+      "completed": false,
+      "winner": null,
+      "a_wins": null,
+      "b_wins": null,
+      "status": "scheduled_at_cutoff",
+      "sources": [
+        "https://lol.qq.com/news/space-detail.shtml?docid=12269142849346097404",
+        "https://feng.ifeng.com/c/8xN9PJ6IRc5",
+        "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=98767975604431411"
+      ],
+      "official_match_id": "115660540726095013",
+      "official_schedule_snapshot": "evidence/history_riot_schedule_worlds_0.json"
+    },
+    {
+      "match_id": "W26-SW-R1-3",
+      "order": 3,
+      "a": "BLG",
+      "b": "MKOI",
+      "best_of": 1,
+      "start_bjt": "2026-10-24T03:00:00+08:00",
+      "start_time_is_approximate": true,
+      "completed": false,
+      "winner": null,
+      "a_wins": null,
+      "b_wins": null,
+      "status": "scheduled_at_cutoff",
+      "sources": [
+        "https://lol.qq.com/news/space-detail.shtml?docid=12269142849346097404",
+        "https://feng.ifeng.com/c/8xN9PJ6IRc5",
+        "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=98767975604431411"
+      ],
+      "official_match_id": "115660540726095019",
+      "official_schedule_snapshot": "evidence/history_riot_schedule_worlds_0.json"
+    },
+    {
+      "match_id": "W26-SW-R1-4",
+      "order": 4,
+      "a": "AL",
+      "b": "KC",
+      "best_of": 1,
+      "start_bjt": "2026-10-24T04:00:00+08:00",
+      "start_time_is_approximate": true,
+      "completed": false,
+      "winner": null,
+      "a_wins": null,
+      "b_wins": null,
+      "status": "scheduled_at_cutoff",
+      "sources": [
+        "https://lol.qq.com/news/space-detail.shtml?docid=12269142849346097404",
+        "https://feng.ifeng.com/c/8xN9PJ6IRc5",
+        "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=98767975604431411"
+      ],
+      "official_match_id": "115660540726095009",
+      "official_schedule_snapshot": "evidence/history_riot_schedule_worlds_0.json"
+    },
+    {
+      "match_id": "W26-SW-R1-5",
+      "order": 5,
+      "a": "G2",
+      "b": "DK",
+      "best_of": 1,
+      "start_bjt": "2026-10-24T05:00:00+08:00",
+      "start_time_is_approximate": true,
+      "completed": false,
+      "winner": null,
+      "a_wins": null,
+      "b_wins": null,
+      "status": "scheduled_at_cutoff",
+      "sources": [
+        "https://lol.qq.com/news/space-detail.shtml?docid=12269142849346097404",
+        "https://feng.ifeng.com/c/8xN9PJ6IRc5",
+        "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=98767975604431411"
+      ],
+      "official_match_id": "115660540726095011",
+      "official_schedule_snapshot": "evidence/history_riot_schedule_worlds_0.json"
+    },
+    {
+      "match_id": "W26-SW-R1-6",
+      "order": 6,
+      "a": "TLAW",
+      "b": "CFO",
+      "best_of": 1,
+      "start_bjt": "2026-10-24T06:00:00+08:00",
+      "start_time_is_approximate": true,
+      "completed": false,
+      "winner": null,
+      "a_wins": null,
+      "b_wins": null,
+      "status": "scheduled_at_cutoff",
+      "sources": [
+        "https://lol.qq.com/news/space-detail.shtml?docid=12269142849346097404",
+        "https://feng.ifeng.com/c/8xN9PJ6IRc5",
+        "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=98767975604431411"
+      ],
+      "official_match_id": "115660540726095007",
+      "official_schedule_snapshot": "evidence/history_riot_schedule_worlds_0.json"
+    },
+    {
+      "match_id": "W26-SW-R1-7",
+      "order": 7,
+      "a": "LOS",
+      "b": "T1",
+      "best_of": 1,
+      "start_bjt": "2026-10-24T07:00:00+08:00",
+      "start_time_is_approximate": true,
+      "completed": false,
+      "winner": null,
+      "a_wins": null,
+      "b_wins": null,
+      "status": "scheduled_at_cutoff",
+      "sources": [
+        "https://lol.qq.com/news/space-detail.shtml?docid=12269142849346097404",
+        "https://feng.ifeng.com/c/8xN9PJ6IRc5",
+        "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=98767975604431411"
+      ],
+      "official_match_id": "115660540726095015",
+      "official_schedule_snapshot": "evidence/history_riot_schedule_worlds_0.json"
+    },
+    {
+      "match_id": "W26-SW-R1-8",
+      "order": 8,
+      "a": "TSW",
+      "b": "LYON",
+      "best_of": 1,
+      "start_bjt": "2026-10-24T08:00:00+08:00",
+      "start_time_is_approximate": true,
+      "completed": false,
+      "winner": null,
+      "a_wins": null,
+      "b_wins": null,
+      "status": "scheduled_at_cutoff",
+      "sources": [
+        "https://lol.qq.com/news/space-detail.shtml?docid=12269142849346097404",
+        "https://feng.ifeng.com/c/8xN9PJ6IRc5",
+        "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=98767975604431411"
+      ],
+      "official_match_id": "115660540726095017",
+      "official_schedule_snapshot": "evidence/history_riot_schedule_worlds_0.json"
+    }
+  ],
+  "initial_records": {
+    "GEN": {
+      "wins": 0,
+      "losses": 0,
+      "opponents": [],
+      "qualified": false,
+      "eliminated": false
+    },
+    "HLE": {
+      "wins": 0,
+      "losses": 0,
+      "opponents": [],
+      "qualified": false,
+      "eliminated": false
+    },
+    "T1": {
+      "wins": 0,
+      "losses": 0,
+      "opponents": [],
+      "qualified": false,
+      "eliminated": false
+    },
+    "DK": {
+      "wins": 0,
+      "losses": 0,
+      "opponents": [],
+      "qualified": false,
+      "eliminated": false
+    },
+    "AL": {
+      "wins": 0,
+      "losses": 0,
+      "opponents": [],
+      "qualified": false,
+      "eliminated": false
+    },
+    "BLG": {
+      "wins": 0,
+      "losses": 0,
+      "opponents": [],
+      "qualified": false,
+      "eliminated": false
+    },
+    "TES": {
+      "wins": 0,
+      "losses": 0,
+      "opponents": [],
+      "qualified": false,
+      "eliminated": false
+    },
+    "IG": {
+      "wins": 0,
+      "losses": 0,
+      "opponents": [],
+      "qualified": false,
+      "eliminated": false
+    },
+    "G2": {
+      "wins": 0,
+      "losses": 0,
+      "opponents": [],
+      "qualified": false,
+      "eliminated": false
+    },
+    "MKOI": {
+      "wins": 0,
+      "losses": 0,
+      "opponents": [],
+      "qualified": false,
+      "eliminated": false
+    },
+    "KC": {
+      "wins": 0,
+      "losses": 0,
+      "opponents": [],
+      "qualified": false,
+      "eliminated": false
+    },
+    "TLAW": {
+      "wins": 0,
+      "losses": 0,
+      "opponents": [],
+      "qualified": false,
+      "eliminated": false
+    },
+    "LYON": {
+      "wins": 0,
+      "losses": 0,
+      "opponents": [],
+      "qualified": false,
+      "eliminated": false
+    },
+    "TSW": {
+      "wins": 0,
+      "losses": 0,
+      "opponents": [],
+      "qualified": false,
+      "eliminated": false
+    },
+    "CFO": {
+      "wins": 0,
+      "losses": 0,
+      "opponents": [],
+      "qualified": false,
+      "eliminated": false
+    },
+    "LOS": {
+      "wins": 0,
+      "losses": 0,
+      "opponents": [],
+      "qualified": false,
+      "eliminated": false
+    }
+  },
+  "completed_swiss_matches": [],
+  "play_in_qualifier": "KC",
+  "official_sources": [
+    "https://lolesports.com/en-GB/news/worlds-2026-primer",
+    "https://lol.qq.com/news/space-detail.shtml?docid=12269142849346097404",
+    "https://lolesports.com/en-US/tournament/115660540725177488/overview",
+    "https://lolesports.com/zh-TW/"
+  ],
+  "supporting_sources": [
+    "https://feng.ifeng.com/c/8xN9PJ6IRc5"
+  ],
+  "reasoning": "The first Swiss match is officially scheduled for 2026-10-23 17:00 UTC, later than the frozen cutoff 07:25:50 UTC; therefore all 16 Swiss records are 0-0 and no Swiss winner is conditioned on. KC's completed Play-In results do not transfer to Swiss wins.",
+  "unresolved": [
+    "The exact five players for each first-round game were not separately verified from last-minute lineup cards. These files use the reported Worlds starting roster and the verified TES replacement announcement.",
+    "Post-opener match times are estimates and can shift with earlier game lengths."
+  ],
+  "roster_changes": [
+    {
+      "team": "TES",
+      "role": "TOP",
+      "out": "ZUIAN",
+      "in": "369",
+      "announced_on": "2026-10-06",
+      "reconfirmed_on": "2026-10-22",
+      "status_at_cutoff": "369 expected starter; ZUIAN visa issue not resolved in verified evidence",
+      "sources": [
+        "https://news.zhibo8.com/game/2026-10-06/6ac484c493fe3native.htm",
+        "https://news.zhibo8.com/game/2026-10-22/6ad96ac33fb35native.htm"
+      ]
+    }
+  ],
+  "official_api_draw_verification": {
+    "source_url": "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=98767975604431411",
+    "snapshot": "evidence/history_riot_schedule_worlds_0.json",
+    "sha256": "cac559fedd589c05d6c453d32c9c28784607d5df27fc77f7be45105dc190d89c",
+    "all_eight_unstarted_b01_verified": true
+  }
+}

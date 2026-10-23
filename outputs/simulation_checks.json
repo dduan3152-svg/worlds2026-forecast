@@ -1,0 +1,48 @@
+{
+  "baseline": {
+    "wrong_record_pairings": 0,
+    "swiss_repeat_matches": 0,
+    "repeat_waiver_group_count": 0,
+    "swiss_matches": 3300000,
+    "knockout_matches": 700000,
+    "fixed_swiss_match_instances": 0,
+    "sampled_swiss_matches": 3300000,
+    "fixed_knockout_match_instances": 0,
+    "sampled_knockout_matches": 700000,
+    "terminal_record_errors": 0,
+    "qualified_per_tournament_min": 8,
+    "qualified_per_tournament_max": 8,
+    "quarterfinal_duplicate_team_errors": 0,
+    "three_zero_vs_three_two_errors": 0,
+    "three_zero_same_half_errors": 0,
+    "champion_count_total": 100000,
+    "finalist_count_total": 200000,
+    "semifinalist_count_total": 400000,
+    "qualified_count_total": 800000,
+    "final_pair_count_total": 100000,
+    "record_count_totals": [
+      200000,
+      300000,
+      300000,
+      300000,
+      300000,
+      200000
+    ],
+    "round2_row_total_errors": 0,
+    "round2_conditioning_total_errors": 0,
+    "draw_cache": {
+      "hits": 1459,
+      "misses": 4884,
+      "maxsize": 65536,
+      "currsize": 4884
+    }
+  },
+  "pairwise_complement_error": 1.1102230246251565e-16,
+  "all19_probability_sums": {
+    "qualified": 8.0,
+    "semifinalist": 4.0,
+    "finalist": 2.0,
+    "champion": 1.0
+  },
+  "probability_monotonicity_all19": true
+}

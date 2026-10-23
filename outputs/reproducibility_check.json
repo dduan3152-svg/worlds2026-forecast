@@ -1,0 +1,12 @@
+{
+  "full_command": "python src/run_analysis.py --phase all",
+  "completed": true,
+  "original_vs_full_command_champion_counts_match": true,
+  "expected_champion_counts": {
+    "GEN": 34130,
+    "HLE": 16287,
+    "BLG": 13761,
+    "T1": 12848
+  },
+  "parameters_unchanged_after_lineup_annotation": true
+}

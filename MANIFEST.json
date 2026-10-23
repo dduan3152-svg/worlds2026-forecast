@@ -1,0 +1,1174 @@
+{
+  "archive_name": "worlds2026-forecast-v1.0.0.zip",
+  "archive_root": "worlds2026-forecast",
+  "file_count_excluding_manifest": 151,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "e1267d000cbbe93d735c3f1d43d7c03388ad1037feadd5eede1c339a3312c5dd",
+      "size_bytes": 121
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "sha256": "989f81a7f0b8e6e7bf30e241f1557145bc3b30c1fd9ba0c3fd2dff0d9e42295b",
+      "size_bytes": 367
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "sha256": "d52c8540e75b5744982e7438365354e46130cf95adf1ec2576f47f5abefa9863",
+      "size_bytes": 527
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "a03a24488ae9ba39b190eb1f68d38b0e35e2154755e395408f37e68f78991831",
+      "size_bytes": 413
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "03e4493e7b1839eb95eb7cb9a349d1517d1da9b3cbb6badf673a76617d7ba5fa",
+      "size_bytes": 1770
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "1def36675503d9553f51c3f61f42053ae12cdd01a23ebfec12f327d904e16ae5",
+      "size_bytes": 1179
+    },
+    {
+      "path": "README.md",
+      "sha256": "ab1e5ed6015977f485330d59908ce96b62de01146bfb3dc9ea2e7d9f0ae918d5",
+      "size_bytes": 6600
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "d1bba0053142285a6ca5c30ee7caa4f23104e2467319c8e31d894c188259f1fb",
+      "size_bytes": 1414
+    },
+    {
+      "path": "config.json",
+      "sha256": "6627fae46bb5bdcf1b7bfa9043f229d06493245a07a295eece7a70344e2292ea",
+      "size_bytes": 1979
+    },
+    {
+      "path": "data/eliminated_teams.json",
+      "sha256": "19ead5b3ee50fddca901afe40fcba88db2b81aa583ec308d14ec52b0c5b76971",
+      "size_bytes": 7659
+    },
+    {
+      "path": "data/historical_lineup_summary.csv",
+      "sha256": "37822d87a0b8f11d25f882ad4dd6cedd15a04cd5ac25c6a5f5a1d40926282ad9",
+      "size_bytes": 7712
+    },
+    {
+      "path": "data/historical_lineups.csv",
+      "sha256": "6543488e12ea6a8d6b31cbb14bf20d49ea8800227039acb03fc77f922c47dce1",
+      "size_bytes": 1642360
+    },
+    {
+      "path": "data/historical_lineups_vs_worlds_rosters.csv",
+      "sha256": "5876ef21734b241745bf48c2b288b79df99f5e245f97ab9b9717a16ea90f2519",
+      "size_bytes": 8197
+    },
+    {
+      "path": "data/history_chaincc_players_2026.csv.gz",
+      "sha256": "671eea6ee8d4772b2501ee69c37dbff0b0544390fb56aa7cbf1e06986412c430",
+      "size_bytes": 10857144
+    },
+    {
+      "path": "data/history_chaincc_teams_2026.csv.gz",
+      "sha256": "ae1008ed9424a5eda59a873e9d70d06669337a2068d48497efbbd695e1c8105d",
+      "size_bytes": 2270813
+    },
+    {
+      "path": "data/history_games.csv",
+      "sha256": "69eab1ac0bad0ef8e4aa19fc8ba8a3abe219952535ce14f20350b2fa912ba312",
+      "size_bytes": 1187680
+    },
+    {
+      "path": "data/history_official_series.csv",
+      "sha256": "8187c638ecc160627544f100ade68d979a558cd19bed928b72edb2303783ba38",
+      "size_bytes": 322038
+    },
+    {
+      "path": "data/history_rejected_games.csv",
+      "sha256": "c42580402c295aed790c5152d973fa0fd3f0c6eea387487505b98f3eb810e61f",
+      "size_bytes": 16
+    },
+    {
+      "path": "data/history_series.csv",
+      "sha256": "87c7fc343391ef58688b488d70bb7f29549054d1c5479e2f78c358c4eb552892",
+      "size_bytes": 295607
+    },
+    {
+      "path": "data/history_supplements.csv",
+      "sha256": "6120651641bd014e1e678e5433d02750912232094301b76e609cca4d6d12dae1",
+      "size_bytes": 793
+    },
+    {
+      "path": "data/history_teams.csv",
+      "sha256": "ac289b20d5144d2c2490b419ebbb583b43b6f9312341b7a0e8ef042e70f73121",
+      "size_bytes": 5561
+    },
+    {
+      "path": "data/known_state.json",
+      "sha256": "b83444b98a0ea856fbcf11508f456a4a6ac4992d1b4aec88e1cadd16dfe783c7",
+      "size_bytes": 10216
+    },
+    {
+      "path": "data/model_observations.csv",
+      "sha256": "bf68622411f215aef799f5eb36b1ad403d8cc866ca3c3c8cb4f733778d1b8786",
+      "size_bytes": 1635816
+    },
+    {
+      "path": "data/rules.json",
+      "sha256": "0487d1723a129e9b8d6c3bdac8d312c54f22ae12721163cfffc90ffee02540c6",
+      "size_bytes": 9941
+    },
+    {
+      "path": "data/teams.json",
+      "sha256": "000201c30341abf5274a77a9905f6208001b322d0b77aff77a4665f76af34d50",
+      "size_bytes": 42051
+    },
+    {
+      "path": "docs/methodology.md",
+      "sha256": "bee166ccc855e69019e4d7a2ae74abba8e507b226186a6420b4384fb2caa6334",
+      "size_bytes": 17268
+    },
+    {
+      "path": "docs/report_build_manifest.json",
+      "sha256": "bbeb8540c41de4ad18f133b14e10340154613432e2d0e8cac3bb19d2c92ba258",
+      "size_bytes": 3572
+    },
+    {
+      "path": "docs/report_visual_qa.json",
+      "sha256": "3cfc296aebf2907a636893f2e33bad6d9f7821fb3232aa2c8c28bb6934e7fd0d",
+      "size_bytes": 5401
+    },
+    {
+      "path": "docs/worlds2026_report.pdf",
+      "sha256": "81f07d07b2deb6348d59f69556be2c36bab9aae24508a019a98d4dcce72f90a1",
+      "size_bytes": 1890524
+    },
+    {
+      "path": "evidence/history_coverage.json",
+      "sha256": "e4357561a70886a23c38591e1ad0359272f3117473ed2818848044233d0473d3",
+      "size_bytes": 8794
+    },
+    {
+      "path": "evidence/history_independent_qa.json",
+      "sha256": "9792eced1068ee4edc163b1fdf228e856ba03e5de0d18dd7aebb587cbaab575e",
+      "size_bytes": 49538
+    },
+    {
+      "path": "evidence/history_lineup_context.json",
+      "sha256": "759390e128b0e3342e0fb486994baf75b8f769596af88c9463c337a19aab5683",
+      "size_bytes": 2600
+    },
+    {
+      "path": "evidence/history_lineup_coverage.json",
+      "sha256": "10fb434e3e0deef8420caf3080ba6f72e809cdd71640543f44e11b5bb8b38230",
+      "size_bytes": 5480
+    },
+    {
+      "path": "evidence/history_lineup_notes.md",
+      "sha256": "0be355fd3990f68bd3c6e7ac993c4d944115a71d334b5bf77a6efee844830e16",
+      "size_bytes": 2725
+    },
+    {
+      "path": "evidence/history_official_reconciliation.json",
+      "sha256": "fefe02ee5a1d58516c451796021ae9fa5b51eaba30e3695ebc46b6cd5a8f58fd",
+      "size_bytes": 121116
+    },
+    {
+      "path": "evidence/history_riot_lck_schedule_0.json",
+      "sha256": "f54e86cadc530069617b083bc3e38004d69630f6bae10a932d687d6fc05b9b78",
+      "size_bytes": 48640
+    },
+    {
+      "path": "evidence/history_riot_leagues.json",
+      "sha256": "9c82890e104dab75e72464f7303bd8352ee2c78e14642e95e18128f03661265e",
+      "size_bytes": 12216
+    },
+    {
+      "path": "evidence/history_riot_schedule_americas_cup_0.json",
+      "sha256": "f82a8f959ed7f36fea65397c30535259c5b977d4c7d71bc13edf3ea22b0c203f",
+      "size_bytes": 3899
+    },
+    {
+      "path": "evidence/history_riot_schedule_cblol-brazil_0.json",
+      "sha256": "65e2949e74e916e801f42816b885b9ba250eb779d324e5991e0cd60782191c42",
+      "size_bytes": 48457
+    },
+    {
+      "path": "evidence/history_riot_schedule_cblol-brazil_1.json",
+      "sha256": "48e58a6148baa29234fe9e593e9fcc225deee094bafc3821cfa8b0327f2675c4",
+      "size_bytes": 48818
+    },
+    {
+      "path": "evidence/history_riot_schedule_cblol-brazil_2.json",
+      "sha256": "c68600b0e8138408e249c714fc35ba7b2e7163cd969c67458b298ded469a7806",
+      "size_bytes": 49313
+    },
+    {
+      "path": "evidence/history_riot_schedule_demacia_cup_0.json",
+      "sha256": "26e01ee01bfaeae727d05f148881e55cef81c779693d06b3d21b20a42de3e475",
+      "size_bytes": 16654
+    },
+    {
+      "path": "evidence/history_riot_schedule_first_stand_0.json",
+      "sha256": "061c7996289d90707fc95f4e6f4241eac94aed0bdc654eed1e452533bf8e1200",
+      "size_bytes": 16463
+    },
+    {
+      "path": "evidence/history_riot_schedule_lck_0.json",
+      "sha256": "f54e86cadc530069617b083bc3e38004d69630f6bae10a932d687d6fc05b9b78",
+      "size_bytes": 48640
+    },
+    {
+      "path": "evidence/history_riot_schedule_lck_1.json",
+      "sha256": "29157e37863322fee51b373f8cbfd4f6f1f40863584d9f4139786b490d30d480",
+      "size_bytes": 48765
+    },
+    {
+      "path": "evidence/history_riot_schedule_lck_2.json",
+      "sha256": "e02510ef3bb923f586b511308dfa3942d5032fe098abacc28f7e1c73796fe198",
+      "size_bytes": 48774
+    },
+    {
+      "path": "evidence/history_riot_schedule_lck_3.json",
+      "sha256": "f17a798e320bad95a0d32c6a9f342fc0e0f5006772d241ff6b3815973a700da0",
+      "size_bytes": 48771
+    },
+    {
+      "path": "evidence/history_riot_schedule_lcp_0.json",
+      "sha256": "c86154025fbf887b1bd7c7c18f339e58ceb15556aeaa7eee7ba6dd9ddfacd4c3",
+      "size_bytes": 49599
+    },
+    {
+      "path": "evidence/history_riot_schedule_lcp_1.json",
+      "sha256": "7cac47c4aca02a0d02f2e090caf87c89ae6aa965960087e5fcc12cc9a266d582",
+      "size_bytes": 49577
+    },
+    {
+      "path": "evidence/history_riot_schedule_lcp_2.json",
+      "sha256": "13301a928decdd41a58ab9e99fe8bb1724f16dfc9b836cf0e33dedc4e0dbf64d",
+      "size_bytes": 29693
+    },
+    {
+      "path": "evidence/history_riot_schedule_lcs_0.json",
+      "sha256": "2894b97a93a0c3d5c873351739013b9ab0aa37c800a5490933285bef851301c9",
+      "size_bytes": 49821
+    },
+    {
+      "path": "evidence/history_riot_schedule_lcs_1.json",
+      "sha256": "d42c72cb008dbbe0ef1d95fe05fa139af5fc96106b946b8042155994ee187b3d",
+      "size_bytes": 49368
+    },
+    {
+      "path": "evidence/history_riot_schedule_lcs_2.json",
+      "sha256": "b1ae59c49677751c05121e1c27b4cce17eeb08a2cd03fd0348555b07f20d48b4",
+      "size_bytes": 23427
+    },
+    {
+      "path": "evidence/history_riot_schedule_lec_0.json",
+      "sha256": "163cf8d66934d8a4485af8880219eab43062c81630d8056a028a9e0c55c6c1fc",
+      "size_bytes": 48361
+    },
+    {
+      "path": "evidence/history_riot_schedule_lec_1.json",
+      "sha256": "5f770720d2341a210c1750858442670c2fb4e03fe1099beb2233c195f5840cfe",
+      "size_bytes": 48446
+    },
+    {
+      "path": "evidence/history_riot_schedule_lec_2.json",
+      "sha256": "1ded8f71214418cafd1cd6efb755df5c68ce747fed94a9ac2fea749f43b2c4ff",
+      "size_bytes": 48415
+    },
+    {
+      "path": "evidence/history_riot_schedule_lec_3.json",
+      "sha256": "b6325cba95c7bd82eb8971cd465f3f599e031e113e4d88583829d05cba86ec22",
+      "size_bytes": 48224
+    },
+    {
+      "path": "evidence/history_riot_schedule_lpl_0.json",
+      "sha256": "6dcaf464e67b5cdd6435ed4b6d347cd2ae41c0a140be36a90eac5432c3ea4f3b",
+      "size_bytes": 48481
+    },
+    {
+      "path": "evidence/history_riot_schedule_lpl_1.json",
+      "sha256": "9ef7858e358729a9eede71bc71224ee1672cb4235a2ff9548152d3e8a8a6520a",
+      "size_bytes": 48461
+    },
+    {
+      "path": "evidence/history_riot_schedule_lpl_2.json",
+      "sha256": "d99f4fda4bf7a992b13ad2975739064bf4414a3d9a8286d05f8b7c542311f74a",
+      "size_bytes": 48607
+    },
+    {
+      "path": "evidence/history_riot_schedule_lpl_3.json",
+      "sha256": "2a8922044100897da0d1033b37f19ce2e9cacd4b87a9f42a2d53915a250a75e9",
+      "size_bytes": 48404
+    },
+    {
+      "path": "evidence/history_riot_schedule_lpl_4.json",
+      "sha256": "e18f3c33c414ac976d7cf1cb968d9e6ff289f30b6a75b9b9f89a6ddc2be88f98",
+      "size_bytes": 48431
+    },
+    {
+      "path": "evidence/history_riot_schedule_msi_0.json",
+      "sha256": "279cc98f7a5e1a9e2b1b449f4ff4ad28b58276c09f90469713a7e83d064d2ba6",
+      "size_bytes": 39289
+    },
+    {
+      "path": "evidence/history_riot_schedule_worlds_0.json",
+      "sha256": "cac559fedd589c05d6c453d32c9c28784607d5df27fc77f7be45105dc190d89c",
+      "size_bytes": 44230
+    },
+    {
+      "path": "evidence/history_riot_schedule_worlds_1.json",
+      "sha256": "d1b7f6cc613df5f7f6627b433021039a691a23b82fd302ae19893e3e25cc4334",
+      "size_bytes": 49262
+    },
+    {
+      "path": "evidence/history_sources.md",
+      "sha256": "cf5851b90c3434c87cd1869b1578be60dca7d9fbdd5e954e494d9f0820036705",
+      "size_bytes": 8894
+    },
+    {
+      "path": "evidence/history_spotchecks.json",
+      "sha256": "72513445e6182b519db1432fb8de4f9f30e1a81d5daca304763ab8b545e82fe1",
+      "size_bytes": 27583
+    },
+    {
+      "path": "evidence/official_first_round.json",
+      "sha256": "37a6b8b576e0e96bd93a44d5aa787a55ebd4b2d8cf18699e074b0128e64f8da6",
+      "size_bytes": 2025
+    },
+    {
+      "path": "evidence/rules_methodology.md",
+      "sha256": "e1eec61f86aa13d55e2750b6c440f6565bf9c25455d3c62ec85146fef4da0f08",
+      "size_bytes": 8387
+    },
+    {
+      "path": "evidence/rules_validation.json",
+      "sha256": "6added0d3780ac7315cddbe32ba7953c6ee48f7a72495be5872edd96e572ae22",
+      "size_bytes": 7812
+    },
+    {
+      "path": "evidence/teams_sources.json",
+      "sha256": "528d8c3a54d3e6cbfad0f60f36444540f75b2763cbfe51e2d43d68afafd788c3",
+      "size_bytes": 7009
+    },
+    {
+      "path": "examples/known_state_updated_example.json",
+      "sha256": "f2d25ab31d64f7a3ad57378d5da53c203052a9e19dbdc013f5307d116f6ae0f3",
+      "size_bytes": 12222
+    },
+    {
+      "path": "figures/01_matchup_matrix_bo1.pdf",
+      "sha256": "21fa3e310341ef186a05c89b61d9fc6dd94a0ed637f72f5bea879dfc6d72a975",
+      "size_bytes": 64648
+    },
+    {
+      "path": "figures/01_matchup_matrix_bo1.png",
+      "sha256": "fc5dc72a9fdce7468f252a62732e601576456c322f909a337b9b0ed423b1ac5a",
+      "size_bytes": 743527
+    },
+    {
+      "path": "figures/02_champion_probabilities.pdf",
+      "sha256": "28314bc643094072e8b2daeaf054c7fd160979fa8cb9c83483c2b9555b316764",
+      "size_bytes": 47386
+    },
+    {
+      "path": "figures/02_champion_probabilities.png",
+      "sha256": "c9e6be8bb2b8d6852b39c9c842cc279968cd61a899569a2e805ef3e0b22ec3ba",
+      "size_bytes": 312595
+    },
+    {
+      "path": "figures/03_calibration.pdf",
+      "sha256": "fc51c71d8a678ea1931aae3baa251d533ef3be72c7bf32c3197008001d25a9e8",
+      "size_bytes": 42419
+    },
+    {
+      "path": "figures/03_calibration.png",
+      "sha256": "ac28b8788e5f046f2cd3184c05bb504bbeb625f68bb726bf54203089c28dd2da",
+      "size_bytes": 299723
+    },
+    {
+      "path": "figures/04_swiss_records.pdf",
+      "sha256": "a84846f55b29bd3e33bebdd36cd655909bcab1e14cfa845ee19e08505139d1e2",
+      "size_bytes": 44474
+    },
+    {
+      "path": "figures/04_swiss_records.png",
+      "sha256": "014cec1188d0cd4372ac70c7c6f77f9d4bc0086afd8673b2aa9c22c819ed39c2",
+      "size_bytes": 468832
+    },
+    {
+      "path": "figures/assets/NotoSansCJK-LICENSE.txt",
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "size_bytes": 4301
+    },
+    {
+      "path": "figures/assets/NotoSansCJK-LICENSE.txt.source.json",
+      "sha256": "95c8e37f70149e25f5b996d402e621f4e0b85517cb2b6e6fc51282f61beb6d4e",
+      "size_bytes": 239
+    },
+    {
+      "path": "figures/assets/NotoSansCJKsc-Regular.otf",
+      "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+      "size_bytes": 16437364
+    },
+    {
+      "path": "figures/assets/NotoSansCJKsc-Regular.otf.source.json",
+      "sha256": "da66261e1dc86a9bc054c7c2c95e0b8063cd7127b4d90568d07d4ac0a3159fe1",
+      "size_bytes": 283
+    },
+    {
+      "path": "figures/assets/NotoSansSC-LICENSE.txt",
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "size_bytes": 4388
+    },
+    {
+      "path": "figures/assets/NotoSansSC-Regular.ttf",
+      "sha256": "91b3c990fb4a4be9ad58c340e05549faf8faa390f5e92d687cd3920c55cceac6",
+      "size_bytes": 10595948
+    },
+    {
+      "path": "figures/assets/NotoSansSC-Regular.ttf.source.json",
+      "sha256": "5b6cf89ffdb0acfd83bf9b8d32e1cde8bb26e9e3debc4d84824df415bf6e40f7",
+      "size_bytes": 452
+    },
+    {
+      "path": "figures/manifest.json",
+      "sha256": "93786d11bd09321b078b9e545ac3d95edbddc2280fe9f446581885ad0f74b7f8",
+      "size_bytes": 5130
+    },
+    {
+      "path": "figures/visual_qa.json",
+      "sha256": "0315bbd7cf4b028b45e452ced1b2c1c324ecba3ac1957aed1d64d87f5d3790d9",
+      "size_bytes": 3048
+    },
+    {
+      "path": "outputs/backtest_metrics.csv",
+      "sha256": "c08f3a6df04f5aa99b001b51e828373d3290ce7e6297a48c4035c15a2bd709cb",
+      "size_bytes": 1857
+    },
+    {
+      "path": "outputs/backtest_predictions.csv",
+      "sha256": "51698a580edc990109f484d85e4c904d1e68aaa81adc8a7ca7d08d628b0691ad",
+      "size_bytes": 508423
+    },
+    {
+      "path": "outputs/bootstrap_log.json",
+      "sha256": "610d4b86c159b7a3a5dbaaaac666bead1d6489ef17a0c925d48a2fbd2ff5d6d7",
+      "size_bytes": 30871
+    },
+    {
+      "path": "outputs/bootstrap_samples.csv",
+      "sha256": "835f39951069b48708accad7c9a83c7f0c406b70fa25ed0f0799eef16700f6d2",
+      "size_bytes": 206582
+    },
+    {
+      "path": "outputs/bootstrap_summary.csv",
+      "sha256": "68d7d568579ed63109c9a01d3bcf33e87d40f9f448d7f9bd4e535a565335eec1",
+      "size_bytes": 4019
+    },
+    {
+      "path": "outputs/calibration.csv",
+      "sha256": "c15b8c26fde8e0bcc72f5d9a346effd1eb11ecdfb58583ff0f0ae8e8ce3b748a",
+      "size_bytes": 707
+    },
+    {
+      "path": "outputs/chosen_parameters.json",
+      "sha256": "9e6b743c9dff3703fd09ffdd35e596ac3db4518b34abdc15c44a57a9ae4ed1d7",
+      "size_bytes": 63
+    },
+    {
+      "path": "outputs/data_audit.json",
+      "sha256": "e24fb91540dd5b7334a7334f49703fe853ba208d357617e8adea87e580f0223e",
+      "size_bytes": 2305
+    },
+    {
+      "path": "outputs/environment.json",
+      "sha256": "fc22ee6448bbecf74f1cec1c1c09199f4c1ba6efad782f8b9707b86aea268c12",
+      "size_bytes": 254
+    },
+    {
+      "path": "outputs/final_pairs.csv",
+      "sha256": "c0ea68f1de37869293393caaba24a58eec964dd69cb14811e3a53652a1d65c4c",
+      "size_bytes": 1870
+    },
+    {
+      "path": "outputs/fit_log.json",
+      "sha256": "acd6d1aff617a04d80afecd185f4341a8e76276f79b9010c30a1c441037ed8e5",
+      "size_bytes": 3547
+    },
+    {
+      "path": "outputs/fitted_model.json",
+      "sha256": "dde0af4e57987b6a966e7670f6e2210427dc0e6955356b5f217acf6e0f79691b",
+      "size_bytes": 2877
+    },
+    {
+      "path": "outputs/hyperparameter_search.csv",
+      "sha256": "4b8709e5023725babba4c9659fe6fdfde0b6e0cfac8a88859c89c54465745f00",
+      "size_bytes": 6251
+    },
+    {
+      "path": "outputs/independent_validation.json",
+      "sha256": "d6cedf26549dbfab7c0281d87b88aa1d1336848ffd64933936a9a967189079be",
+      "size_bytes": 554
+    },
+    {
+      "path": "outputs/international_backtest.json",
+      "sha256": "519bc8b03d4dab3b19e8ac399321aa90c5b16b1f400c8eea572eb54daac2691c",
+      "size_bytes": 858
+    },
+    {
+      "path": "outputs/known_first_round_probabilities.csv",
+      "sha256": "f61c9066d29caea816cac223357b72d46c1feea7768613f197c3939f91275416",
+      "size_bytes": 2160
+    },
+    {
+      "path": "outputs/lineup_sensitivity_log.json",
+      "sha256": "fec3504b0a80da4b780d12b1c0678aad663070d5cab58200cec461674cec04e9",
+      "size_bytes": 1667
+    },
+    {
+      "path": "outputs/matrix_all19_bo1.csv",
+      "sha256": "9339c57d0f579526d6b9cb61b075c87a47dd22021a7a42c33ee322934d0f9a1f",
+      "size_bytes": 6801
+    },
+    {
+      "path": "outputs/matrix_all19_bo3.csv",
+      "sha256": "d0e0f235dfb40dc2713be92066a3f00ca7428523ee3fc257ac2b3fcccec99224",
+      "size_bytes": 6800
+    },
+    {
+      "path": "outputs/matrix_all19_bo5.csv",
+      "sha256": "674dbea00ddd7dbda90c0f14538ec94e99a7ab87c1240c502cfa8df8a3112c03",
+      "size_bytes": 6808
+    },
+    {
+      "path": "outputs/matrix_bo1.csv",
+      "sha256": "1de54c618af8b34d34b0958c9e1a2cf7eaf27b488f09295a974a76d1e407aa23",
+      "size_bytes": 4809
+    },
+    {
+      "path": "outputs/matrix_bo1_q05.csv",
+      "sha256": "ec9048ff06f34f467b7224e4ce706226653468827727377fbe2184dd5fa4821d",
+      "size_bytes": 5080
+    },
+    {
+      "path": "outputs/matrix_bo1_q50.csv",
+      "sha256": "03620c753fb1db6eaa3e239a18e7ae6c60236dfede4dfa2da9083ac842604a24",
+      "size_bytes": 4791
+    },
+    {
+      "path": "outputs/matrix_bo1_q95.csv",
+      "sha256": "f887d6e0c86bdc09116b94aab1ac5b2eafd79d7126e9aa619d4974747d8b229b",
+      "size_bytes": 4776
+    },
+    {
+      "path": "outputs/matrix_bo3.csv",
+      "sha256": "cc5c91cb361d4f4789a5fc45354f544c72e725a4b5eed7a3f2d93be870758785",
+      "size_bytes": 4804
+    },
+    {
+      "path": "outputs/matrix_bo3_q05.csv",
+      "sha256": "803e08ae3ee4dc7bac59e35d903ad09122bfabc76711bce1d2a60c1d03657298",
+      "size_bytes": 5093
+    },
+    {
+      "path": "outputs/matrix_bo3_q50.csv",
+      "sha256": "5485510e1cdece071c55b664a2f17d06451c99b6c0f5c98574a53204de491f5a",
+      "size_bytes": 4793
+    },
+    {
+      "path": "outputs/matrix_bo3_q95.csv",
+      "sha256": "5c2bba719ab441bee711c4829380ff08003d8afb80093e0c0135dccf61d2a693",
+      "size_bytes": 4782
+    },
+    {
+      "path": "outputs/matrix_bo5.csv",
+      "sha256": "524a3a4c0370a2596ffce85e3cb87cdff6d7caddc2e3fa269b8d61cad27bf11c",
+      "size_bytes": 4812
+    },
+    {
+      "path": "outputs/matrix_bo5_q05.csv",
+      "sha256": "35b6dc1c61b80a1a57e25b2525a3ff6e9cae0bfc89864278aaa4128584412eee",
+      "size_bytes": 5093
+    },
+    {
+      "path": "outputs/matrix_bo5_q50.csv",
+      "sha256": "1bcd87b325a3a0ec6028fa7bd75538a41d6223d7428ca86f2b1fde86f223c05b",
+      "size_bytes": 4796
+    },
+    {
+      "path": "outputs/matrix_bo5_q95.csv",
+      "sha256": "3c1cc7cb20884ff91da270626d8a7429c5557b408bda3a838f9419a23dd2ce06",
+      "size_bytes": 4776
+    },
+    {
+      "path": "outputs/representative_examples.json",
+      "sha256": "cfe56ffe4b8e5b2fe0dd8786bbc331d669b2fc894b1016c799269e391f3ef9c9",
+      "size_bytes": 65143
+    },
+    {
+      "path": "outputs/reproducibility_check.json",
+      "sha256": "4733d2ea552b911c27be14cba3c20ac087393755fa8ab43c89f3c1a31d9ff699",
+      "size_bytes": 304
+    },
+    {
+      "path": "outputs/round2_analytic_given_loss.csv",
+      "sha256": "29e44ea0213337f50e9fb93fae4f6b1a38f1e221f25df45466e0ced64b1a7c88",
+      "size_bytes": 4763
+    },
+    {
+      "path": "outputs/round2_analytic_given_win.csv",
+      "sha256": "21625e7c1ad67b298add276e814f1b94da088a860b7b6c03823f1f9c4422c489",
+      "size_bytes": 4763
+    },
+    {
+      "path": "outputs/round2_analytic_unconditional.csv",
+      "sha256": "172ec7d348155003fea34e2708f48d9f39d8c10bf2bcff825f3e7ee1cf03b278",
+      "size_bytes": 4710
+    },
+    {
+      "path": "outputs/round2_opponents_given_loss.csv",
+      "sha256": "7ede36325ef6c0092b0016a377e2318eb8ae6671df9e2a7e2ec0904dd167b481",
+      "size_bytes": 4729
+    },
+    {
+      "path": "outputs/round2_opponents_given_win.csv",
+      "sha256": "e85ecf5ebb8f687087229db772290e933d0cac093a64fabe46dc000e73a6620a",
+      "size_bytes": 4738
+    },
+    {
+      "path": "outputs/round2_opponents_unconditional.csv",
+      "sha256": "adc1ee9329c1ec34bc2156ed92698f99b0bd5f16f858a55bc48c708773841161",
+      "size_bytes": 2023
+    },
+    {
+      "path": "outputs/sensitivity_probabilities.csv",
+      "sha256": "ee97e231013204f298a2fbc75298058c7e9070f4d9e9d37ecd83008f4ebbd6be",
+      "size_bytes": 14161
+    },
+    {
+      "path": "outputs/sensitivity_summary.csv",
+      "sha256": "6a94ed9d84204d5dc9d19dbdfe46faa19782c3c4f80ebc70838c3ce43da97f91",
+      "size_bytes": 2712
+    },
+    {
+      "path": "outputs/simulation_base.json",
+      "sha256": "366ead8e29570cb2e6552457741a92d3060e958234120b4754d301c064fbd871",
+      "size_bytes": 3358273
+    },
+    {
+      "path": "outputs/simulation_checks.json",
+      "sha256": "05c5c385672db7588af63c09940dc5fa9aa7ba194259e7b0401879a1a77bcac7",
+      "size_bytes": 1294
+    },
+    {
+      "path": "outputs/simulation_log.json",
+      "sha256": "e66dfe6b94945d400a94bede071b18c94faeb32281fab64850fb815e0a35743a",
+      "size_bytes": 7021
+    },
+    {
+      "path": "outputs/stage_probabilities.csv",
+      "sha256": "56a67bcb6356cb8ee4c637aec9ceebfcfc7284834f1d432bb40bf8afb1b12d3b",
+      "size_bytes": 5805
+    },
+    {
+      "path": "outputs/swiss_records.csv",
+      "sha256": "125376b6525b7c6d7482d03354981822c51935f8d7bb371477d49653c10e2516",
+      "size_bytes": 853
+    },
+    {
+      "path": "outputs/team_strengths.csv",
+      "sha256": "493318d55c441798ac8c455d9bf23b175b4e3ff655d276d93e868ae53bba54d4",
+      "size_bytes": 1065
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "8f7c4bd5ddba056b6bafb763024de060156885cbb2307134e81f7838dedd1e47",
+      "size_bytes": 106
+    },
+    {
+      "path": "src/build_figures.py",
+      "sha256": "fb7f9b6f140b582c5792e14376d36ba3a30e3f4c0794901d848980fc28c7182e",
+      "size_bytes": 22627
+    },
+    {
+      "path": "src/build_report.py",
+      "sha256": "23cc82111ce91cc75a729ecc73eddd3a626405da8fde55d4ec20034146347e9f",
+      "size_bytes": 38634
+    },
+    {
+      "path": "src/check_repository.py",
+      "sha256": "2f19cb1dd6b63957bd34e35190a3452c6fc3bcfa369b6d141c238137d5424763",
+      "size_bytes": 3492
+    },
+    {
+      "path": "src/extract_historical_lineups.py",
+      "sha256": "427f7e7b7cce22ea7ba3585ba6ee466d6a0c2cad536d13c80f4e7baabb31b11f",
+      "size_bytes": 15608
+    },
+    {
+      "path": "src/fetch_history.py",
+      "sha256": "6a0764564ee383fb0c3a5c5e6e45cc1d87a3e476b0adf615766d49806169df18",
+      "size_bytes": 20972
+    },
+    {
+      "path": "src/lineup_sensitivity.py",
+      "sha256": "cf954aead72f526b7380957bc792f08380e51be11b10a81365858a72d6f18453",
+      "size_bytes": 5653
+    },
+    {
+      "path": "src/model.py",
+      "sha256": "4eecfb5585edc7bb24a750c4644e0c659b6f366857eb84532791f64a4da59f9d",
+      "size_bytes": 11974
+    },
+    {
+      "path": "src/package_release.py",
+      "sha256": "7313641dc4ecdebe17e2e704d99a8060ec5ed7b4daddd91064add2aec1a57640",
+      "size_bytes": 19689
+    },
+    {
+      "path": "src/prepare_model_data.py",
+      "sha256": "9cfef08f2eab67dac2a0cd9b501cad6fdd62598a05fe90ba6bc86c1f2d69a7c4",
+      "size_bytes": 6640
+    },
+    {
+      "path": "src/run_analysis.py",
+      "sha256": "f1f404fa892e4527200a93f0fca9c189059a6deb2cb3d004ef2a5df88e03e34f",
+      "size_bytes": 19862
+    },
+    {
+      "path": "src/simulator.py",
+      "sha256": "ebe6800753c7d61838eab2d7fae8ae515b25915766e27655b9d65b729671aefa",
+      "size_bytes": 37134
+    },
+    {
+      "path": "src/update_state_example.py",
+      "sha256": "f55bac3b5434351e3e3185f75de1c8566afa242590ea7507d87fa581ed796fc3",
+      "size_bytes": 6102
+    },
+    {
+      "path": "src/verify_outputs.py",
+      "sha256": "5624f3685a2b982274a67d54b1bcb46cccc3e43ac80e953f9644e3621e3e6df1",
+      "size_bytes": 4074
+    }
+  ],
+  "hash_algorithm": "SHA-256",
+  "information_cutoff_beijing": "2026-10-23T15:25:50+08:00",
+  "information_cutoff_utc": "2026-10-23T07:25:50Z",
+  "licensing_and_provenance": {
+    "attribution_details": "evidence/history_sources.md and evidence/history_lineup_notes.md",
+    "font_licenses": [
+      "figures/assets/NotoSansSC-LICENSE.txt",
+      "figures/assets/NotoSansCJK-LICENSE.txt"
+    ],
+    "match_data_metadata": {
+      "attribution": "chaincc.lol",
+      "licence": "CC BY 4.0",
+      "updated_at": "2026-10-22T06:40:55-03:00"
+    },
+    "match_data_publisher": "ChainCC",
+    "match_data_snapshot_sha256": "ae1008ed9424a5eda59a873e9d70d06669337a2068d48497efbbd695e1c8105d",
+    "player_data_license": "CC BY 4.0; attribute chaincc.lol, as described on the provider's preserved data page",
+    "player_data_snapshot_sha256": "671eea6ee8d4772b2501ee69c37dbff0b0544390fb56aa7cbf1e06986412c430"
+  },
+  "manifest_schema_version": "1.0",
+  "packaging": {
+    "excluded_counts_by_reason": {
+      "hidden or temporary file": 188,
+      "temporary render or Python cache": 13
+    },
+    "fixed_zip_timestamp": "2026-10-23T07:25:50Z",
+    "omitted_material": [
+      "tmp and Python caches",
+      "all original webpage HTML and JavaScript",
+      "raw HTTP response metadata, including *.meta.json",
+      "complete third-party rule PDFs and extracted TXT; source links and analysis retained"
+    ],
+    "sorted_members": true,
+    "source_files_changed": false,
+    "zip_compression": "DEFLATE level 9"
+  },
+  "production_runs": {
+    "baseline": 100000,
+    "bootstrap": 2000000,
+    "bootstrap_replicates": 200,
+    "bootstrap_tournaments_each": 10000,
+    "calculation": "sum of completed entries in the final production logs; baseline counted once",
+    "excluded_from_total": "validation runs and synthetic state-update demonstrations",
+    "sensitivity": 1500000,
+    "sensitivity_scenarios_excluding_baseline": 15,
+    "sensitivity_scenarios_including_baseline": 16,
+    "source_logs": [
+      "outputs/simulation_log.json",
+      "outputs/bootstrap_log.json"
+    ],
+    "total": 3600000,
+    "unit": "complete future tournament realizations"
+  },
+  "release": "S16 2026 Worlds forecast reproducibility package",
+  "self_hash_policy": "MANIFEST.json is included in the ZIP but omitted from files to avoid a recursive hash.",
+  "sources": [
+    {
+      "documented_in": [
+        "data/rules.json",
+        "evidence/rules_methodology.md"
+      ],
+      "source_ids": [
+        "official_international_rules"
+      ],
+      "titles": [
+        "2026 League of Legends Esports International Events Competition Ruleset v1.1"
+      ],
+      "url": "https://cdn.sanity.io/files/dsfx7636/news_live/d29e446e0a0d0813a8caaae1d2817dd82cfe79c6.pdf"
+    },
+    {
+      "documented_in": [
+        "data/rules.json",
+        "evidence/rules_methodology.md"
+      ],
+      "source_ids": [
+        "official_worlds_rules"
+      ],
+      "titles": [
+        "2026 World Championship Event Specific Ruleset v1.01"
+      ],
+      "url": "https://cdn.sanity.io/files/dsfx7636/news_live/faa5ce974e58615911fbee931c6123e2785a8b46.pdf"
+    },
+    {
+      "documented_in": [
+        "evidence/history_lineup_coverage.json"
+      ],
+      "source_ids": [],
+      "titles": [],
+      "url": "https://chaincc.lol/data/chaincc-players-2026.csv.gz"
+    },
+    {
+      "documented_in": [
+        "evidence/history_coverage.json",
+        "evidence/history_sources.md"
+      ],
+      "source_ids": [],
+      "titles": [],
+      "url": "https://chaincc.lol/data/chaincc-teams-2026.csv.gz"
+    },
+    {
+      "documented_in": [
+        "evidence/history_coverage.json",
+        "evidence/history_lineup_coverage.json",
+        "evidence/history_sources.md"
+      ],
+      "source_ids": [],
+      "titles": [],
+      "url": "https://chaincc.lol/free/data/"
+    },
+    {
+      "documented_in": [
+        "data/rules.json",
+        "evidence/rules_methodology.md"
+      ],
+      "source_ids": [],
+      "titles": [],
+      "url": "https://competitiveops.riotgames.com/en-US/library?game=lol"
+    },
+    {
+      "documented_in": [
+        "evidence/history_sources.md"
+      ],
+      "source_ids": [],
+      "titles": [],
+      "url": "https://drive.google.com/drive/u/1/folders/1gLSw0RLjBbtaNy0dgnGQDAZOHIgCe-HH"
+    },
+    {
+      "documented_in": [
+        "evidence/history_sources.md"
+      ],
+      "source_ids": [],
+      "titles": [],
+      "url": "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US"
+    },
+    {
+      "documented_in": [
+        "evidence/history_independent_qa.json"
+      ],
+      "source_ids": [],
+      "titles": [],
+      "url": "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=113464388705111224"
+    },
+    {
+      "documented_in": [
+        "evidence/history_independent_qa.json"
+      ],
+      "source_ids": [],
+      "titles": [],
+      "url": "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=113476371197627891"
+    },
+    {
+      "documented_in": [
+        "data/eliminated_teams.json",
+        "evidence/history_independent_qa.json",
+        "evidence/official_first_round.json"
+      ],
+      "source_ids": [],
+      "titles": [],
+      "url": "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=98767975604431411"
+    },
+    {
+      "documented_in": [
+        "evidence/history_independent_qa.json"
+      ],
+      "source_ids": [],
+      "titles": [],
+      "url": "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=98767991299243165"
+    },
+    {
+      "documented_in": [
+        "evidence/history_independent_qa.json"
+      ],
+      "source_ids": [],
+      "titles": [],
+      "url": "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=98767991302996019"
+    },
+    {
+      "documented_in": [
+        "evidence/history_independent_qa.json"
+      ],
+      "source_ids": [],
+      "titles": [],
+      "url": "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=98767991310872058"
+    },
+    {
+      "documented_in": [
+        "evidence/history_independent_qa.json"
+      ],
+      "source_ids": [],
+      "titles": [],
+      "url": "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=98767991314006698"
+    },
+    {
+      "documented_in": [
+        "evidence/history_independent_qa.json"
+      ],
+      "source_ids": [],
+      "titles": [],
+      "url": "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=98767991325878492"
+    },
+    {
+      "documented_in": [
+        "evidence/history_independent_qa.json"
+      ],
+      "source_ids": [],
+      "titles": [],
+      "url": "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US&leagueId=98767991332355509"
+    },
+    {
+      "documented_in": [
+        "evidence/teams_sources.json"
+      ],
+      "source_ids": [
+        "esports_seeds"
+      ],
+      "titles": [],
+      "url": "https://esports.gg/news/all-teams-qualified-to-league-of-legends-2026-world-championship"
+    },
+    {
+      "documented_in": [
+        "evidence/history_independent_qa.json"
+      ],
+      "source_ids": [],
+      "titles": [],
+      "url": "https://esportsworldcup.com/en/news/ewc26-notable-stories-week-2"
+    },
+    {
+      "documented_in": [
+        "evidence/teams_sources.json"
+      ],
+      "source_ids": [
+        "cnmo_round1"
+      ],
+      "titles": [],
+      "url": "https://feng.ifeng.com/c/8xN9PJ6IRc5"
+    },
+    {
+      "documented_in": [
+        "data/rules.json",
+        "evidence/rules_methodology.md"
+      ],
+      "source_ids": [
+        "liquipedia_2026_format"
+      ],
+      "titles": [
+        "2026 World Championship - Format"
+      ],
+      "url": "https://liquipedia.net/leagueoflegends/World_Championship/2026"
+    },
+    {
+      "documented_in": [
+        "evidence/teams_sources.json"
+      ],
+      "source_ids": [
+        "tencent_round1"
+      ],
+      "titles": [],
+      "url": "https://lol.qq.com/news/space-detail.shtml?docid=12269142849346097404"
+    },
+    {
+      "documented_in": [
+        "evidence/history_sources.md"
+      ],
+      "source_ids": [],
+      "titles": [],
+      "url": "https://lolesports.com/"
+    },
+    {
+      "documented_in": [
+        "data/rules.json",
+        "evidence/rules_methodology.md",
+        "evidence/teams_sources.json"
+      ],
+      "source_ids": [
+        "official_primer",
+        "riot_primer"
+      ],
+      "titles": [
+        "Worlds 2026 Primer"
+      ],
+      "url": "https://lolesports.com/en-GB/news/worlds-2026-primer"
+    },
+    {
+      "documented_in": [
+        "data/rules.json"
+      ],
+      "source_ids": [
+        "official_first_selection"
+      ],
+      "titles": [
+        "Season Start 2026: LoL Esports"
+      ],
+      "url": "https://lolesports.com/en-US/news/season-start-2026-lol-esports"
+    },
+    {
+      "documented_in": [
+        "evidence/teams_sources.json"
+      ],
+      "source_ids": [
+        "riot_overview"
+      ],
+      "titles": [],
+      "url": "https://lolesports.com/en-US/tournament/115660540725177488/overview"
+    },
+    {
+      "documented_in": [
+        "evidence/teams_sources.json"
+      ],
+      "source_ids": [
+        "riot_schedule"
+      ],
+      "titles": [],
+      "url": "https://lolesports.com/zh-TW/"
+    },
+    {
+      "documented_in": [
+        "evidence/teams_sources.json"
+      ],
+      "source_ids": [
+        "tes_visa"
+      ],
+      "titles": [],
+      "url": "https://news.zhibo8.com/game/2026-10-06/6ac484c493fe3native.htm"
+    },
+    {
+      "documented_in": [
+        "data/teams.json",
+        "evidence/teams_sources.json"
+      ],
+      "source_ids": [
+        "tes_media_day"
+      ],
+      "titles": [],
+      "url": "https://news.zhibo8.com/game/2026-10-22/6ad96ac33fb35native.htm"
+    },
+    {
+      "documented_in": [
+        "evidence/history_sources.md"
+      ],
+      "source_ids": [],
+      "titles": [],
+      "url": "https://oracleselixir.com/tools/downloads"
+    },
+    {
+      "documented_in": [
+        "figures/assets/NotoSansSC-Regular.ttf.source.json"
+      ],
+      "source_ids": [],
+      "titles": [],
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf"
+    },
+    {
+      "documented_in": [
+        "figures/assets/NotoSansCJK-LICENSE.txt.source.json"
+      ],
+      "source_ids": [],
+      "titles": [],
+      "url": "https://raw.githubusercontent.com/notofonts/noto-cjk/main/Sans/LICENSE"
+    },
+    {
+      "documented_in": [
+        "figures/assets/NotoSansCJKsc-Regular.otf.source.json"
+      ],
+      "source_ids": [],
+      "titles": [],
+      "url": "https://raw.githubusercontent.com/notofonts/noto-cjk/main/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf"
+    },
+    {
+      "documented_in": [
+        "data/eliminated_teams.json",
+        "data/teams.json",
+        "evidence/teams_sources.json"
+      ],
+      "source_ids": [
+        "tipsgg_rosters"
+      ],
+      "titles": [],
+      "url": "https://tips.gg/article/lol-worlds-2026-teams-rosters/"
+    },
+    {
+      "documented_in": [
+        "evidence/history_independent_qa.json"
+      ],
+      "source_ids": [],
+      "titles": [],
+      "url": "https://www.gosugamers.net/lol/news/78825-dplus-kia-crowned-2026-league-of-legends-esports-world-cup-champions-after-defeating-karmine-corp"
+    },
+    {
+      "documented_in": [
+        "data/teams.json",
+        "evidence/teams_sources.json"
+      ],
+      "source_ids": [
+        "gosu_rosters"
+      ],
+      "titles": [],
+      "url": "https://www.gosugamers.net/lol/news/79314-all-teams-and-players-qualified-for-the-league-of-legends-world-championship-2026"
+    },
+    {
+      "documented_in": [
+        "data/teams.json",
+        "evidence/teams_sources.json"
+      ],
+      "source_ids": [
+        "strafe_lck"
+      ],
+      "titles": [],
+      "url": "https://www.strafe.com/news/read/all-lck-teams-at-worlds-2026-and-how-they-qualified/"
+    }
+  ],
+  "total_payload_bytes_excluding_manifest": 55381790,
+  "version": "1.0.0"
+}

@@ -1,0 +1,126 @@
+{
+  "created_at_utc": "2026-10-23T08:01:10.361408+00:00",
+  "cutoff_utc": "2026-10-23T07:25:50Z",
+  "source_url": "https://chaincc.lol/data/chaincc-players-2026.csv.gz",
+  "source_page": "https://chaincc.lol/free/data/",
+  "license": "CC BY 4.0; attribute chaincc.lol, as described on the provider's preserved data page",
+  "source_snapshot_sha256": "671eea6ee8d4772b2501ee69c37dbff0b0544390fb56aa7cbf1e06986412c430",
+  "raw_player_rows": 97530,
+  "raw_role_counts": {
+    "bot": 19506,
+    "jng": 19506,
+    "mid": 19506,
+    "sup": 19506,
+    "top": 19506
+  },
+  "selected_game_count": 2849,
+  "selected_player_rows": 28490,
+  "selected_team_game_lineup_rows": 5698,
+  "complete_team_game_lineups": 5698,
+  "primary_actual_game_count": 2597,
+  "primary_team_game_lineup_rows": 5194,
+  "primary_actual_game_lineup_coverage": 1.0,
+  "official_residual_outcomes_without_observed_lineup": [
+    {
+      "series_id": "derived:7b72be4dd5c908980902",
+      "date": "2026-08-01 10:00:00+00:00",
+      "team_a": "DK",
+      "team_b": "GEN",
+      "wins_a": "1",
+      "wins_b": "0",
+      "observation_type": "official_series_residual"
+    },
+    {
+      "series_id": "source:13398-13398",
+      "date": "2026-08-07 09:00:00+00:00",
+      "team_a": "TT",
+      "team_b": "WE",
+      "wins_a": "1",
+      "wins_b": "0",
+      "observation_type": "official_series_residual"
+    }
+  ],
+  "team_count": 63,
+  "worlds_teams_compared": 19,
+  "worlds_latest_lineups_matching_all_five": 18,
+  "worlds_latest_mismatches": [
+    {
+      "team": "TES",
+      "region": "LPL",
+      "observed_games": 140,
+      "primary_games": 140,
+      "distinct_observed_lineups": 3,
+      "distinct_primary_lineups": 3,
+      "adjacent_observed_lineup_changes": 2,
+      "first_observed_utc": "2026-01-14T12:37:55Z",
+      "latest_observed_utc": "2026-09-17T12:10:40Z",
+      "latest_game_id": "13506-13506_game_4",
+      "latest_competition": "LPL_RQ",
+      "latest_top": "ZUIAN",
+      "latest_jungle": "Tian",
+      "latest_mid": "Creme",
+      "latest_bot": "JackeyLove",
+      "latest_support": "Zhuo",
+      "worlds_status": "in_swiss_at_cutoff",
+      "reported_worlds_top": "369",
+      "reported_worlds_jungle": "Tian",
+      "reported_worlds_mid": "Creme",
+      "reported_worlds_bot": "JackeyLove",
+      "reported_worlds_support": "Zhuo",
+      "latest_matching_roles": 4,
+      "latest_mismatching_roles": "top",
+      "observed_games_with_reported_five": 0,
+      "primary_games_with_reported_five": 0,
+      "primary_fraction_with_reported_five": 0.0,
+      "first_observed_reported_five_utc": "",
+      "last_observed_reported_five_utc": "",
+      "reported_roster_as_of": "2026-10-23T07:25:50Z",
+      "reported_roster_sources": "https://news.zhibo8.com/game/2026-10-22/6ad96ac33fb35native.htm | https://tips.gg/article/lol-worlds-2026-teams-rosters/",
+      "use": "descriptive_only_not_a_historical_model_feature"
+    }
+  ],
+  "first_observed_utc": "2026-01-14T08:13:43Z",
+  "last_observed_utc": "2026-10-18T19:48:36Z",
+  "validation_errors": 0,
+  "metadata_comparisons_by_field": {
+    "opponent_team_name": 28490,
+    "side": 28490,
+    "league": 28490,
+    "patch": 28490,
+    "date": 28490,
+    "result": 28490,
+    "gamelength": 28490
+  },
+  "input_sha256": {
+    "data/history_chaincc_players_2026.csv.gz": "671eea6ee8d4772b2501ee69c37dbff0b0544390fb56aa7cbf1e06986412c430",
+    "data/history_games.csv": "69eab1ac0bad0ef8e4aa19fc8ba8a3abe219952535ce14f20350b2fa912ba312",
+    "data/model_observations.csv": "bf68622411f215aef799f5eb36b1ad403d8cc866ca3c3c8cb4f733778d1b8786",
+    "data/history_teams.csv": "ac289b20d5144d2c2490b419ebbb583b43b6f9312341b7a0e8ef042e70f73121",
+    "data/teams.json": "000201c30341abf5274a77a9905f6208001b322d0b77aff77a4665f76af34d50",
+    "data/eliminated_teams.json": "19ead5b3ee50fddca901afe40fcba88db2b81aa583ec308d14ec52b0c5b76971"
+  },
+  "outputs": {
+    "data/historical_lineups.csv": {
+      "sha256": "6543488e12ea6a8d6b31cbb14bf20d49ea8800227039acb03fc77f922c47dce1",
+      "bytes": 1642360
+    },
+    "data/historical_lineup_summary.csv": {
+      "sha256": "37822d87a0b8f11d25f882ad4dd6cedd15a04cd5ac25c6a5f5a1d40926282ad9",
+      "bytes": 7712
+    },
+    "data/historical_lineups_vs_worlds_rosters.csv": {
+      "sha256": "5876ef21734b241745bf48c2b288b79df99f5e245f97ab9b9717a16ea90f2519",
+      "bytes": 8197
+    }
+  },
+  "limitations": [
+    "Actual five-player observations are extracted from ChainCC match records, not a complete registered/substitute roster.",
+    "Raw player timestamps have no timezone label; existing frozen team-data UTC interpretation is retained and exact timestamps are reconciled.",
+    "Two official residual game outcomes have no observed player rows and remain missing; no lineup is inferred or copied into them.",
+    "Player handles are not stable person IDs. Case and whitespace are normalized for comparison; no unverified rename/alias merge is performed.",
+    "Comparisons with reported Worlds starters are descriptive and may reflect substitutes, roles, naming differences, or source errors.",
+    "The published frozen baseline, historical backtests, probabilities, simulations and bootstrap outputs have not been changed or refitted.",
+    "Reported Worlds starters are never backfilled into past matches or used as a historical feature.",
+    "Completeness here measures the selected game's five role records; it does not certify independent correctness of each name in the provider snapshot."
+  ]
+}

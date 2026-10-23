@@ -1,0 +1,523 @@
+{
+  "is_synthetic": true,
+  "official_results": false,
+  "warning_zh": "仅供调用演示：全部赛果、后续抽签和更新时间均为合成示例，来自 simulation_base.json 首条蒙特卡洛样本；不是官方结果，不得覆盖真实 data/known_state.json。",
+  "source": "outputs/simulation_base.json -> examples[0]",
+  "source_sha256": "2e3abccca9834c5caa6462b62da46534ef4ec3ec26e3a8be09fe0a79fa11f024",
+  "source_simulation_index": 0,
+  "first_round": [
+    [
+      "GEN",
+      "IG"
+    ],
+    [
+      "HLE",
+      "TES"
+    ],
+    [
+      "BLG",
+      "MKOI"
+    ],
+    [
+      "AL",
+      "KC"
+    ],
+    [
+      "G2",
+      "DK"
+    ],
+    [
+      "TLAW",
+      "CFO"
+    ],
+    [
+      "LOS",
+      "T1"
+    ],
+    [
+      "TSW",
+      "LYON"
+    ]
+  ],
+  "strength_matrix": "outputs/matrix_bo1.csv, held fixed for this state-update demonstration",
+  "states": {
+    "two_swiss_rounds_plus_round3_draw": {
+      "is_synthetic": true,
+      "description_zh": "锁定首两轮 16 场合成赛果和第三轮全部 8 场合成对阵，再模拟后续。",
+      "simulator_kwargs": {
+        "known_matches": [
+          {
+            "round": 1,
+            "a": "GEN",
+            "b": "IG",
+            "winner": "GEN"
+          },
+          {
+            "round": 1,
+            "a": "HLE",
+            "b": "TES",
+            "winner": "HLE"
+          },
+          {
+            "round": 1,
+            "a": "BLG",
+            "b": "MKOI",
+            "winner": "MKOI"
+          },
+          {
+            "round": 1,
+            "a": "AL",
+            "b": "KC",
+            "winner": "AL"
+          },
+          {
+            "round": 1,
+            "a": "G2",
+            "b": "DK",
+            "winner": "DK"
+          },
+          {
+            "round": 1,
+            "a": "TLAW",
+            "b": "CFO",
+            "winner": "TLAW"
+          },
+          {
+            "round": 1,
+            "a": "LOS",
+            "b": "T1",
+            "winner": "LOS"
+          },
+          {
+            "round": 1,
+            "a": "TSW",
+            "b": "LYON",
+            "winner": "LYON"
+          },
+          {
+            "round": 2,
+            "a": "GEN",
+            "b": "HLE",
+            "winner": "GEN"
+          },
+          {
+            "round": 2,
+            "a": "DK",
+            "b": "LOS",
+            "winner": "LOS"
+          },
+          {
+            "round": 2,
+            "a": "AL",
+            "b": "MKOI",
+            "winner": "MKOI"
+          },
+          {
+            "round": 2,
+            "a": "TLAW",
+            "b": "LYON",
+            "winner": "TLAW"
+          },
+          {
+            "round": 2,
+            "a": "T1",
+            "b": "G2",
+            "winner": "G2"
+          },
+          {
+            "round": 2,
+            "a": "BLG",
+            "b": "TES",
+            "winner": "BLG"
+          },
+          {
+            "round": 2,
+            "a": "IG",
+            "b": "CFO",
+            "winner": "CFO"
+          },
+          {
+            "round": 2,
+            "a": "KC",
+            "b": "TSW",
+            "winner": "KC"
+          }
+        ],
+        "announced_rounds": {
+          "3": [
+            [
+              "GEN",
+              "MKOI"
+            ],
+            [
+              "TLAW",
+              "LOS"
+            ],
+            [
+              "HLE",
+              "G2"
+            ],
+            [
+              "DK",
+              "BLG"
+            ],
+            [
+              "AL",
+              "CFO"
+            ],
+            [
+              "KC",
+              "LYON"
+            ],
+            [
+              "T1",
+              "TES"
+            ],
+            [
+              "IG",
+              "TSW"
+            ]
+          ]
+        },
+        "as_of_utc": "2026-10-25T10:00:00Z"
+      },
+      "demo_run": {
+        "n": 10000,
+        "seed": 20261024,
+        "updates": {
+          "known_swiss_match_count": 16,
+          "completed_swiss_rounds": 2,
+          "announced_rounds": [
+            1,
+            2,
+            3
+          ],
+          "known_knockout_match_count": 0,
+          "quarterfinal_bracket_fixed": false,
+          "scope": "Swiss prefix/current draw; fixed full quarterfinal bracket after Swiss; sequential knockout-stage observations",
+          "p1_updated_from_observations_here": false
+        },
+        "checks": {
+          "wrong_record_pairings": 0,
+          "swiss_repeat_matches": 0,
+          "repeat_waiver_group_count": 0,
+          "swiss_matches": 330000,
+          "knockout_matches": 70000,
+          "fixed_swiss_match_instances": 160000,
+          "sampled_swiss_matches": 170000,
+          "fixed_knockout_match_instances": 0,
+          "sampled_knockout_matches": 70000,
+          "terminal_record_errors": 0,
+          "qualified_per_tournament_min": 8,
+          "qualified_per_tournament_max": 8,
+          "quarterfinal_duplicate_team_errors": 0,
+          "three_zero_vs_three_two_errors": 0,
+          "three_zero_same_half_errors": 0,
+          "champion_count_total": 10000,
+          "finalist_count_total": 20000,
+          "semifinalist_count_total": 40000,
+          "qualified_count_total": 80000,
+          "final_pair_count_total": 10000,
+          "record_count_totals": [
+            20000,
+            30000,
+            30000,
+            30000,
+            30000,
+            20000
+          ],
+          "round2_row_total_errors": 0,
+          "round2_conditioning_total_errors": 0,
+          "draw_cache": {
+            "hits": 71,
+            "misses": 602,
+            "maxsize": 65536,
+            "currsize": 602
+          }
+        }
+      }
+    },
+    "all_swiss_plus_quarterfinal_bracket": {
+      "is_synthetic": true,
+      "description_zh": "锁定全部 33 场合成瑞士轮赛果和合成八强签位，只模拟淘汰赛。",
+      "simulator_kwargs": {
+        "known_matches": [
+          {
+            "round": 1,
+            "a": "GEN",
+            "b": "IG",
+            "winner": "GEN"
+          },
+          {
+            "round": 1,
+            "a": "HLE",
+            "b": "TES",
+            "winner": "HLE"
+          },
+          {
+            "round": 1,
+            "a": "BLG",
+            "b": "MKOI",
+            "winner": "MKOI"
+          },
+          {
+            "round": 1,
+            "a": "AL",
+            "b": "KC",
+            "winner": "AL"
+          },
+          {
+            "round": 1,
+            "a": "G2",
+            "b": "DK",
+            "winner": "DK"
+          },
+          {
+            "round": 1,
+            "a": "TLAW",
+            "b": "CFO",
+            "winner": "TLAW"
+          },
+          {
+            "round": 1,
+            "a": "LOS",
+            "b": "T1",
+            "winner": "LOS"
+          },
+          {
+            "round": 1,
+            "a": "TSW",
+            "b": "LYON",
+            "winner": "LYON"
+          },
+          {
+            "round": 2,
+            "a": "GEN",
+            "b": "HLE",
+            "winner": "GEN"
+          },
+          {
+            "round": 2,
+            "a": "DK",
+            "b": "LOS",
+            "winner": "LOS"
+          },
+          {
+            "round": 2,
+            "a": "AL",
+            "b": "MKOI",
+            "winner": "MKOI"
+          },
+          {
+            "round": 2,
+            "a": "TLAW",
+            "b": "LYON",
+            "winner": "TLAW"
+          },
+          {
+            "round": 2,
+            "a": "T1",
+            "b": "G2",
+            "winner": "G2"
+          },
+          {
+            "round": 2,
+            "a": "BLG",
+            "b": "TES",
+            "winner": "BLG"
+          },
+          {
+            "round": 2,
+            "a": "IG",
+            "b": "CFO",
+            "winner": "CFO"
+          },
+          {
+            "round": 2,
+            "a": "KC",
+            "b": "TSW",
+            "winner": "KC"
+          },
+          {
+            "round": 3,
+            "a": "GEN",
+            "b": "MKOI",
+            "winner": "GEN"
+          },
+          {
+            "round": 3,
+            "a": "TLAW",
+            "b": "LOS",
+            "winner": "TLAW"
+          },
+          {
+            "round": 3,
+            "a": "HLE",
+            "b": "G2",
+            "winner": "HLE"
+          },
+          {
+            "round": 3,
+            "a": "DK",
+            "b": "BLG",
+            "winner": "DK"
+          },
+          {
+            "round": 3,
+            "a": "AL",
+            "b": "CFO",
+            "winner": "CFO"
+          },
+          {
+            "round": 3,
+            "a": "KC",
+            "b": "LYON",
+            "winner": "KC"
+          },
+          {
+            "round": 3,
+            "a": "T1",
+            "b": "TES",
+            "winner": "T1"
+          },
+          {
+            "round": 3,
+            "a": "IG",
+            "b": "TSW",
+            "winner": "IG"
+          },
+          {
+            "round": 4,
+            "a": "HLE",
+            "b": "CFO",
+            "winner": "HLE"
+          },
+          {
+            "round": 4,
+            "a": "DK",
+            "b": "KC",
+            "winner": "DK"
+          },
+          {
+            "round": 4,
+            "a": "MKOI",
+            "b": "LOS",
+            "winner": "LOS"
+          },
+          {
+            "round": 4,
+            "a": "T1",
+            "b": "BLG",
+            "winner": "T1"
+          },
+          {
+            "round": 4,
+            "a": "AL",
+            "b": "G2",
+            "winner": "G2"
+          },
+          {
+            "round": 4,
+            "a": "IG",
+            "b": "LYON",
+            "winner": "IG"
+          },
+          {
+            "round": 5,
+            "a": "T1",
+            "b": "CFO",
+            "winner": "T1"
+          },
+          {
+            "round": 5,
+            "a": "IG",
+            "b": "G2",
+            "winner": "G2"
+          },
+          {
+            "round": 5,
+            "a": "MKOI",
+            "b": "KC",
+            "winner": "KC"
+          }
+        ],
+        "quarterfinal_bracket": [
+          [
+            "GEN",
+            "KC"
+          ],
+          [
+            "LOS",
+            "HLE"
+          ],
+          [
+            "TLAW",
+            "G2"
+          ],
+          [
+            "T1",
+            "DK"
+          ]
+        ],
+        "as_of_utc": "2026-11-01T12:00:00Z"
+      },
+      "demo_run": {
+        "n": 10000,
+        "seed": 20261025,
+        "updates": {
+          "known_swiss_match_count": 33,
+          "completed_swiss_rounds": 5,
+          "announced_rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "known_knockout_match_count": 0,
+          "quarterfinal_bracket_fixed": true,
+          "scope": "Swiss prefix/current draw; fixed full quarterfinal bracket after Swiss; sequential knockout-stage observations",
+          "p1_updated_from_observations_here": false
+        },
+        "checks": {
+          "wrong_record_pairings": 0,
+          "swiss_repeat_matches": 0,
+          "repeat_waiver_group_count": 0,
+          "swiss_matches": 330000,
+          "knockout_matches": 70000,
+          "fixed_swiss_match_instances": 330000,
+          "sampled_swiss_matches": 0,
+          "fixed_knockout_match_instances": 0,
+          "sampled_knockout_matches": 70000,
+          "terminal_record_errors": 0,
+          "qualified_per_tournament_min": 8,
+          "qualified_per_tournament_max": 8,
+          "quarterfinal_duplicate_team_errors": 0,
+          "three_zero_vs_three_two_errors": 0,
+          "three_zero_same_half_errors": 0,
+          "champion_count_total": 10000,
+          "finalist_count_total": 20000,
+          "semifinalist_count_total": 40000,
+          "qualified_count_total": 80000,
+          "final_pair_count_total": 10000,
+          "record_count_totals": [
+            20000,
+            30000,
+            30000,
+            30000,
+            30000,
+            20000
+          ],
+          "round2_row_total_errors": 0,
+          "round2_conditioning_total_errors": 0,
+          "draw_cache": {
+            "hits": 71,
+            "misses": 602,
+            "maxsize": 65536,
+            "currsize": 602
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+bin_low,bin_high,map_weight,series_count,mean_prediction,observed_win_rate,note
+0.5,0.6,394,130,0.546732875500246,0.5736040609137056,"Forecast-favorite perspective; maps in one series are correlated, not independent"
+0.6,0.7,228,81,0.6470887286690326,0.6271929824561403,"Forecast-favorite perspective; maps in one series are correlated, not independent"
+0.7,0.8,79,32,0.732642705717964,0.8354430379746836,"Forecast-favorite perspective; maps in one series are correlated, not independent"
+0.8,0.9,10,5,0.8143072159396019,1.0,"Forecast-favorite perspective; maps in one series are correlated, not independent"
+0.9,1.0,0,0,,,"Forecast-favorite perspective; maps in one series are correlated, not independent"

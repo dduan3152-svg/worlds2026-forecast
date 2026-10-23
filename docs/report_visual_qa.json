@@ -1,0 +1,161 @@
+{
+  "artifact": "docs/worlds2026_report.pdf",
+  "artifact_sha256": "81f07d07b2deb6348d59f69556be2c36bab9aae24508a019a98d4dcce72f90a1",
+  "page_count": 13,
+  "visual_qa_status": "passed",
+  "inspected_all_pages": true,
+  "inspection_method": "All 13 pages were rendered and visually inspected. After final content changes, changed pages 1,2,3,7,8,9,10,12,13 were reinspected; unchanged pages 4,5,6,11 retained prior passed visual inspection. Final PDF was also rendered in an exclusive directory with PyMuPDF after a temporary Poppler-rendered PNG was found truncated.",
+  "renderers": [
+    "/usr/bin/pdftoppm at 110 dpi",
+    "PyMuPDF at 1.5 scale in exclusive final QA directory"
+  ],
+  "final_render_files": [
+    {
+      "file": "tmp/pdfs/lpl_final_qa_81f07d/page-01.png",
+      "sha256": "d81935a589399c39fa1c8ac7ba8c447e8cd28a78457499daccc226c88af88f3f",
+      "size": [
+        893,
+        1263
+      ]
+    },
+    {
+      "file": "tmp/pdfs/lpl_final_qa_81f07d/page-02.png",
+      "sha256": "bef14a1360967b408309403ae665fa98709e1f065b2a481e8d158d7b20bde2be",
+      "size": [
+        893,
+        1263
+      ]
+    },
+    {
+      "file": "tmp/pdfs/lpl_final_qa_81f07d/page-03.png",
+      "sha256": "2257d7bd69423bf51db19fe3c4912e19ea956cae39ac839794d5f2534d1d2188",
+      "size": [
+        893,
+        1263
+      ]
+    },
+    {
+      "file": "tmp/pdfs/lpl_final_qa_81f07d/page-04.png",
+      "sha256": "0c0b1086ec78c3df2f2fe69728bf1760f599608383b6680f80abe6b2826c2381",
+      "size": [
+        893,
+        1263
+      ]
+    },
+    {
+      "file": "tmp/pdfs/lpl_final_qa_81f07d/page-05.png",
+      "sha256": "9a7661dfe6585e240ab9c3f6eacffb29a255fc78651a9e7412d150b39f069d65",
+      "size": [
+        893,
+        1263
+      ]
+    },
+    {
+      "file": "tmp/pdfs/lpl_final_qa_81f07d/page-06.png",
+      "sha256": "64bee7d1541980042cf30738664b56d48681030f80749e2f0f128654eb255fd2",
+      "size": [
+        893,
+        1263
+      ]
+    },
+    {
+      "file": "tmp/pdfs/lpl_final_qa_81f07d/page-07.png",
+      "sha256": "605a8dc71b5d12d6c3c8321d82ded49ebbf1d50efa8821d2a0de4790ff6cba43",
+      "size": [
+        893,
+        1263
+      ]
+    },
+    {
+      "file": "tmp/pdfs/lpl_final_qa_81f07d/page-08.png",
+      "sha256": "31d93e0b45b8551e3dfd46def8a08013101a09cea1ac9604aa73aa8d5735bac4",
+      "size": [
+        893,
+        1263
+      ]
+    },
+    {
+      "file": "tmp/pdfs/lpl_final_qa_81f07d/page-09.png",
+      "sha256": "8cd5b1e6d5b60c3b1621311e36c46893ce1439216c5ff72ca6dafe396051eada",
+      "size": [
+        893,
+        1263
+      ]
+    },
+    {
+      "file": "tmp/pdfs/lpl_final_qa_81f07d/page-10.png",
+      "sha256": "510cc58759861c52e0ba270b1a80c2245999c0f2bb6568514a7547909a846d0f",
+      "size": [
+        893,
+        1263
+      ]
+    },
+    {
+      "file": "tmp/pdfs/lpl_final_qa_81f07d/page-11.png",
+      "sha256": "89b50a9d4860ba5d7b5f2a2b46e779a270afb6a87ffc7ef203df2c68ce3aadc5",
+      "size": [
+        893,
+        1263
+      ]
+    },
+    {
+      "file": "tmp/pdfs/lpl_final_qa_81f07d/page-12.png",
+      "sha256": "91cf28586c070cc6ada073461abe1bad0f4871d59b29cb3821d7bbd7b106a1d8",
+      "size": [
+        893,
+        1263
+      ]
+    },
+    {
+      "file": "tmp/pdfs/lpl_final_qa_81f07d/page-13.png",
+      "sha256": "8b9e8cd7cbd7245d00f19938bd5ce72d4255a6533427ee1a40ed17e4b832b360",
+      "size": [
+        893,
+        1263
+      ]
+    }
+  ],
+  "fonts": {
+    "Helvetica": {
+      "extension": "n/a",
+      "kind": "Type1",
+      "embedded": false,
+      "bytes": 0
+    },
+    "AAAAAA+NotoSansSC-Thin": {
+      "extension": "ttf",
+      "kind": "TrueType",
+      "embedded": true,
+      "bytes": 46736
+    },
+    "AAAAAB+NotoSansSC-Thin": {
+      "extension": "ttf",
+      "kind": "TrueType",
+      "embedded": true,
+      "bytes": 62656
+    },
+    "AAAAAC+NotoSansSC-Thin": {
+      "extension": "ttf",
+      "kind": "TrueType",
+      "embedded": true,
+      "bytes": 37128
+    }
+  },
+  "checks": {
+    "chinese_text_and_glyphs": "passed; embedded NotoSansSC-Regular with build-time text glyph preflight",
+    "page_layout": "passed; no visible clipping, overlapping text, misplaced table rows, or unreadable footnotes",
+    "chart_images": "passed; all four final charts fully decoded before embedding and checked visually",
+    "all_19_teams": "passed; 16 active plus 3 eliminated with fixed zero future advancement and title probabilities",
+    "cutoff_and_first_round": "passed; cutoff BJT 2026-10-23 15:25:50 and all eight official first-round fixtures stated",
+    "lineup_limitations": "passed; AL 52/142, IG 33/124, TES current combination 0/140; baseline does not estimate lineup coefficients",
+    "sensitivity_scenarios": "passed; 16 scenarios including two explicitly unvalidated lineup relevance stress tests",
+    "uncertainty_labels": "passed; Monte Carlo error, bootstrap interval, and 178/200 ranking frequency distinguished",
+    "sources_and_links": "passed; source list and evidence paths included"
+  },
+  "resolved_issues": [
+    "Superscript five lacked a font glyph and was replaced by properly styled ReportLab superscript.",
+    "A truncated source Swiss figure was regenerated and verified by the figure agent before final PDF build.",
+    "A temporary shared render PNG became truncated after creation; final PDF hash was unchanged and all 13 pages were rendered again in an exclusive QA directory."
+  ],
+  "open_visual_defects": []
+}

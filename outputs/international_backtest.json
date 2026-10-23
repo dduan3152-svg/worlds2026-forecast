@@ -1,0 +1,35 @@
+[
+  {
+    "slice": "cross_region_test",
+    "model": "BT",
+    "rows": 22,
+    "series": 6,
+    "map_outcomes": 22,
+    "accuracy": 0.5909090909090909,
+    "brier": 0.2469984418979193,
+    "log_loss": 0.6857253116771799,
+    "tie_scoring": "Predicted p=0.5 receives expected 50% accuracy"
+  },
+  {
+    "slice": "cross_region_test",
+    "model": "BatchElo",
+    "rows": 22,
+    "series": 6,
+    "map_outcomes": 22,
+    "accuracy": 0.5909090909090909,
+    "brier": 0.24819651249727173,
+    "log_loss": 0.6886158506584983,
+    "tie_scoring": "Predicted p=0.5 receives expected 50% accuracy"
+  },
+  {
+    "slice": "cross_region_test",
+    "model": "Half",
+    "rows": 22,
+    "series": 6,
+    "map_outcomes": 22,
+    "accuracy": 0.5,
+    "brier": 0.25,
+    "log_loss": 0.6931471805599453,
+    "tie_scoring": "Predicted p=0.5 receives expected 50% accuracy"
+  }
+]

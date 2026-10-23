@@ -1,0 +1,64 @@
+team,team_name,source_team_ids,region,region_basis
+AL,Anyone's Legend,oe:team:ed28f87f0cfdba0a2a8f183cebae73a,LPL,2026_domestic_league_rows
+BFX,BNK FEARX,oe:team:5c2e7e9ea8dfcba0150d9a5619baecf,LCK,2026_domestic_league_rows
+BLG,Bilibili Gaming,oe:team:d356a144644879dabb5f34cd99c886d,LPL,2026_domestic_league_rows
+BRO,HANJIN BRION,oe:team:b77b3f6068e20a2b3edc0ecd3dc70d4,LCK,2026_domestic_league_rows
+C9,Cloud9,oe:team:fc8e90107dabb9a35c490b0d86adea0,LCS,2026_domestic_league_rows
+CFO,CTBC Flying Oyster,oe:team:0916b3c324c8577b0c6344f3e067f62,LCP,2026_domestic_league_rows
+DCG,Deep Cross Gaming,oe:team:7e56e9367c023df96cc8257ff4e16c0,LCP,2026_domestic_league_rows
+DFM,DetonatioN FocusMe,oe:team:e435aa3ecb82a89e60544f5f5857a81,LCP,2026_domestic_league_rows
+DIG,Dignitas,oe:team:0dbb780176ecad18f17292d1f5653af,LCS,2026_domestic_league_rows
+DK,Dplus Kia,oe:team:ef69efa6acebe94107f0cf1ba716806,LCK,2026_domestic_league_rows
+DNS,DN SOOPers,oe:team:b3c72a20aa56f5d28022ac04a7dc294,LCK,2026_domestic_league_rows
+DRX,Kiwoom DRX,oe:team:1d0389df0c5eea93b04122ba167c010,LCK,2026_domestic_league_rows
+DSG,Disguised,oe:team:289284911fb6f41c0ccaecc3a0c2891,LCS,2026_domestic_league_rows
+EDG,EDward Gaming,oe:team:056c3140a119e44a03d462e2c832f27,LPL,2026_domestic_league_rows
+FLY,FlyQuest,oe:team:2e66da41dc460dd378e3bcc57042d31,LCS,2026_domestic_league_rows
+FNC,Fnatic,oe:team:78f183fa5a7d8ecb22b9ad272c3abd7,LEC,2026_domestic_league_rows
+FUR,FURIA,oe:team:87e3e1e75839f75a10bbc66e894d806,CBLOL,2026_domestic_league_rows
+FXW,Fluxo W7M,oe:team:45c362a0cfc4b81f597b5ab89250df5,CBLOL,2026_domestic_league_rows
+G2,G2 Esports,oe:team:7d6673d3a9d00363c6bebc1a630da6e,LEC,2026_domestic_league_rows
+GAM,GAM Esports,oe:team:9cae7677cd0dbcc1cd86653870b73c2,LCP,2026_domestic_league_rows
+GEN,Gen.G,oe:team:50f58982d91a36557ec8aec52ab014f,LCK,2026_domestic_league_rows
+GL,Galions,oe:team:e0143514c5de64f62eb418004ca2751,UNKNOWN,no_selected_domestic_rows
+GX,GiantX,oe:team:6cd05f0ac20bfb965a59dc8bcc4f184,LEC,2026_domestic_league_rows
+GZ,Ground Zero Gaming,oe:team:788115a84f68bc65fa6d3a4e0f67a3e,LCP,2026_domestic_league_rows
+HLE,Hanwha Life Esports,oe:team:3a1d18f46bcb3716ebcfcf4ef068934,LCK,2026_domestic_league_rows
+IG,Invictus Gaming,oe:team:53a258f289c26d94431c0496a54e151,LPL,2026_domestic_league_rows
+JDG,JD Gaming,oe:team:b42d0f31f2727621b963042276817c4,LPL,2026_domestic_league_rows
+KC,Karmine Corp,oe:team:f3aa9bbd924ce3af42ac53f8326bc7c,LEC,2026_domestic_league_rows
+KCB,Karmine Corp Blue,oe:team:42bf6c1040db8f2221ff017fa4d34e4,LEC,2026_domestic_league_rows
+KT,KT Rolster,oe:team:d723992568441c6bafa2658129eade7,LCK,2026_domestic_league_rows
+LEV,Leviatan,oe:team:53ef3d5a3ac5d88bc000eff7d87aeb3,CBLOL,2026_domestic_league_rows
+LGD,LGD Gaming,oe:team:5f401785b6b78326f9a46b3c6b206ed,LPL,2026_domestic_league_rows
+LNG,LNG Esports,oe:team:a9145b7711873f53e610fbba0493484,LPL,2026_domestic_league_rows
+LOS,LØS,oe:team:ea65e6cc48a9be50fc5334369a5fca5,CBLOL,2026_domestic_league_rows
+LOUD,LOUD,oe:team:658a021a796aa5501503220adb38cf4,CBLOL,2026_domestic_league_rows
+LR,Los Ratones,oe:team:2d096df29ab7e32950c86e0d72fc986,LEC,2026_domestic_league_rows
+LYON,LYON,oe:team:da1143bf9a245b78a8dc86417de85b3,LCS,2026_domestic_league_rows
+MKOI,Movistar KOI,oe:team:4acc40654379b4da680be1bd3129dfa,LEC,2026_domestic_league_rows
+MVK,MVK Esports,oe:team:bc3824b0bbb8139d16109178faa4822,LCP,2026_domestic_league_rows
+NAVI,Natus Vincere,oe:team:d2ba9f92d85cff67d60aaad88e61048,LEC,2026_domestic_league_rows
+NIP,Ninjas in Pyjamas,oe:team:48d7941ccbd5b89aca46c57b0c2f8fb,LPL,2026_domestic_league_rows
+NS,Nongshim RedForce,oe:team:5cd2cd09ec94296f605dd13a2924d6c,LCK,2026_domestic_league_rows
+OMG,Oh My God,oe:team:f4c4528c6981e104a11ea7548630c23,LPL,2026_domestic_league_rows
+PNG,paiN Gaming,oe:team:61450737f7b683db4da7b3e0bf0dced,CBLOL,2026_domestic_league_rows
+RED,RED Canids,oe:team:67169969ecc058b307edfa9c6b7a3c0,CBLOL,2026_domestic_league_rows
+SEN,Sentinels,oe:team:f90422f1cbcb24bc2a855202582ec29,LCS,2026_domestic_league_rows
+SFT,Shifters,oe:team:a2065488a11a2c0a2403a7b347eec61,LEC,2026_domestic_league_rows
+SHG,Fukuoka SoftBank HAWKS gaming,oe:team:d8ca3fc1f0827ec76369af7b70d43e3,LCP,2026_domestic_league_rows
+SK,SK Gaming,oe:team:75760dca486d4682426196b76bd1a54,LEC,2026_domestic_league_rows
+SLY,Solary,oe:team:90938c428db11f6e372f5c6833b9743,UNKNOWN,no_selected_domestic_rows
+SR,Shopify Rebellion,oe:team:b360f1d729b0a8e0f29a5243c4200fa,LCS,2026_domestic_league_rows
+T1,T1,oe:team:ce499dea30cfce118f4fe85da0227e8,LCK,2026_domestic_league_rows
+TES,Top Esports,oe:team:fcec508e780bbd1ad493852640f5b36,LPL,2026_domestic_league_rows
+TH,Team Heretics,oe:team:1285e1c04d54de96502f12da4d49458,LEC,2026_domestic_league_rows
+TLAW,Team Liquid,oe:team:8eb884e168f28402ce685bedebb5250,LCS,2026_domestic_league_rows
+TS,Team Secret,oe:team:ee140e8e9d6abd0bfd2b7bc94639d43,UNKNOWN,no_selected_domestic_rows
+TSW,Team Secret Whales,oe:team:740de582f50775c516c77ed7b923fd5,LCP,2026_domestic_league_rows
+TT,ThunderTalk Gaming,oe:team:df80f468a3f9a722df056fe9104f052,LPL,2026_domestic_league_rows
+UP,Ultra Prime,oe:team:8d09428f093dfbf3c488bce350af0b1,LPL,2026_domestic_league_rows
+VIT,Team Vitality,oe:team:e8d8ae992fe72acb7adc7bfcee31dbb,LEC,2026_domestic_league_rows
+VKS,Vivo Keyd Stars,oe:team:b9e44c69c1a70fb35df9be96f9eafea,CBLOL,2026_domestic_league_rows
+WBG,Weibo Gaming,oe:team:606c6ac695907af3823ee6405c58ff1,LPL,2026_domestic_league_rows
+WE,Team WE,oe:team:62c1cd9465dc63824593ee5046f5aa8,LPL,2026_domestic_league_rows
