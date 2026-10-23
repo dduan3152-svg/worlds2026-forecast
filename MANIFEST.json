@@ -150,8 +150,8 @@
     },
     {
       "path": "docs/website.md",
-      "sha256": "470ce36ac294f9963625cb531385425df0f26984c4db8af6c822d06fd56aace0",
-      "size_bytes": 5530
+      "sha256": "5819c972578336c20bd68cee6fe18e76b7bf17c69342dfda021643da578c7456",
+      "size_bytes": 5563
     },
     {
       "path": "docs/worlds2026_report.pdf",
@@ -780,8 +780,8 @@
     },
     {
       "path": "src/serve_site.py",
-      "sha256": "61fe16b2516998027cd3189e673cd5cc2eb5f954ee8bad9e73b6673ee74f3b41",
-      "size_bytes": 2413
+      "sha256": "e88a3385c707e223ef1298d70b5424f93db149808596ff8c3de4f95694b5c362",
+      "size_bytes": 2770
     },
     {
       "path": "src/simulator.py",
@@ -800,8 +800,8 @@
     },
     {
       "path": "tests/test_live_forecast.py",
-      "sha256": "73a6486091339ea4d715b6181179162231401943bf65b768bfc3abfe663bc49c",
-      "size_bytes": 6645
+      "sha256": "756df16a906b44cc719c2ccda317de0bcf9fc2bde69007342e8ca3d8c5a35178",
+      "size_bytes": 7454
     }
   ],
   "hash_algorithm": "SHA-256",
@@ -826,9 +826,9 @@
   "manifest_schema_version": "1.0",
   "packaging": {
     "excluded_counts_by_reason": {
-      "hidden or temporary file": 207,
+      "hidden or temporary file": 245,
       "mutable live forecasts are versioned separately": 5,
-      "temporary render or Python cache": 15
+      "temporary render or Python cache": 16
     },
     "fixed_zip_timestamp": "2026-10-23T07:25:50Z",
     "omitted_material": [
@@ -1215,6 +1215,6 @@
       "url": "https://www.strafe.com/news/read/all-lck-teams-at-worlds-2026-and-how-they-qualified/"
     }
   ],
-  "total_payload_bytes_excluding_manifest": 55447155,
+  "total_payload_bytes_excluding_manifest": 55448354,
   "version": "1.0.0"
 }

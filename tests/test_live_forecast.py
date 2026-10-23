@@ -9,8 +9,12 @@ import shutil
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
+from types import SimpleNamespace
+import base64
 
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'src'))
+import serve_site
 from fetch_history import ALIASES
 from live_forecast import (ROOT, load, write, date, utc, source_games, infer_results,
                            bootstrap, update, history_chain, export_site)
@@ -112,6 +116,15 @@ class LiveTests(unittest.TestCase):
         bootstrap(self.root);path=next((self.root/'live/history').glob('*.json'))
         snap=load(path);snap['rows'][0]['champion']=.99;write(path,snap)
         with self.assertRaises(ValueError):history_chain(self.root)
+
+    def test_private_preview_follower_does_not_write_repository(self):
+        payload={'schema':1,'history':[{'id':'synthetic'}]}
+        reply=json.dumps({'content':base64.b64encode(json.dumps(payload).encode()).decode()}).encode()
+        with patch.object(serve_site,'ROOT',self.root), patch.object(serve_site.subprocess,'run',return_value=SimpleNamespace(stdout=reply)), patch.object(serve_site.threading,'Event') as event:
+            event.return_value.wait.side_effect=StopIteration
+            with self.assertRaises(StopIteration):serve_site.follow_remote('fake-gh')
+        self.assertEqual(json.loads(serve_site.REMOTE_DATA),payload)
+        self.assertFalse((self.root/'site/data.json').exists())
 
     def test_empty_source_never_fabricates_matches(self):
         self.assertFalse(update(self.root,gzip_maps([]),NOW))

@@ -10,9 +10,11 @@ import subprocess
 import threading
 
 ROOT=Path(__file__).resolve().parents[1]
+REMOTE_DATA=None
 
 
 def follow_remote(executable):
+    global REMOTE_DATA
     # Authentication remains in GitHub CLI's credential store, never in the browser.
     while True:
         try:
@@ -21,13 +23,24 @@ def follow_remote(executable):
             raw=base64.b64decode(json.loads(result.stdout)['content'])
             payload=json.loads(raw)
             if payload.get('schema')!=1 or not payload.get('history'):raise ValueError('Invalid site data')
-            target=ROOT/'site/data.json';temporary=target.with_suffix('.tmp');temporary.write_bytes(raw);temporary.replace(target)
+            REMOTE_DATA=raw
         except (ValueError,KeyError,subprocess.SubprocessError):
             print('Remote refresh unavailable; keeping last valid dashboard data.',flush=True)
         threading.Event().wait(60)
 
 
 class Handler(SimpleHTTPRequestHandler):
+    def do_GET(self):
+        payload=REMOTE_DATA
+        if self.path.split('?',1)[0]=='/data.json' and payload is not None:
+            self.send_response(200)
+            self.send_header('Content-Type','application/json; charset=utf-8')
+            self.send_header('Content-Length',str(len(payload)))
+            self.end_headers()
+            self.wfile.write(payload)
+            return
+        super().do_GET()
+
     def end_headers(self):
         self.send_header('Cache-Control','no-store')
         self.send_header('X-Content-Type-Options','nosniff')

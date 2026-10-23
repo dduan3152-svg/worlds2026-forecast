@@ -19,7 +19,7 @@ python src/serve_site.py
 python src/serve_site.py --follow
 ```
 
-`--follow` 每分钟通过本机 GitHub CLI 读取私有仓库的 `site/data.json`，不把 GitHub 凭据发送到浏览器。若 `gh` 不在 PATH，使用 `--gh /path/to/gh`。它只更新本地网站数据，不拉取或覆盖代码。停止服务后再次打开，需要重新启动该命令。
+`--follow` 每分钟通过本机 GitHub CLI 读取私有仓库的 `site/data.json`，不把 GitHub 凭据发送到浏览器。若 `gh` 不在 PATH，使用 `--gh /path/to/gh`。它只在内存中更新预览数据，不改写仓库文件，也不拉取或覆盖代码。停止服务后再次打开，需要重新启动该命令。
 
 普通 GitHub Pages 网站可能公开可访问，即使源码仓库私有。本项目没有启用 Pages，也没有公开网站部署工作流。公开发布必须另行确认。
 
