@@ -1,8 +1,8 @@
-"""Validate the mutable website export separately from the frozen release manifest."""
+"""Validate the mutable forecast summary separately from the frozen release manifest."""
 from pathlib import Path
 import json
 import math
-from live_forecast import ROOT, history_chain, export_site, STAGES, date
+from live_forecast import ROOT, history_chain, export_results, STAGES, date
 from check_repository import check_privacy
 
 
@@ -21,11 +21,11 @@ def main(root=ROOT):
             for stage in ['swiss','knockout']:
                 old=previous['state'][stage]
                 if snapshot['state'][stage][:len(old)]!=old:raise ValueError('Historical result changed')
-    before=(root/'site/data.json').read_bytes()
-    export_site(root)
-    if before!=(root/'site/data.json').read_bytes():raise ValueError('Site export was stale; regenerate and commit it')
-    records=[{'path':str(p.relative_to(root))} for directory in ['site','live'] for p in (root/directory).rglob('*') if p.is_file() and p.suffix in {'.json','.html','.js','.css','.pdf'}]
+    before=(root/'live/latest.json').read_bytes()
+    export_results(root)
+    if before!=(root/'live/latest.json').read_bytes():raise ValueError('Forecast summary was stale; regenerate and commit it')
+    records=[{'path':str(p.relative_to(root))} for directory in ['live'] for p in (root/directory).rglob('*') if p.is_file() and p.suffix == '.json']
     check_privacy(records)
-    print(f'Validated {len(chain)} immutable forecast versions and the dashboard export.')
+    print(f'Validated {len(chain)} immutable forecast versions and the latest result summary.')
 
 if __name__=='__main__':main()

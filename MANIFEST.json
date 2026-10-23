@@ -1,7 +1,7 @@
 {
   "archive_name": "worlds2026-forecast-v1.0.0.zip",
   "archive_root": "worlds2026-forecast",
-  "file_count_excluding_manifest": 161,
+  "file_count_excluding_manifest": 156,
   "files": [
     {
       "path": ".gitattributes",
@@ -15,23 +15,23 @@
     },
     {
       "path": ".github/workflows/forecast.yml",
-      "sha256": "8a8b2fa6b6875d324480fcee0a9c7843ba5d46e268938dc9d90128035cb92c1d",
-      "size_bytes": 2368
+      "sha256": "0e7544d832eed56f1072212675c1ce719bf776e0ba0faca6427d257e027a5d0d",
+      "size_bytes": 2349
     },
     {
       "path": ".github/workflows/validate.yml",
-      "sha256": "f1a522d0545caabe82a06dfe1a6d383d202893ae52142cdc8c9c5be317d0e220",
-      "size_bytes": 1143
+      "sha256": "28d79c60be9e936c55333c3873ae121346154762a05eca308363beef6b31a7a3",
+      "size_bytes": 1150
     },
     {
       "path": ".gitignore",
-      "sha256": "ed6d2988f1bd95d9941a621b1f52cc853754acc577a87e45d6a8a89b77068a1b",
-      "size_bytes": 507
+      "sha256": "a03a24488ae9ba39b190eb1f68d38b0e35e2154755e395408f37e68f78991831",
+      "size_bytes": 413
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "f696bcfde04cf1b53a9e7e1c37be65eb5a927f9e56ca92d0ddfb71905c19ac0a",
-      "size_bytes": 2557
+      "sha256": "a96dddb44e3d9d752c9dfb2e0a871c068289f023255a8379e0bc128bc8c1aa4f",
+      "size_bytes": 2112
     },
     {
       "path": "CONTRIBUTING.md",
@@ -40,8 +40,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "16826be14f36d86bb7c1872959fe581f3819f9de9604f53a7623681e05ea796f",
-      "size_bytes": 6685
+      "sha256": "6f23f0e177c2f5d288d0aad3ed53ab1d3fc5f90e6561c8334eeb8f6de3e7ff70",
+      "size_bytes": 6798
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -149,9 +149,9 @@
       "size_bytes": 5401
     },
     {
-      "path": "docs/website.md",
-      "sha256": "ab5e20d561644d54d2411dff44b1934b8958bb467a4fddedd18858008c92714d",
-      "size_bytes": 6117
+      "path": "docs/updates.md",
+      "sha256": "1184bb1b4be1b62b2d2f1a9c477b20eab3d6b011284c293bca3fd0839a94b3af",
+      "size_bytes": 1993
     },
     {
       "path": "docs/worlds2026_report.pdf",
@@ -704,21 +704,6 @@
       "size_bytes": 106
     },
     {
-      "path": "site/app.js",
-      "sha256": "24d9f4bdf7a628e6f3dc4cd4d0d27e32a95c73edaf8280bf421c36713ef17858",
-      "size_bytes": 9547
-    },
-    {
-      "path": "site/index.html",
-      "sha256": "7aef755bff6076e90b93636974739e3b1bb7b87abfe7382acda569c4e80ad028",
-      "size_bytes": 6851
-    },
-    {
-      "path": "site/style.css",
-      "sha256": "492ed1652133999ad62f4eb8b79bea6d57161f5d58fe320e2def163c1d825472",
-      "size_bytes": 10619
-    },
-    {
       "path": "src/build_figures.py",
       "sha256": "fb7f9b6f140b582c5792e14376d36ba3a30e3f4c0794901d848980fc28c7182e",
       "size_bytes": 22627
@@ -729,14 +714,9 @@
       "size_bytes": 38634
     },
     {
-      "path": "src/build_static_page.py",
-      "sha256": "5123ef9307d91c2b028451e17860fe4bb3307b9e4df9818dde931b4d00c24091",
-      "size_bytes": 2652
-    },
-    {
       "path": "src/check_live.py",
-      "sha256": "20656521ace9c13caaafeef40ce35c524febfb2bc78c01faa7b9d7e752ae0405",
-      "size_bytes": 1779
+      "sha256": "bee64dffd2202af0cbe9be53206878aa8d45b4761ac3e8f8f1d33571cac1bbd5",
+      "size_bytes": 1764
     },
     {
       "path": "src/check_repository.py",
@@ -760,8 +740,8 @@
     },
     {
       "path": "src/live_forecast.py",
-      "sha256": "80e28653c2a631bcda25644327f0d17922309e33fe606cf03e9923d1c5892565",
-      "size_bytes": 17143
+      "sha256": "3bb5c6c065857816aaabba247b2a48a02a782dca0f174d8c1e44276b0e817658",
+      "size_bytes": 16358
     },
     {
       "path": "src/model.py",
@@ -770,8 +750,8 @@
     },
     {
       "path": "src/package_release.py",
-      "sha256": "fbc979a9492ccba8e5be8012ef51aec44da6b9f40891592d6e02237636147a98",
-      "size_bytes": 20036
+      "sha256": "5c3a99516cd258b10ecbe412643088241149b5e3274a5e5a8e2bc6c1d01ded01",
+      "size_bytes": 19812
     },
     {
       "path": "src/prepare_model_data.py",
@@ -782,11 +762,6 @@
       "path": "src/run_analysis.py",
       "sha256": "f1f404fa892e4527200a93f0fca9c189059a6deb2cb3d004ef2a5df88e03e34f",
       "size_bytes": 19862
-    },
-    {
-      "path": "src/serve_site.py",
-      "sha256": "e88a3385c707e223ef1298d70b5424f93db149808596ff8c3de4f95694b5c362",
-      "size_bytes": 2770
     },
     {
       "path": "src/simulator.py",
@@ -805,8 +780,8 @@
     },
     {
       "path": "tests/test_live_forecast.py",
-      "sha256": "756df16a906b44cc719c2ccda317de0bcf9fc2bde69007342e8ca3d8c5a35178",
-      "size_bytes": 7454
+      "sha256": "1dd07937f9b7337c17b2870fbb8fb7527ffcb636dc084b73d787e44008a2afe0",
+      "size_bytes": 6524
     }
   ],
   "hash_algorithm": "SHA-256",
@@ -831,9 +806,9 @@
   "manifest_schema_version": "1.0",
   "packaging": {
     "excluded_counts_by_reason": {
-      "hidden or temporary file": 271,
-      "mutable live forecasts are versioned separately": 6,
-      "temporary render or Python cache": 17
+      "hidden or temporary file": 295,
+      "mutable live forecasts are versioned separately": 4,
+      "temporary render or Python cache": 15
     },
     "fixed_zip_timestamp": "2026-10-23T07:25:50Z",
     "omitted_material": [
@@ -1220,6 +1195,6 @@
       "url": "https://www.strafe.com/news/read/all-lck-teams-at-worlds-2026-and-how-they-qualified/"
     }
   ],
-  "total_payload_bytes_excluding_manifest": 55451257,
+  "total_payload_bytes_excluding_manifest": 55412302,
   "version": "1.0.0"
 }

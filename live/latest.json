@@ -1,0 +1,219 @@
+{
+  "schema": 1,
+  "prediction": {
+    "schema": 1,
+    "id": "7360d86f4f2effb1",
+    "cutoff": "2026-10-23T07:25:50Z",
+    "created_at": "2026-10-23T07:25:50Z",
+    "model_cutoff": "2026-10-23T07:25:50Z",
+    "kind": "frozen_baseline",
+    "n": 100000,
+    "rows": [
+      {
+        "team": "GEN",
+        "name": "Gen.G",
+        "region": "LCK",
+        "wins": 0,
+        "losses": 0,
+        "qualified": 0.86793,
+        "semifinalist": 0.66416,
+        "finalist": 0.48532,
+        "champion": 0.3413
+      },
+      {
+        "team": "HLE",
+        "name": "Hanwha Life Esports",
+        "region": "LCK",
+        "wins": 0,
+        "losses": 0,
+        "qualified": 0.768,
+        "semifinalist": 0.50311,
+        "finalist": 0.29896,
+        "champion": 0.16287
+      },
+      {
+        "team": "BLG",
+        "name": "Bilibili Gaming",
+        "region": "LPL",
+        "wins": 0,
+        "losses": 0,
+        "qualified": 0.75595,
+        "semifinalist": 0.47325,
+        "finalist": 0.26838,
+        "champion": 0.13761
+      },
+      {
+        "team": "T1",
+        "name": "T1",
+        "region": "LCK",
+        "wins": 0,
+        "losses": 0,
+        "qualified": 0.74847,
+        "semifinalist": 0.46082,
+        "finalist": 0.25566,
+        "champion": 0.12848
+      },
+      {
+        "team": "DK",
+        "name": "Dplus KIA",
+        "region": "LCK",
+        "wins": 0,
+        "losses": 0,
+        "qualified": 0.67422,
+        "semifinalist": 0.37968,
+        "finalist": 0.19181,
+        "champion": 0.08563
+      },
+      {
+        "team": "G2",
+        "name": "G2 Esports",
+        "region": "LEC",
+        "wins": 0,
+        "losses": 0,
+        "qualified": 0.52451,
+        "semifinalist": 0.23424,
+        "finalist": 0.09199,
+        "champion": 0.03201
+      },
+      {
+        "team": "AL",
+        "name": "Anyone's Legend",
+        "region": "LPL",
+        "wins": 0,
+        "losses": 0,
+        "qualified": 0.52311,
+        "semifinalist": 0.22656,
+        "finalist": 0.08555,
+        "champion": 0.0278
+      },
+      {
+        "team": "KC",
+        "name": "Karmine Corp",
+        "region": "LEC",
+        "wins": 0,
+        "losses": 0,
+        "qualified": 0.47964,
+        "semifinalist": 0.19324,
+        "finalist": 0.06685,
+        "champion": 0.01962
+      },
+      {
+        "team": "TES",
+        "name": "TOP Esports",
+        "region": "LPL",
+        "wins": 0,
+        "losses": 0,
+        "qualified": 0.42983,
+        "semifinalist": 0.16483,
+        "finalist": 0.05589,
+        "champion": 0.01598
+      },
+      {
+        "team": "LYON",
+        "name": "LYON",
+        "region": "LCS",
+        "wins": 0,
+        "losses": 0,
+        "qualified": 0.42525,
+        "semifinalist": 0.15251,
+        "finalist": 0.04731,
+        "champion": 0.0123
+      },
+      {
+        "team": "TLAW",
+        "name": "Team Liquid Alienware",
+        "region": "LCS",
+        "wins": 0,
+        "losses": 0,
+        "qualified": 0.44263,
+        "semifinalist": 0.15353,
+        "finalist": 0.04676,
+        "champion": 0.01185
+      },
+      {
+        "team": "TSW",
+        "name": "Team Secret Whales",
+        "region": "LCP",
+        "wins": 0,
+        "losses": 0,
+        "qualified": 0.41232,
+        "semifinalist": 0.14415,
+        "finalist": 0.04366,
+        "champion": 0.01134
+      },
+      {
+        "team": "IG",
+        "name": "Shanghai Invictus Gaming Meituan",
+        "region": "LPL",
+        "wins": 0,
+        "losses": 0,
+        "qualified": 0.36835,
+        "semifinalist": 0.1268,
+        "finalist": 0.0389,
+        "champion": 0.00967
+      },
+      {
+        "team": "MKOI",
+        "name": "Movistar KOI",
+        "region": "LEC",
+        "wins": 0,
+        "losses": 0,
+        "qualified": 0.24555,
+        "semifinalist": 0.06077,
+        "finalist": 0.01275,
+        "champion": 0.00195
+      },
+      {
+        "team": "LOS",
+        "name": "LOS",
+        "region": "CBLOL",
+        "wins": 0,
+        "losses": 0,
+        "qualified": 0.1905,
+        "semifinalist": 0.0394,
+        "finalist": 0.00704,
+        "champion": 0.0011
+      },
+      {
+        "team": "CFO",
+        "name": "CTBC Flying Oyster",
+        "region": "LCP",
+        "wins": 0,
+        "losses": 0,
+        "qualified": 0.14374,
+        "semifinalist": 0.02295,
+        "finalist": 0.00317,
+        "champion": 0.00049
+      }
+    ],
+    "state": {
+      "swiss": [],
+      "knockout": [],
+      "announced_rounds": {},
+      "quarterfinal_bracket": null,
+      "cutoff": "2026-10-23T07:25:50Z"
+    },
+    "previous": null,
+    "source_sha256": null,
+    "checks": {
+      "frozen_validation": true
+    },
+    "hash": "92e7a294c5f3f05cc7263468d07a52b42dce105d502b647ecf241e2e18d846ae"
+  },
+  "status": {
+    "state": "ok",
+    "message": "瑞士轮尚未开始，当前展示冻结赛前预测；任务将继续定时检查公开赛果。",
+    "checked_at": "2026-10-23T09:26:03Z",
+    "source_latest_at": "2026-10-18T19:48:36Z",
+    "source_sha256": "ae1008ed9424a5eda59a873e9d70d06669337a2068d48497efbbd695e1c8105d",
+    "observed_worlds_maps": 0,
+    "accepted_series": 0,
+    "pending": [],
+    "stale": false
+  },
+  "source": {
+    "name": "ChainCC",
+    "url": "https://chaincc.lol/free/data/",
+    "license": "CC BY 4.0"
+  }
+}

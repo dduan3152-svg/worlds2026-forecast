@@ -40,7 +40,7 @@ jobs:
       - name: Validate history, export and privacy
         if: steps.window.outputs.active == 'true'
         run: python src/check_live.py
-      - name: Preserve immutable versions and save latest dashboard
+      - name: Preserve immutable versions and save latest results
         if: steps.window.outputs.active == 'true'
         shell: bash
         run: |
@@ -50,7 +50,7 @@ jobs:
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add live/history live/status.json site/data.json site/forecast.html
+          git add live/history live/status.json live/latest.json
           if ! git diff --cached --quiet; then
             git commit -m 'Update forecast check and preserve new prediction versions'
             git push origin HEAD:main
@@ -58,8 +58,8 @@ jobs:
       - uses: actions/upload-artifact@v4
         if: steps.window.outputs.active == 'true'
         with:
-          name: private-forecast-website
-          path: site/
+          name: private-forecast-results
+          path: live/
           retention-days: 7
       - name: Report source failure
         if: steps.forecast.outcome == 'failure'

@@ -26,7 +26,7 @@ jobs:
         run: python src/check_repository.py
       - name: Test live source adapter and versioning
         run: python -m unittest discover -s tests -v
-      - name: Check website and version history
+      - name: Check result summary and version history
         run: python src/check_live.py
       - name: Keep historical forecasts append-only
         shell: bash

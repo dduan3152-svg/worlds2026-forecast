@@ -8,7 +8,6 @@ import gzip
 import hashlib
 import io
 import json
-import shutil
 from pathlib import Path
 import tempfile
 import urllib.request
@@ -219,23 +218,12 @@ def history_chain(root):
     return chain
 
 
-def export_site(root):
+def export_results(root):
     chain=history_chain(root)
-    bootstrap_rows=list(csv.DictReader(io.StringIO((root/'outputs/bootstrap_summary.csv').read_text())))
-    reader=csv.DictReader(io.StringIO((root/'outputs/matrix_bo1.csv').read_text()))
-    label=reader.fieldnames[0]
-    matrix=list(reader)
-    state=load(root/'data/known_state.json')
-    payload={'schema':1,'history':chain,'status':load(root/'live/status.json') if (root/'live/status.json').exists() else {'state':'ready','message':'等待定时检查公开数据。'},
-             'first_round':[{k:r[k] for k in ['a','b','start_bjt','start_time_is_approximate']} for r in state['first_round']],
-             'intervals':{r['team']:[float(r['champion_q05']),float(r['champion_q95'])] for r in bootstrap_rows},
-             'matrix':{r[label]:{k:float(v) for k,v in r.items() if k!=label} for r in matrix},
+    payload={'schema':1,'prediction':chain[-1],
+             'status':load(root/'live/status.json') if (root/'live/status.json').exists() else {'state':'ready','message':'等待定时检查公开数据。'},
              'source':{'name':'ChainCC','url':SOURCE_PAGE,'license':'CC BY 4.0'}}
-    write(root/'site/data.json',payload)
-    shutil.copyfile(root/'docs/worlds2026_report.pdf',root/'site/report.pdf')
-    if (root/'site/index.html').exists():
-        from build_static_page import build
-        build(root)
+    write(root/'live/latest.json',payload)
 
 
 def update(root, raw, now):
@@ -274,7 +262,7 @@ def update(root, raw, now):
     write(root/'live/status.json',{'state':'waiting' if pending or stale else 'ok','message':message,'checked_at':utc(now),
         'source_latest_at':latest,'source_sha256':hashlib.sha256(raw).hexdigest(),'observed_worlds_maps':len(games),
         'accepted_series':len(swiss)+len(knockout),'pending':pending,'stale':stale})
-    export_site(root)
+    export_results(root)
     return changed
 
 
@@ -295,17 +283,17 @@ def main():
     parser.add_argument('--export-only',action='store_true')
     args=parser.parse_args();root=args.root.resolve();bootstrap(root)
     if args.export_only:
-        export_site(root);return
+        export_results(root);return
     if args.fetch==bool(args.input):parser.error('Choose exactly one of --fetch or --input')
     try:
         changed=update(root,fetch_source() if args.fetch else args.input.read_bytes(),datetime.now(timezone.utc))
         print('New forecast saved.' if changed else 'No new forecast; prior values preserved.')
     except Exception as exc:
-        # Do not expose machine paths, response bodies or credential material in the website.
+        # Do not expose machine paths, response bodies or credential material in exported results.
         message=str(exc) if isinstance(exc,ValueError) else '数据源暂不可用或更新失败；保留最后一次有效预测。'
         previous=load(root/'live/status.json') if (root/'live/status.json').exists() else {}
         write(root/'live/status.json',{**previous,'state':'error','message':message,'checked_at':utc(datetime.now(timezone.utc))})
-        export_site(root)
+        export_results(root)
         print('Update failed safely; inspect source data and settings.');raise SystemExit(1)
 
 if __name__=='__main__':main()

@@ -4,7 +4,7 @@
 
 Python 3.12 · Bradley–Terry · Monte Carlo · 可离线复现
 
-[中文报告](docs/worlds2026_report.pdf) · [完整方法说明](docs/methodology.md) · [全部概率](outputs/stage_probabilities.csv) · [数据来源](evidence/history_sources.md) · [版本记录](CHANGELOG.md) · [网站与自动更新](docs/website.md)
+[中文报告](docs/worlds2026_report.pdf) · [完整方法说明](docs/methodology.md) · [全部概率](outputs/stage_probabilities.csv) · [数据来源](evidence/history_sources.md) · [版本记录](CHANGELOG.md) · [自动更新说明](docs/updates.md)
 
 > **冻结预测 v1.0.0**：信息截止为北京时间 **2026 年 10 月 23 日 15:25:50**。这是该时点的模型估计，不是实时榜单，也不是确定的比赛结果。本项目为个人分析，与 Riot Games 无隶属或背书关系。
 
@@ -37,9 +37,19 @@ GEN 的基线夺冠概率约为 **34.1%**，90% 模型重采样区间为 **15.9%
 
 上述主要生产日志合计记录 360 万次完整赛事模拟；不是 360 万次独立参数拟合。
 
-## HTML 预览
+## 模拟算法简介
 
-[点击下载 HTML 预览文件](site/forecast.html?raw=true)
+先用时间衰减 Bradley–Terry 模型拟合队伍实力 $\theta$ 和蓝方项 $\beta$，再将单局胜率换算为系列赛胜率：
+
+$$
+\begin{aligned}
+p_{AB} &= \frac12\sum_{s\in\{-1,1\}}\sigma\!\left(\frac{\theta_A-\theta_B+s\beta}{T}\right),\quad \sigma(x)=\frac{1}{1+e^{-x}},\quad T=1.5 \\
+P_{\mathrm{BO3}}(p)&=3p^2-2p^3,\qquad P_{\mathrm{BO5}}(p)=10p^3-15p^4+6p^5 \\
+\widehat P(A\text{ 夺冠})&=\frac{1}{N}\sum_{r=1}^{N}\mathbf{1}\{C_r=A\},\quad N=100{,}000
+\end{aligned}
+$$
+
+固定已知赛果，按瑞士轮与淘汰赛规则随机抽签、抽取胜负；$C_r$ 为第 $r$ 次模拟的冠军。系列赛换算假设固定实力下各局独立，模型不确定性另用系列赛簇 Bootstrap 评估。[完整方法](docs/methodology.md)
 
 ## 快速开始
 

@@ -29,7 +29,6 @@ ARCHIVE_NAME = "worlds2026-forecast-v1.0.0.zip"
 ROOT_FILES = {"README.md", "CHANGELOG.md", "requirements.txt", "config.json", "CONTRIBUTING.md", "THIRD_PARTY_NOTICES.md", ".gitignore", ".gitattributes"}
 ALLOWED_SUFFIXES = {
     ".github": {".yml", ".yaml", ".md"},
-    "site": {".html", ".js", ".css"},
     "tests": {".py"},
     "src": {".py"},
     "data": {".csv", ".json", ".gz"},
@@ -80,10 +79,8 @@ def digest(path: Path) -> str:
 def exclusion_reason(relative: Path, path: Path) -> str | None:
     if relative.as_posix() in {".gitignore", ".gitattributes"}:
         return None
-    if relative.parts[0] == "live" or relative.as_posix() in {"site/data.json", "site/report.pdf", "site/forecast.html"}:
+    if relative.parts[0] == "live":
         return "mutable live forecasts are versioned separately"
-    if relative.parts[0] == "site" and path.suffix in {".html", ".js", ".css"}:
-        return None
     if any(part.startswith(".") and part != ".github" for part in relative.parts):
         return "hidden or temporary file"
     if any(part in {"tmp", "__pycache__", ".pytest_cache"} for part in relative.parts):
