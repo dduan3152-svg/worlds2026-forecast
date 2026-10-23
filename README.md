@@ -109,8 +109,4 @@ python src/build_report.py
 
 ## 数据、署名与使用范围
 
-比赛数据来自 **[ChainCC](https://chaincc.lol/free/data/)**，随原项目记录的许可为 **CC BY 4.0**；清洗、筛选和衍生字段的处理见 [来源说明](evidence/history_sources.md)。官方赛制及赛程资料另有逐项来源记录。字体保留各自许可。
-
-完整第三方说明见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。当前尚未为原创代码和报告指定开源许可证；公开可见不等于已授予任意再分发许可。
-
-欢迎通过 Issue 反馈可复现的问题或方法建议。提交修改前请阅读 [贡献说明](CONTRIBUTING.md)，尤其不要用后续赛果覆盖历史预测。
+比赛数据来自 **[ChainCC](https://chaincc.lol/free/data/)**，
