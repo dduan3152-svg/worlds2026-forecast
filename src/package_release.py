@@ -26,7 +26,7 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 ARCHIVE_NAME = "worlds2026-forecast-v1.0.0.zip"
-ROOT_FILES = {"README.md", "CHANGELOG.md", "requirements.txt", "config.json", "CONTRIBUTING.md", "THIRD_PARTY_NOTICES.md", ".gitignore", ".gitattributes"}
+ROOT_FILES = {"README.md", "README.en.md", "CHANGELOG.md", "requirements.txt", "config.json", "CONTRIBUTING.md", "THIRD_PARTY_NOTICES.md", ".gitignore", ".gitattributes"}
 ALLOWED_SUFFIXES = {
     ".github": {".yml", ".yaml", ".md"},
     "tests": {".py"},
