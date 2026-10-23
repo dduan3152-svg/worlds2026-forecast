@@ -119,4 +119,4 @@ python src/build_report.py
 
 ## 数据、署名与使用范围
 
-比赛数据来自 **[ChainCC](https://chaincc.lol/free/data/)**，
+比赛数据来自 **[ChainCC](https://chaincc.lol/free/data/)**。
