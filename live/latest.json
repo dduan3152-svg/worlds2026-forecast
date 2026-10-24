@@ -201,15 +201,15 @@
     "hash": "92e7a294c5f3f05cc7263468d07a52b42dce105d502b647ecf241e2e18d846ae"
   },
   "status": {
-    "state": "ok",
-    "message": "未发现可采纳的新赛果，保留原预测。",
-    "checked_at": "2026-10-24T01:09:19Z",
+    "state": "waiting",
+    "message": "未发现可采纳的新赛果，保留原预测。 数据源超过 36 小时未出现新比赛记录，更新可能延迟。",
+    "checked_at": "2026-10-24T05:56:42Z",
     "source_latest_at": "2026-10-22T16:09:25Z",
     "source_sha256": "a84708e749745df0c4f823c4f67be95bc238150d48fe6bbf5a9329281b923f92",
     "observed_worlds_maps": 0,
     "accepted_series": 0,
     "pending": [],
-    "stale": false
+    "stale": true
   },
   "source": {
     "name": "ChainCC",
