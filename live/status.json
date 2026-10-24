@@ -1,11 +1,11 @@
 {
-  "state": "waiting",
-  "message": "未发现可采纳的新赛果，保留原预测。 数据源超过 36 小时未出现新比赛记录，更新可能延迟。",
-  "checked_at": "2026-10-24T05:56:42Z",
-  "source_latest_at": "2026-10-22T16:09:25Z",
-  "source_sha256": "a84708e749745df0c4f823c4f67be95bc238150d48fe6bbf5a9329281b923f92",
-  "observed_worlds_maps": 0,
-  "accepted_series": 0,
+  "state": "ok",
+  "message": "已接入新赛果并重算。",
+  "checked_at": "2026-10-24T11:05:17Z",
+  "source_latest_at": "2026-10-23T23:21:10Z",
+  "source_sha256": "1f33960b18c1a8ff4402e2f8eeb88572fe34e942eb37c9e9f12e83ddc3c67421",
+  "observed_worlds_maps": 7,
+  "accepted_series": 7,
   "pending": [],
-  "stale": true
+  "stale": false
 }
