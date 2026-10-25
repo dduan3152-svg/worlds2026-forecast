@@ -1,7 +1,7 @@
 {
   "state": "waiting",
   "message": "瑞士第 2 轮已有 7/8 场赛果；待全轮结束或录入完整官方对阵后重算。",
-  "checked_at": "2026-10-25T14:24:03Z",
+  "checked_at": "2026-10-25T17:53:34Z",
   "source_latest_at": "2026-10-24T23:19:46Z",
   "source_sha256": "c955b0303a31ae245124e77f63d12a30b6869fb7822bc592908c84806c160a91",
   "observed_worlds_maps": 15,
