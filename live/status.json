@@ -1,11 +1,13 @@
 {
-  "state": "ok",
-  "message": "未发现可采纳的新赛果，保留原预测。",
-  "checked_at": "2026-10-25T10:10:45Z",
-  "source_latest_at": "2026-10-23T23:21:10Z",
-  "source_sha256": "1f33960b18c1a8ff4402e2f8eeb88572fe34e942eb37c9e9f12e83ddc3c67421",
-  "observed_worlds_maps": 7,
-  "accepted_series": 7,
-  "pending": [],
+  "state": "waiting",
+  "message": "瑞士第 2 轮已有 7/8 场赛果；待全轮结束或录入完整官方对阵后重算。",
+  "checked_at": "2026-10-25T14:24:03Z",
+  "source_latest_at": "2026-10-24T23:19:46Z",
+  "source_sha256": "c955b0303a31ae245124e77f63d12a30b6869fb7822bc592908c84806c160a91",
+  "observed_worlds_maps": 15,
+  "accepted_series": 8,
+  "pending": [
+    "瑞士第 2 轮已有 7/8 场赛果；待全轮结束或录入完整官方对阵后重算。"
+  ],
   "stale": false
 }
