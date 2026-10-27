@@ -1,0 +1,547 @@
+{
+  "schema": 1,
+  "id": "a1667e2939367799",
+  "cutoff": "2026-10-26T22:42:06Z",
+  "created_at": "2026-10-27T10:37:39Z",
+  "model_cutoff": "2026-10-23T07:25:50Z",
+  "kind": "conditional_update",
+  "n": 100000,
+  "rows": [
+    {
+      "team": "GEN",
+      "name": "Gen.G",
+      "region": "LCK",
+      "wins": 3,
+      "losses": 0,
+      "qualified": 1.0,
+      "semifinalist": 0.77981,
+      "finalist": 0.57086,
+      "champion": 0.39861
+    },
+    {
+      "team": "HLE",
+      "name": "Hanwha Life Esports",
+      "region": "LCK",
+      "wins": 1,
+      "losses": 2,
+      "qualified": 0.53039,
+      "semifinalist": 0.28936,
+      "finalist": 0.17218,
+      "champion": 0.08989
+    },
+    {
+      "team": "T1",
+      "name": "T1",
+      "region": "LCK",
+      "wins": 2,
+      "losses": 1,
+      "qualified": 0.87979,
+      "semifinalist": 0.55995,
+      "finalist": 0.28202,
+      "champion": 0.13968
+    },
+    {
+      "team": "DK",
+      "name": "Dplus KIA",
+      "region": "LCK",
+      "wins": 3,
+      "losses": 0,
+      "qualified": 1.0,
+      "semifinalist": 0.61496,
+      "finalist": 0.34242,
+      "champion": 0.13462
+    },
+    {
+      "team": "AL",
+      "name": "Anyone's Legend",
+      "region": "LPL",
+      "wins": 0,
+      "losses": 3,
+      "qualified": 0.0,
+      "semifinalist": 0.0,
+      "finalist": 0.0,
+      "champion": 0.0
+    },
+    {
+      "team": "BLG",
+      "name": "Bilibili Gaming",
+      "region": "LPL",
+      "wins": 2,
+      "losses": 1,
+      "qualified": 0.87928,
+      "semifinalist": 0.56692,
+      "finalist": 0.29055,
+      "champion": 0.1479
+    },
+    {
+      "team": "TES",
+      "name": "TOP Esports",
+      "region": "LPL",
+      "wins": 2,
+      "losses": 1,
+      "qualified": 0.75473,
+      "semifinalist": 0.28657,
+      "finalist": 0.08645,
+      "champion": 0.02373
+    },
+    {
+      "team": "IG",
+      "name": "Shanghai Invictus Gaming Meituan",
+      "region": "LPL",
+      "wins": 2,
+      "losses": 1,
+      "qualified": 0.71311,
+      "semifinalist": 0.24152,
+      "finalist": 0.06487,
+      "champion": 0.01612
+    },
+    {
+      "team": "G2",
+      "name": "G2 Esports",
+      "region": "LEC",
+      "wins": 1,
+      "losses": 2,
+      "qualified": 0.29595,
+      "semifinalist": 0.10885,
+      "finalist": 0.04368,
+      "champion": 0.01469
+    },
+    {
+      "team": "MKOI",
+      "name": "Movistar KOI",
+      "region": "LEC",
+      "wins": 2,
+      "losses": 1,
+      "qualified": 0.57322,
+      "semifinalist": 0.13237,
+      "finalist": 0.02404,
+      "champion": 0.00386
+    },
+    {
+      "team": "KC",
+      "name": "Karmine Corp",
+      "region": "LEC",
+      "wins": 1,
+      "losses": 2,
+      "qualified": 0.28452,
+      "semifinalist": 0.09172,
+      "finalist": 0.03322,
+      "champion": 0.00939
+    },
+    {
+      "team": "TLAW",
+      "name": "Team Liquid Alienware",
+      "region": "LCS",
+      "wins": 1,
+      "losses": 2,
+      "qualified": 0.2122,
+      "semifinalist": 0.06025,
+      "finalist": 0.01885,
+      "champion": 0.00437
+    },
+    {
+      "team": "LYON",
+      "name": "LYON",
+      "region": "LCS",
+      "wins": 2,
+      "losses": 1,
+      "qualified": 0.69725,
+      "semifinalist": 0.24182,
+      "finalist": 0.06681,
+      "champion": 0.01671
+    },
+    {
+      "team": "TSW",
+      "name": "Team Secret Whales",
+      "region": "LCP",
+      "wins": 0,
+      "losses": 3,
+      "qualified": 0.0,
+      "semifinalist": 0.0,
+      "finalist": 0.0,
+      "champion": 0.0
+    },
+    {
+      "team": "CFO",
+      "name": "CTBC Flying Oyster",
+      "region": "LCP",
+      "wins": 1,
+      "losses": 2,
+      "qualified": 0.06475,
+      "semifinalist": 0.00765,
+      "finalist": 0.00107,
+      "champion": 8e-05
+    },
+    {
+      "team": "LOS",
+      "name": "LOS",
+      "region": "CBLOL",
+      "wins": 1,
+      "losses": 2,
+      "qualified": 0.11481,
+      "semifinalist": 0.01825,
+      "finalist": 0.00298,
+      "champion": 0.00035
+    }
+  ],
+  "state": {
+    "swiss": [
+      {
+        "a": "IG",
+        "b": "GEN",
+        "winner": "GEN",
+        "best_of": 1,
+        "score_a": 0,
+        "score_b": 1,
+        "ended_at": "2026-10-23T17:47:19Z",
+        "game_ids": [
+          "LOLTMNT02_482269"
+        ],
+        "round": 1
+      },
+      {
+        "a": "TES",
+        "b": "HLE",
+        "winner": "HLE",
+        "best_of": 1,
+        "score_a": 0,
+        "score_b": 1,
+        "ended_at": "2026-10-23T18:46:54Z",
+        "game_ids": [
+          "LOLTMNT02_483314"
+        ],
+        "round": 1
+      },
+      {
+        "a": "MKOI",
+        "b": "BLG",
+        "winner": "MKOI",
+        "best_of": 1,
+        "score_a": 1,
+        "score_b": 0,
+        "ended_at": "2026-10-23T19:51:29Z",
+        "game_ids": [
+          "LOLTMNT02_483342"
+        ],
+        "round": 1
+      },
+      {
+        "a": "KC",
+        "b": "AL",
+        "winner": "KC",
+        "best_of": 1,
+        "score_a": 1,
+        "score_b": 0,
+        "ended_at": "2026-10-23T20:49:22Z",
+        "game_ids": [
+          "LOLTMNT02_482292"
+        ],
+        "round": 1
+      },
+      {
+        "a": "DK",
+        "b": "G2",
+        "winner": "DK",
+        "best_of": 1,
+        "score_a": 1,
+        "score_b": 0,
+        "ended_at": "2026-10-23T21:49:06Z",
+        "game_ids": [
+          "LOLTMNT02_482304"
+        ],
+        "round": 1
+      },
+      {
+        "a": "TLAW",
+        "b": "CFO",
+        "winner": "CFO",
+        "best_of": 1,
+        "score_a": 0,
+        "score_b": 1,
+        "ended_at": "2026-10-23T22:54:52Z",
+        "game_ids": [
+          "LOLTMNT02_482313"
+        ],
+        "round": 1
+      },
+      {
+        "a": "LOS",
+        "b": "T1",
+        "winner": "T1",
+        "best_of": 1,
+        "score_a": 0,
+        "score_b": 1,
+        "ended_at": "2026-10-23T23:45:36Z",
+        "game_ids": [
+          "LOLTMNT02_482325"
+        ],
+        "round": 1
+      },
+      {
+        "a": "LYON",
+        "b": "TSW",
+        "winner": "LYON",
+        "best_of": 1,
+        "score_a": 1,
+        "score_b": 0,
+        "ended_at": "2026-10-24T00:38:46Z",
+        "game_ids": [
+          "LOLTMNT02_482335"
+        ],
+        "round": 1
+      },
+      {
+        "a": "TES",
+        "b": "AL",
+        "winner": "TES",
+        "best_of": 1,
+        "score_a": 1,
+        "score_b": 0,
+        "ended_at": "2026-10-24T17:41:28Z",
+        "game_ids": [
+          "LOLTMNT02_482539"
+        ],
+        "round": 2
+      },
+      {
+        "a": "MKOI",
+        "b": "CFO",
+        "winner": "MKOI",
+        "best_of": 1,
+        "score_a": 1,
+        "score_b": 0,
+        "ended_at": "2026-10-24T18:41:29Z",
+        "game_ids": [
+          "LOLTMNT02_482559"
+        ],
+        "round": 2
+      },
+      {
+        "a": "LOS",
+        "b": "G2",
+        "winner": "G2",
+        "best_of": 1,
+        "score_a": 0,
+        "score_b": 1,
+        "ended_at": "2026-10-24T19:46:20Z",
+        "game_ids": [
+          "LOLTMNT02_482570"
+        ],
+        "round": 2
+      },
+      {
+        "a": "KC",
+        "b": "LYON",
+        "winner": "LYON",
+        "best_of": 1,
+        "score_a": 0,
+        "score_b": 1,
+        "ended_at": "2026-10-24T20:50:16Z",
+        "game_ids": [
+          "LOLTMNT02_483571"
+        ],
+        "round": 2
+      },
+      {
+        "a": "TSW",
+        "b": "IG",
+        "winner": "IG",
+        "best_of": 1,
+        "score_a": 0,
+        "score_b": 1,
+        "ended_at": "2026-10-24T21:48:33Z",
+        "game_ids": [
+          "LOLTMNT02_482587"
+        ],
+        "round": 2
+      },
+      {
+        "a": "HLE",
+        "b": "GEN",
+        "winner": "GEN",
+        "best_of": 1,
+        "score_a": 0,
+        "score_b": 1,
+        "ended_at": "2026-10-24T22:53:49Z",
+        "game_ids": [
+          "LOLTMNT02_482599"
+        ],
+        "round": 2
+      },
+      {
+        "a": "DK",
+        "b": "T1",
+        "winner": "DK",
+        "best_of": 1,
+        "score_a": 1,
+        "score_b": 0,
+        "ended_at": "2026-10-25T00:01:17Z",
+        "game_ids": [
+          "LOLTMNT02_482606"
+        ],
+        "round": 2
+      },
+      {
+        "a": "TLAW",
+        "b": "BLG",
+        "winner": "BLG",
+        "best_of": 1,
+        "score_a": 0,
+        "score_b": 1,
+        "ended_at": "2026-10-25T01:05:45Z",
+        "game_ids": [
+          "LOLTMNT02_482620"
+        ],
+        "round": 2
+      },
+      {
+        "a": "IG",
+        "b": "HLE",
+        "winner": "IG",
+        "best_of": 1,
+        "score_a": 1,
+        "score_b": 0,
+        "ended_at": "2026-10-25T17:48:17Z",
+        "game_ids": [
+          "LOLTMNT02_483687"
+        ],
+        "round": 3
+      },
+      {
+        "a": "TES",
+        "b": "G2",
+        "winner": "TES",
+        "best_of": 1,
+        "score_a": 1,
+        "score_b": 0,
+        "ended_at": "2026-10-25T18:47:13Z",
+        "game_ids": [
+          "LOLTMNT02_482761"
+        ],
+        "round": 3
+      },
+      {
+        "a": "DK",
+        "b": "MKOI",
+        "winner": "DK",
+        "best_of": 3,
+        "score_a": 2,
+        "score_b": 0,
+        "ended_at": "2026-10-25T20:35:19Z",
+        "game_ids": [
+          "LOLTMNT02_483708",
+          "LOLTMNT02_483716"
+        ],
+        "round": 3
+      },
+      {
+        "a": "GEN",
+        "b": "LYON",
+        "winner": "GEN",
+        "best_of": 3,
+        "score_a": 2,
+        "score_b": 1,
+        "ended_at": "2026-10-25T23:15:21Z",
+        "game_ids": [
+          "LOLTMNT02_482793",
+          "LOLTMNT02_483730",
+          "LOLTMNT02_482805"
+        ],
+        "round": 3
+      },
+      {
+        "a": "T1",
+        "b": "CFO",
+        "winner": "T1",
+        "best_of": 1,
+        "score_a": 1,
+        "score_b": 0,
+        "ended_at": "2026-10-26T17:39:25Z",
+        "game_ids": [
+          "LOLTMNT02_483824"
+        ],
+        "round": 3
+      },
+      {
+        "a": "BLG",
+        "b": "KC",
+        "winner": "BLG",
+        "best_of": 1,
+        "score_a": 1,
+        "score_b": 0,
+        "ended_at": "2026-10-26T18:39:29Z",
+        "game_ids": [
+          "LOLTMNT02_483840"
+        ],
+        "round": 3
+      },
+      {
+        "a": "TSW",
+        "b": "LOS",
+        "winner": "LOS",
+        "best_of": 3,
+        "score_a": 0,
+        "score_b": 2,
+        "ended_at": "2026-10-26T20:39:13Z",
+        "game_ids": [
+          "LOLTMNT02_483861",
+          "LOLTMNT02_482893"
+        ],
+        "round": 3
+      },
+      {
+        "a": "TLAW",
+        "b": "AL",
+        "winner": "TLAW",
+        "best_of": 3,
+        "score_a": 2,
+        "score_b": 0,
+        "ended_at": "2026-10-26T22:42:06Z",
+        "game_ids": [
+          "LOLTMNT02_482911",
+          "LOLTMNT02_483885"
+        ],
+        "round": 3
+      }
+    ],
+    "knockout": [],
+    "announced_rounds": {},
+    "quarterfinal_bracket": null,
+    "cutoff": "2026-10-26T22:42:06Z"
+  },
+  "source_sha256": "fa74f5cbb16d59a1fb8fba514a33b99935d1099e09fa3874c8b4f116725244be",
+  "previous": "9f0a7618daadd60573d40ba0e69e55d16e35a538ee16559d133f487f037e19c9",
+  "checks": {
+    "wrong_record_pairings": 0,
+    "swiss_repeat_matches": 0,
+    "repeat_waiver_group_count": 0,
+    "swiss_matches": 3300000,
+    "knockout_matches": 700000,
+    "fixed_swiss_match_instances": 2400000,
+    "sampled_swiss_matches": 900000,
+    "fixed_knockout_match_instances": 0,
+    "sampled_knockout_matches": 700000,
+    "terminal_record_errors": 0,
+    "qualified_per_tournament_min": 8,
+    "qualified_per_tournament_max": 8,
+    "quarterfinal_duplicate_team_errors": 0,
+    "three_zero_vs_three_two_errors": 0,
+    "three_zero_same_half_errors": 0,
+    "champion_count_total": 100000,
+    "finalist_count_total": 200000,
+    "semifinalist_count_total": 400000,
+    "qualified_count_total": 800000,
+    "final_pair_count_total": 100000,
+    "record_count_totals": [
+      200000,
+      300000,
+      300000,
+      300000,
+      300000,
+      200000
+    ],
+    "round2_row_total_errors": 0,
+    "round2_conditioning_total_errors": 0
+  },
+  "hash": "f8a64fa265a4ec3a85362c63cecbdd59665f1c3b2defc3d6d0fcd3851c9dacd1"
+}

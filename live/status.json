@@ -1,13 +1,11 @@
 {
-  "state": "waiting",
-  "message": "瑞士第 3 轮已有 4/8 场赛果；待全轮结束或录入完整官方对阵后重算。",
-  "checked_at": "2026-10-27T05:09:33Z",
-  "source_latest_at": "2026-10-25T22:43:24Z",
-  "source_sha256": "ddb7e1252491062f44da0ecd9b96e34b7a89ddbf80bc085a4102a32c911f7a2e",
-  "observed_worlds_maps": 23,
-  "accepted_series": 16,
-  "pending": [
-    "瑞士第 3 轮已有 4/8 场赛果；待全轮结束或录入完整官方对阵后重算。"
-  ],
+  "state": "ok",
+  "message": "已接入新赛果并重算。",
+  "checked_at": "2026-10-27T10:37:39Z",
+  "source_latest_at": "2026-10-26T21:54:37Z",
+  "source_sha256": "fa74f5cbb16d59a1fb8fba514a33b99935d1099e09fa3874c8b4f116725244be",
+  "observed_worlds_maps": 29,
+  "accepted_series": 24,
+  "pending": [],
   "stale": false
 }
