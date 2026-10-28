@@ -550,7 +550,7 @@
   "status": {
     "state": "waiting",
     "message": "未发现可采纳的新赛果，保留原预测。 数据源超过 36 小时未出现新比赛记录，更新可能延迟。",
-    "checked_at": "2026-10-28T11:41:56Z",
+    "checked_at": "2026-10-28T17:25:51Z",
     "source_latest_at": "2026-10-26T21:54:37Z",
     "source_sha256": "fa74f5cbb16d59a1fb8fba514a33b99935d1099e09fa3874c8b4f116725244be",
     "observed_worlds_maps": 29,
