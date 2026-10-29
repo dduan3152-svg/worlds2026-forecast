@@ -1,7 +1,7 @@
 {
   "state": "waiting",
   "message": "瑞士第 4 轮已有 2/6 场赛果；待全轮结束或录入完整官方对阵后重算。",
-  "checked_at": "2026-10-29T15:35:55Z",
+  "checked_at": "2026-10-29T20:39:47Z",
   "source_latest_at": "2026-10-28T23:50:17Z",
   "source_sha256": "33a137bcb371f6546239749a9bbf3ef70150a22e8c9882c16517b276d8dfd9a5",
   "observed_worlds_maps": 34,
