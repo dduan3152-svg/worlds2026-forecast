@@ -1,13 +1,13 @@
 {
   "state": "waiting",
-  "message": "瑞士第 4 轮已有 2/6 场赛果；待全轮结束或录入完整官方对阵后重算。",
-  "checked_at": "2026-10-30T06:30:31Z",
-  "source_latest_at": "2026-10-28T23:50:17Z",
-  "source_sha256": "33a137bcb371f6546239749a9bbf3ef70150a22e8c9882c16517b276d8dfd9a5",
-  "observed_worlds_maps": 34,
+  "message": "瑞士第 4 轮已有 3/6 场赛果；待全轮结束或录入完整官方对阵后重算。",
+  "checked_at": "2026-10-30T13:48:35Z",
+  "source_latest_at": "2026-10-29T20:59:39Z",
+  "source_sha256": "ef54a2d26cc9af9aa6d32235fd7db22b37acb4b386467770e729450005d26359",
+  "observed_worlds_maps": 36,
   "accepted_series": 24,
   "pending": [
-    "瑞士第 4 轮已有 2/6 场赛果；待全轮结束或录入完整官方对阵后重算。"
+    "瑞士第 4 轮已有 3/6 场赛果；待全轮结束或录入完整官方对阵后重算。"
   ],
   "stale": false
 }
