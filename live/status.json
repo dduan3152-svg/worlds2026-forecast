@@ -1,7 +1,7 @@
 {
   "state": "waiting",
   "message": "瑞士轮已结束；等待录入附来源的官方八强签位。",
-  "checked_at": "2026-11-04T22:14:40Z",
+  "checked_at": "2026-11-05T02:32:24Z",
   "source_latest_at": "2026-11-01T11:42:53Z",
   "source_sha256": "635259ca352d9658e46eb6311344dca20294c88ed62ead8189556fa31f32de38",
   "observed_worlds_maps": 51,
