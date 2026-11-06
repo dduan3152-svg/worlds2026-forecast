@@ -1,7 +1,7 @@
 {
   "state": "waiting",
   "message": "瑞士轮已结束；需在 live/settings.json 录入并注明来源的官方八强签位，才能接入淘汰赛赛果。 瑞士轮已结束；等待录入附来源的官方八强签位。",
-  "checked_at": "2026-11-05T23:40:17Z",
+  "checked_at": "2026-11-06T03:41:18Z",
   "source_latest_at": "2026-11-04T23:54:13Z",
   "source_sha256": "0209f7b55fed71bca865646b1345039d0ddb88f26aa68aa1145573d0ba456ac7",
   "observed_worlds_maps": 58,
