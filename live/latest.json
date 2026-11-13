@@ -680,16 +680,16 @@
   "status": {
     "state": "waiting",
     "message": "瑞士轮已结束；需在 live/settings.json 录入并注明来源的官方八强签位，才能接入淘汰赛赛果。 瑞士轮已结束；等待录入附来源的官方八强签位。",
-    "checked_at": "2026-11-13T02:57:55Z",
-    "source_latest_at": "2026-11-10T09:49:05Z",
-    "source_sha256": "29c4c02a8e7f6cbc43627bac5449f3d598937ca9151167fe06f4c37cf6561327",
+    "checked_at": "2026-11-13T11:02:15Z",
+    "source_latest_at": "2026-11-12T17:11:38Z",
+    "source_sha256": "ff6185077acdfc233113da65d98d9900184768ed6bf992fb39eec0f659489d90",
     "observed_worlds_maps": 72,
     "accepted_series": 33,
     "pending": [
       "瑞士轮已结束；需在 live/settings.json 录入并注明来源的官方八强签位，才能接入淘汰赛赛果。",
       "瑞士轮已结束；等待录入附来源的官方八强签位。"
     ],
-    "stale": true
+    "stale": false
   },
   "source": {
     "name": "ChainCC",
